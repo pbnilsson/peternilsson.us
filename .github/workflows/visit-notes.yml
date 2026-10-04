@@ -1,0 +1,51 @@
+name: Visit notes
+
+# Pulls the last few days of visit data off the collector and commits it into
+# this repo, so the record lives here and not on someone else's server.
+# Same shape as the Schooled site's workflow.
+#
+# NOT YET ACTIVE: there is no collector for peternilsson.us yet. When there is:
+#   1. set COLLECTOR below to its address,
+#   2. add the repo secret PN_NOTES_KEY,
+#   3. un-comment the two schedule lines.
+
+on:
+  # schedule:
+  #   - cron: "10 8 * * *"    # 08:10 UTC — 4am Eastern in summer, 3am in winter
+  #   - cron: "10 20 * * *"   # 20:10 UTC — 4pm Eastern in summer, 3pm in winter
+  workflow_dispatch:          # ...or whenever you press the button
+
+permissions:
+  contents: write
+
+env:
+  COLLECTOR: ""   # e.g. https://peternilsson-notes.pbnilsson.workers.dev
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch rows from the collector
+        if: env.COLLECTOR != ''
+        env:
+          KEY: ${{ secrets.PN_NOTES_KEY }}
+        run: |
+          mkdir -p data/days
+          SINCE=$(date -u -d '3 days ago' +%F)
+          curl -sS --fail-with-body \
+            "$COLLECTOR/export?key=$KEY&since=$SINCE&prune=1" \
+            -o /tmp/rows.json
+          node scripts/split-days.js /tmp/rows.json
+
+      - name: Rebuild the summary
+        run: node scripts/build-summary.js
+
+      - name: Commit anything new
+        run: |
+          git config user.name "Peter Nilsson"
+          git config user.email "pbnilsson@gmail.com"
+          git add data
+          git diff --staged --quiet || git commit -m "Visit notes: sync $(date -u +'%F %H:%M')"
+          git push

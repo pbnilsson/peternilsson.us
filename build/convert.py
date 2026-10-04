@@ -74,6 +74,7 @@ img{{max-width:100%}}
 </head>
 <body>
 {body}
+<script src="{up}../js/notes.js" defer></script>
 </body>
 </html>
 '''

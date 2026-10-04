@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Visit Notes — Peter Nilsson</title>
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=Figtree:wght@300;400;700&amp;display=swap">
+<style>
+  :root{
+    --bg:#FBFAF7; --card:#FFFFFF;
+    --navy:#00324A; --red:#DF1E28; --gold:#E0A53C;
+    --ink:#2C3033; --ink2:#43484C; --muted:#5C6166; --faint:#989DA3;
+    --rule:#DCDFE2; --rule2:#ECEEF0;
+    /* chart marks, validated against #FBFAF7 (CVD ΔE 19, both ≥ 3:1) */
+    --s1:#2E89B0; --s2:#B97E1C;
+    --grid:#ECEEF0; --track:#ECEEF0;
+  }
+  *{box-sizing:border-box;}
+  body{background:var(--bg);color:var(--ink2);font-family:'Hanken Grotesk',system-ui,Helvetica,sans-serif;
+       line-height:1.6;margin:0;padding:36px 24px 96px;}
+  .wrap{max-width:960px;margin:0 auto;}
+  a{color:var(--navy);}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--s1);outline-offset:3px;}
+
+  .brand{display:inline-block;font-family:'Figtree',system-ui,Helvetica,sans-serif;font-weight:700;font-size:20px;
+         letter-spacing:.14em;text-transform:uppercase;color:var(--navy);text-decoration:none;margin:0 0 72px;}
+  .eyebrow{margin:0 0 16px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+  h1{font-family:'Figtree',system-ui,Helvetica,sans-serif;font-weight:300;font-size:clamp(40px,5vw,60px);
+     line-height:1.08;letter-spacing:-.02em;color:var(--navy);margin:0 0 16px;}
+  .sub{font-size:18px;color:var(--ink2);margin:0 0 6px;}
+  .stamp{color:var(--muted);font-size:14px;margin:0 0 40px;}
+
+  .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-bottom:56px;border-top:2px solid var(--navy);}
+  .tile{padding:24px 20px 4px 0;}
+  .tile + .tile{padding-left:20px;border-left:1px solid var(--rule);}
+  .tile-n{font-family:'Newsreader',Georgia,serif;font-weight:300;font-size:52px;line-height:1;color:var(--navy);
+          font-variant-numeric:lining-nums tabular-nums;}
+  .tile-l{font-size:14px;color:var(--muted);margin-top:10px;}
+  @media(max-width:680px){
+    .tiles{grid-template-columns:repeat(2,1fr);}
+    .tile:nth-child(3){padding-left:0;border-left:0;}
+  }
+
+  h2{font-family:'Newsreader',Georgia,serif;font-weight:400;font-size:28px;line-height:1.2;color:var(--navy);margin:0 0 6px;}
+  .note{font-size:15px;color:var(--muted);margin:0 0 20px;}
+  section{margin-bottom:64px;padding-top:28px;border-top:1px solid var(--rule);}
+
+  .legend{display:flex;flex-wrap:wrap;gap:6px 20px;margin:0 0 10px;font-size:14px;color:var(--ink2);}
+  .legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle;}
+
+  .chartbox{position:relative;}
+  svg{display:block;width:100%;height:auto;overflow:visible;}
+  .tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--rule);
+       box-shadow:0 6px 20px rgba(0,50,74,.12);border-radius:4px;padding:8px 11px;font-size:13px;
+       white-space:nowrap;opacity:0;transition:opacity .12s;transform:translate(-50%,-115%);z-index:5;color:var(--ink);}
+  .tip b{font-weight:600;}
+  .tip .r{display:flex;align-items:center;gap:6px;color:var(--ink2);font-variant-numeric:tabular-nums;}
+  .tip .r i{width:8px;height:8px;border-radius:2px;display:inline-block;}
+
+  .bars{display:flex;flex-direction:column;gap:2px;}
+  .bar{display:grid;grid-template-columns:minmax(90px,230px) 1fr auto;gap:14px;align-items:center;padding:5px 0;}
+  .bars.wide .bar{grid-template-columns:minmax(160px,1fr) 120px auto;}
+  .bars.wide .bar-l{white-space:normal;}
+  .bars.roomy .bar{grid-template-columns:minmax(140px,340px) 1fr auto;}
+  .bars.roomy .bar-l{white-space:normal;line-height:1.35;}
+  .bar-l{font-size:15px;color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .bar-l a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule);}
+  .bar-l a:hover{border-color:var(--navy);}
+  .bar-t{background:var(--track);border-radius:4px;height:14px;position:relative;overflow:hidden;}
+  .bar-f{position:absolute;left:0;top:0;bottom:0;background:var(--s1);border-radius:0 4px 4px 0;min-width:2px;}
+  .bar-f.alt{background:var(--s2);}
+  .bar-v{font-size:14px;color:var(--ink2);font-variant-numeric:tabular-nums;min-width:2.5rem;text-align:right;}
+  .bar-v small{color:var(--faint);}
+  .dim{color:var(--faint);font-size:13px;}
+  .typical{font-family:'Newsreader',Georgia,serif;font-weight:300;font-size:22px;line-height:1.45;color:var(--ink2);margin:-20px 0 56px;max-width:720px;}
+  .typical b{font-weight:400;color:var(--navy);}
+  .pair{display:grid;grid-template-columns:1fr 1fr;gap:40px;}
+  @media(max-width:680px){
+    .pair{grid-template-columns:1fr;gap:32px;}
+    .bar,.bars.roomy .bar{grid-template-columns:minmax(0,1.3fr) minmax(60px,1fr) auto;gap:10px;}
+    .bars.wide .bar{grid-template-columns:minmax(0,1fr) 64px auto;}
+  }
+
+  details{margin-top:12px;}
+  summary{font-size:13px;color:var(--muted);cursor:pointer;}
+  table{width:100%;border-collapse:collapse;margin-top:10px;font-size:14px;}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--rule2);}
+  th{color:var(--muted);font-weight:500;}
+  td{color:var(--ink2);font-variant-numeric:tabular-nums;}
+
+  /* sticky range picker */
+  .rangebar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+            margin:0 0 40px;padding:12px 0;background:rgba(251,250,247,.96);backdrop-filter:blur(8px);
+            border-bottom:1px solid var(--rule);}
+  .pills{display:flex;gap:6px;}
+  .pill{font-family:inherit;font-size:14px;font-weight:500;color:var(--ink2);background:transparent;
+        border:1px solid var(--rule);border-radius:2px;padding:6px 14px;cursor:pointer;
+        transition:background .12s,color .12s,border-color .12s;}
+  .pill:hover:not(:disabled){border-color:var(--navy);color:var(--navy);}
+  .pill.on{background:var(--navy);border-color:var(--navy);color:#fff;}
+  .pill:disabled{opacity:.35;cursor:not-allowed;}
+  .rangelab{font-size:14px;color:var(--muted);}
+  @media(max-width:680px){
+    .rangebar{gap:8px;padding:10px 0;margin-bottom:32px;}
+    .rangelab{display:none;}
+    .pill{padding:6px 10px;font-size:13px;}
+  }
+
+  .empty{border-top:2px solid var(--navy);padding:28px 0 0;color:var(--ink2);font-size:17px;max-width:640px;}
+  .empty p{margin:0 0 12px;}
+  .empty code{font-size:14px;background:var(--rule2);padding:1px 6px;border-radius:2px;}
+  .foot{margin-top:72px;padding-top:24px;border-top:1px solid var(--rule);font-size:14px;color:var(--muted);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="brand" href="../">Peter Nilsson</a>
+
+  <p class="eyebrow">Private · not linked from the site</p>
+  <h1>Visit notes</h1>
+  <p class="sub">Who's been reading peternilsson.us, and what they did next.</p>
+  <p class="stamp" id="stamp">Loading…</p>
+
+  <div class="rangebar" id="rangebar" hidden>
+    <div class="pills" id="pills" role="group" aria-label="Time range"></div>
+    <span class="rangelab" id="rangelab"></span>
+  </div>
+
+  <div id="app"></div>
+
+  <p class="foot">
+    Collected without cookies, IP addresses, or third-party trackers — just paths,
+    referrers, and rough location. The record lives in this site's own repository.<br>
+    <a href="../">← Back to the site</a>
+  </p>
+</div>
+
+<script>
+(function () {
+  var S1 = "#2E89B0", S2 = "#B97E1C";
+  var app = document.getElementById("app");
+  var stamp = document.getElementById("stamp");
+  var rangebar = document.getElementById("rangebar");
+  var pills = document.getElementById("pills");
+  var rangelab = document.getElementById("rangelab");
+  var DATA = null;
+
+  // The data lives at the repo root, two levels up from /consulting/stats/.
+  fetch("../../data/summary.json?" + Date.now())
+    .then(function (r) { return r.json(); })
+    .then(boot)
+    .catch(function () {
+      stamp.textContent = "";
+      app.innerHTML = '<div class="empty">Couldn’t load the data file yet. ' +
+        'It appears after the first sync runs.</div>';
+    });
+
+  // ---- time ranges --------------------------------------------------------
+  // Every panel reads the same window, so the picker is one global control.
+  // The chosen range lives in the URL (#week), which makes a view bookmarkable
+  // and lets the back button work.
+
+  function boot(d) {
+    DATA = normalize(d);
+    buildPills();
+    window.addEventListener("hashchange", function () { show(fromHash()); });
+    show(fromHash());
+  }
+
+  // Tolerate a summary.json written by the older single-window builder.
+  function normalize(d) {
+    if (d && d.ranges) return d;
+    var one = {};
+    for (var k in d) if (Object.prototype.hasOwnProperty.call(d, k)) one[k] = d[k];
+    one.key = "all"; one.label = "All time"; one.short = "All";
+    one.available = true; one.granularity = "day";
+    one.series = (d.daily || []).map(function (x) {
+      return { d: x.day, views: x.views, visitors: x.visitors };
+    });
+    return {
+      generated: d.generated, defaultRange: "all", order: ["all"],
+      span: { days: (d.totals && d.totals.days) || 1 }, ranges: { all: one }
+    };
+  }
+
+  function fallbackRange() {
+    if (DATA.defaultRange && DATA.ranges[DATA.defaultRange]) return DATA.defaultRange;
+    return DATA.order[0];
+  }
+
+  function fromHash() {
+    var k = (location.hash || "").replace(/^#/, "").toLowerCase();
+    var r = DATA.ranges[k];
+    return r && r.available !== false ? k : fallbackRange();
+  }
+
+  function buildPills() {
+    if (DATA.order.length < 2) return;
+    rangebar.hidden = false;
+    DATA.order.forEach(function (key) {
+      var r = DATA.ranges[key];
+      if (!r) return;
+      var b = document.createElement("button");
+      b.className = "pill";
+      b.type = "button";
+      b.textContent = r.short || r.label;
+      b.setAttribute("data-key", key);
+      if (r.available === false) {
+        b.disabled = true;
+        b.title = r.label + " — not enough history yet; same as All time";
+      } else {
+        b.title = r.label;
+        b.onclick = function () {
+          if ((location.hash || "").replace(/^#/, "") === key) show(key);
+          else location.hash = key;
+        };
+      }
+      pills.appendChild(b);
+    });
+  }
+
+  // Draw the chart at the page's real width, so its labels stay at real size
+  // on a phone instead of shrinking with a fixed 900-wide drawing.
+  var CW = 0, current = null;
+  function chartW() { return CW; }
+  function measureW() { CW = Math.max(300, Math.round(app.clientWidth || 900)); }
+  window.addEventListener("resize", function () {
+    var before = CW; measureW();
+    if (current && CW !== before) render(current);
+  });
+
+  function show(key) {
+    var r = DATA.ranges[key];
+    if (!r) return;
+    [].forEach.call(pills.children, function (b) {
+      var on = b.getAttribute("data-key") === key;
+      b.classList.toggle("on", on);
+      if (!b.disabled) b.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+    rangelab.textContent = windowLabel(r);
+    current = r; measureW();
+    render(r);
+  }
+
+  function windowLabel(r) {
+    if (r.granularity === "hour") return "24 hours to " + easternStamp(r.to);
+    if (!r.from) return r.label;
+    var d = r.totals.days;
+    return easternDay(r.from) + " – " + easternDay(r.to) +
+      (d ? " · " + d + (d === 1 ? " day" : " days") + " with visits" : "");
+  }
+
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+
+  var MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+  // Day buckets are plain "YYYY-MM-DD" strings and must NOT go through Date(),
+  // which would read them as UTC midnight and then render them a day early for
+  // anyone west of Greenwich.
+  function dayLabel(day) {
+    var p = String(day).split("-");
+    if (p.length < 3) return String(day);
+    return MON[Number(p[1]) - 1] + " " + Number(p[2]);
+  }
+
+  function easternDay(iso) {
+    var d = new Date(iso);
+    try {
+      return d.toLocaleDateString("en-US", {
+        timeZone: "America/New_York", month: "short", day: "numeric"
+      });
+    } catch (e) { return d.toLocaleDateString(); }
+  }
+
+  function hourLabel(iso) {
+    var d = new Date(iso);
+    try {
+      return d.toLocaleTimeString("en-US", {
+        timeZone: "America/New_York", hour: "numeric"
+      });
+    } catch (e) { return d.toLocaleTimeString(); }
+  }
+
+  function hourTip(iso) {
+    var d = new Date(iso);
+    try {
+      return d.toLocaleString("en-US", {
+        timeZone: "America/New_York", month: "short", day: "numeric",
+        hour: "numeric", timeZoneName: "short"
+      });
+    } catch (e) { return d.toLocaleString(); }
+  }
+
+  // The sync runs on UTC, but the stamp should read in Peter's clock no matter
+  // where the page is opened from — so pin it to Eastern rather than the
+  // viewer's local time. timeZoneName gives EDT or EST automatically.
+  function easternStamp(iso) {
+    var d = new Date(iso);
+    try {
+      return d.toLocaleString("en-US", {
+        timeZone: "America/New_York",
+        month: "short", day: "numeric", year: "numeric",
+        hour: "numeric", minute: "2-digit",
+        timeZoneName: "short"
+      });
+    } catch (e) {
+      return d.toLocaleString();
+    }
+  }
+
+  function prettyLink(u) {
+    var s = String(u);
+    if (s.indexOf("mailto:") === 0) return s.slice(7);
+    return s.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
+  }
+
+  var PAGE_NAMES = {
+    "/": "Root page",
+    "/consulting/": "Consulting home",
+    "/consulting/schools/": "Consulting (schools)",
+    "/consulting/speaking/": "Speaking",
+    "/consulting/writing/": "Writing",
+    "/consulting/about/": "About"
+  };
+
+  function prettyPath(p) {
+    var k = String(p);
+    if (PAGE_NAMES[k]) return PAGE_NAMES[k];
+    var go = k.match(/^\/consulting\/go\/([^/]+)\/?$/);
+    if (go) return "Workshop page: " + go[1];
+    return k.replace(/^\/|\/$/g, "").replace(/^consulting\//, "") || k;
+  }
+
+  var SOURCE_WORDS = {
+    direct: "Typed it in or came from a bookmark",
+    search: "Found it through a search engine",
+    social: "Clicked through from social media",
+    referral: "Followed a link on another site",
+    campaign: "Came from a tagged link you shared",
+    internal: "Moved between pages on the site"
+  };
+
+  // ---- bar list -----------------------------------------------------------
+  function bars(items, opts) {
+    opts = opts || {};
+    if (!items.length) return '<p class="note">Nothing yet.</p>';
+    var max = opts.absolute ? 100 : (items[0].n || 1);
+    var rows = items.map(function (it) {
+      var val = opts.value ? opts.value(it) : it.n;
+      var w = Math.max(2, Math.round((val / max) * 100));
+      var label = opts.label ? opts.label(it) : esc(it.key);
+      var extra = opts.extra ? '<small> ' + opts.extra(it) + "</small>" : "";
+      var shown = opts.display ? opts.display(it) : it.n;
+      return '<div class="bar">' +
+        '<div class="bar-l" title="' + esc(it.key) + '">' + label + "</div>" +
+        '<div class="bar-t"><div class="bar-f' + (opts.alt ? " alt" : "") +
+          '" style="width:' + w + '%"></div></div>' +
+        '<div class="bar-v">' + shown + extra + "</div></div>";
+    }).join("");
+    var table = "<details><summary>Show as a table</summary><table><thead><tr><th>" +
+      (opts.head || "Item") + "</th><th>Count</th></tr></thead><tbody>" +
+      items.map(function (it) {
+        return "<tr><td>" + esc(it.key) + "</td><td>" + it.n + "</td></tr>";
+      }).join("") + "</tbody></table></details>";
+    return '<div class="bars' + (opts.wide ? " wide" : "") +
+      (opts.roomy ? " roomy" : "") + '">' + rows +
+      "</div>" + table;
+  }
+
+  // ---- line chart ---------------------------------------------------------
+  function lineChart(s) {
+    var daily = s.series || [];
+    var byHour = s.granularity === "hour";
+    var pointLabel = byHour
+      ? function (p) { return hourLabel(p.t); }
+      : function (p) { return dayLabel(p.d); };
+    var W = chartW(), H = W < 600 ? 220 : 240, L = 38, R = 54, T = 16, B = 28;
+    var n = daily.length;
+    var max = 0;
+    daily.forEach(function (d) { max = Math.max(max, d.views, d.visitors); });
+    max = Math.max(4, Math.ceil(max * 1.15));
+    var step = Math.max(1, Math.ceil(max / 4));
+    max = step * 4;
+
+    var x = function (i) { return n < 2 ? L : L + (i * (W - L - R)) / (n - 1); };
+    var y = function (v) { return T + (H - T - B) * (1 - v / max); };
+
+    var grid = "", i;
+    for (i = 0; i <= 4; i++) {
+      var gv = step * i, gy = y(gv);
+      grid += '<line x1="' + L + '" y1="' + gy + '" x2="' + (W - R) + '" y2="' + gy +
+        '" stroke="var(--grid)" stroke-width="1"/>' +
+        '<text x="' + (L - 8) + '" y="' + (gy + 4) + '" text-anchor="end" fill="#5C6166" font-size="12" font-family="Hanken Grotesk, sans-serif">' + gv + "</text>";
+    }
+
+    function path(key) {
+      return daily.map(function (d, k) {
+        return (k ? "L" : "M") + x(k).toFixed(1) + " " + y(d[key]).toFixed(1);
+      }).join(" ");
+    }
+
+    var marks = "";
+    if (n === 1) {
+      marks += '<circle cx="' + x(0) + '" cy="' + y(daily[0].views) + '" r="5" fill="' + S1 + '" stroke="#FBFAF7" stroke-width="2"/>';
+      marks += '<circle cx="' + x(0) + '" cy="' + y(daily[0].visitors) + '" r="5" fill="' + S2 + '" stroke="#FBFAF7" stroke-width="2"/>';
+    } else {
+      marks += '<path d="' + path("views") + '" fill="none" stroke="' + S1 + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>';
+      marks += '<path d="' + path("visitors") + '" fill="none" stroke="' + S2 + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>';
+      marks += '<circle cx="' + x(n - 1) + '" cy="' + y(daily[n - 1].views) + '" r="4.5" fill="' + S1 + '" stroke="#FBFAF7" stroke-width="2"/>';
+      marks += '<circle cx="' + x(n - 1) + '" cy="' + y(daily[n - 1].visitors) + '" r="4.5" fill="' + S2 + '" stroke="#FBFAF7" stroke-width="2"/>';
+    }
+    // Direct labels at the right edge. When the two series land on the same
+    // value — common on an hourly chart that ends on a quiet hour — the labels
+    // would print on top of each other, so nudge them apart.
+    var yv = y(daily[n - 1].views), yp = y(daily[n - 1].visitors);
+    if (Math.abs(yv - yp) < 12) { yv -= 6; yp += 8; }
+    marks += '<text x="' + (x(n - 1) + 10) + '" y="' + (yv + 4) + '" fill="#43484C" font-size="12" font-family="Hanken Grotesk, sans-serif">views</text>';
+    marks += '<text x="' + (x(n - 1) + 10) + '" y="' + (yp + 4) + '" fill="#43484C" font-size="12" font-family="Hanken Grotesk, sans-serif">people</text>';
+
+    // sparse x labels — four across an hourly day, three otherwise
+    var ticks;
+    if (n === 1) ticks = [0];
+    else if (n >= 8) ticks = [0, Math.round((n - 1) / 3), Math.round((2 * (n - 1)) / 3), n - 1];
+    else ticks = [0, Math.floor((n - 1) / 2), n - 1];
+    var xlab = ticks.filter(function (v, k, a) { return a.indexOf(v) === k; })
+      .map(function (k) {
+        return '<text x="' + x(k) + '" y="' + (H - 6) + '" text-anchor="middle" fill="#5C6166" font-size="12" font-family="Hanken Grotesk, sans-serif">' +
+          pointLabel(daily[k]) + "</text>";
+      }).join("");
+
+    return '<div class="chartbox">' +
+      '<div class="legend">' +
+        '<span><i style="background:' + S1 + '"></i>Page views</span>' +
+        '<span><i style="background:' + S2 + '"></i>People (browser sessions)</span>' +
+      "</div>" +
+      '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Page views and people, ' +
+        (byHour ? "hour by hour" : "day by day") + '">' +
+        grid + xlab +
+        '<line id="cross" x1="0" y1="' + T + '" x2="0" y2="' + (H - B) + '" stroke="#989DA3" stroke-width="1" opacity="0"/>' +
+        marks +
+        '<rect id="hit" x="' + L + '" y="' + T + '" width="' + (W - L - R) + '" height="' + (H - T - B) + '" fill="transparent"/>' +
+      "</svg>" +
+      '<div class="tip" id="tip"></div>' +
+      "</div>";
+  }
+
+  function wireChart(s) {
+    var daily = s.series || [];
+    var tipLabel = s.granularity === "hour"
+      ? function (p) { return hourTip(p.t); }
+      : function (p) { return dayLabel(p.d); };
+    var svg = document.querySelector("#app svg");
+    if (!svg) return;
+    var hit = svg.querySelector("#hit");
+    var cross = svg.querySelector("#cross");
+    var tip = document.getElementById("tip");
+    var box = svg.parentNode;
+    var W = chartW(), L = 38, R = 54, n = daily.length;
+
+    function move(ev) {
+      var rect = svg.getBoundingClientRect();
+      var px = ((ev.clientX - rect.left) / rect.width) * W;
+      var i = n < 2 ? 0 : Math.round(((px - L) / (W - L - R)) * (n - 1));
+      i = Math.max(0, Math.min(n - 1, i));
+      var cx = n < 2 ? L : L + (i * (W - L - R)) / (n - 1);
+      cross.setAttribute("x1", cx); cross.setAttribute("x2", cx);
+      cross.setAttribute("opacity", "1");
+      var d = daily[i];
+      tip.innerHTML = "<b>" + tipLabel(d) + "</b>" +
+        '<div class="r"><i style="background:' + S1 + '"></i>' + d.views + " views</div>" +
+        '<div class="r"><i style="background:' + S2 + '"></i>' + d.visitors + " people</div>";
+      tip.style.left = (cx / W) * rect.width + "px";
+      tip.style.top = (rect.height * 0.35) + "px";
+      tip.style.opacity = "1";
+    }
+    hit.addEventListener("mousemove", move);
+    hit.addEventListener("touchmove", function (e) { move(e.touches[0]); });
+    box.addEventListener("mouseleave", function () {
+      tip.style.opacity = "0"; cross.setAttribute("opacity", "0");
+    });
+  }
+
+  // ---- render -------------------------------------------------------------
+  function fmtTime(secs) {
+    if (!Number.isFinite(secs)) return "—";
+    if (secs < 60) return secs + "s";
+    var m = Math.floor(secs / 60), r = secs % 60;
+    return m + "m" + (r ? " " + r + "s" : "");
+  }
+
+  function render(s) {
+    stamp.textContent = "Last synced " + easternStamp((DATA && DATA.generated) || s.generated);
+
+    if (!s.totals.views) {
+      app.innerHTML = '<div class="empty">' +
+        (DATA && DATA.order.length > 1 && s.key !== "all"
+          ? '<p>No visits in this window. Try <a href="#all">All time</a>.</p>'
+          : "<p>No visits recorded yet.</p>" +
+            "<p>The page is ready, but the site isn’t collecting yet: the tracker " +
+            "(<code>js/notes.js</code>) stays silent until a collector address is set, " +
+            "and the sync workflow is switched off until then.</p>") +
+        "</div>";
+      return;
+    }
+
+    var t = s.totals, html = "";
+
+    html += '<div class="tiles">' +
+      tile(t.views, "Page views") +
+      tile(t.visitors, "People") +
+      tile(t.contacts || 0, t.contacts === 1 ? "Email click" : "Email clicks") +
+      (s.granularity === "hour"
+        ? tile(t.links || 0, (t.links === 1 ? "Link" : "Links") + " followed")
+        : tile(t.days, t.days === 1 ? "Day tracked" : "Days tracked")) +
+      "</div>";
+
+    if (t.medianPagesPerVisit) {
+      html += '<p class="typical">A typical visit runs <b>' + t.medianPagesPerVisit +
+        (t.medianPagesPerVisit === 1 ? " page" : " pages") + "</b>" +
+        (Number.isFinite(t.medianDepth)
+          ? ", gets <b>" + t.medianDepth + "%</b> of the way down" : "") +
+        (Number.isFinite(t.medianSecs)
+          ? ", and lasts <b>" + fmtTime(t.medianSecs) + "</b> per page" : "") +
+        ".</p>";
+    }
+
+    html += "<section><h2>The pulse</h2>" +
+      '<p class="note">Page views and distinct browser sessions, ' +
+      (s.granularity === "hour"
+        ? "hour by hour, in Eastern Time."
+        : "day by day.") + "</p>" +
+      lineChart(s) + "</section>";
+
+    html += "<section><h2>What people read</h2>" +
+      '<p class="note">Every page, by how often it was opened. The second number is how many separate people saw it.</p>' +
+      bars(s.pages, {
+        head: "Page",
+        label: function (it) { return esc(prettyPath(it.key)); },
+        extra: function (it) { return "/ " + it.visitors; }
+      }) + "</section>";
+
+    var measured = s.pages.filter(function (p) { return p.measured; });
+    if (measured.length) {
+      html += "<section><h2>How far they got</h2>" +
+        '<p class="note">How far down each page a typical reader scrolled before leaving, and how long they stayed. The bar is the full length of the page.</p>' +
+        bars(measured, {
+          head: "Page",
+          absolute: true,
+          alt: true,
+          value: function (it) { return it.depth || 0; },
+          display: function (it) { return (it.depth || 0) + "%"; },
+          label: function (it) { return esc(prettyPath(it.key)); },
+          extra: function (it) { return "· " + fmtTime(it.secs); }
+        }) + "</section>";
+    }
+
+    if (s.journeys && s.journeys.length) {
+      html += "<section><h2>Paths through the site</h2>" +
+        '<p class="note">The routes people actually took, in order. Only visits that went past one page.</p>' +
+        bars(s.journeys, {
+          head: "Path",
+          wide: true,
+          label: function (it) {
+            return esc(it.key.split(" → ").map(prettyPath).join(" → "));
+          }
+        }) + "</section>";
+    }
+
+    if (s.entries && s.entries.length) {
+      html += '<section><div class="pair">' +
+        "<div><h2>Where they land</h2>" +
+        '<p class="note">First page of a visit.</p>' +
+        bars(s.entries, { head: "Entry", label: function (it) { return esc(prettyPath(it.key)); } }) +
+        "</div><div><h2>Where they leave</h2>" +
+        '<p class="note">Last page before they go.</p>' +
+        bars(s.exits, { head: "Exit", alt: true, label: function (it) { return esc(prettyPath(it.key)); } }) +
+        "</div></div></section>";
+    }
+
+    html += "<section><h2>How they arrived</h2>" +
+      '<p class="note">Where each page view came from.</p>' +
+      bars(s.sources, {
+        head: "Source",
+        roomy: true,
+        label: function (it) {
+          var w = SOURCE_WORDS[it.key];
+          return esc(it.key.charAt(0).toUpperCase() + it.key.slice(1)) +
+            (w ? ' <span class="dim">' + esc(w) + "</span>" : "");
+        }
+      }) + "</section>";
+
+    var refs = (s.referrers || []).filter(function (r) {
+      return !/(^|\.)peternilsson\.us$/.test(r.key);
+    });
+    if (refs.length) {
+      html += "<section><h2>Sites that sent people</h2>" +
+        '<p class="note">The actual domains, minus your own.</p>' +
+        bars(refs, { head: "Referrer" }) + "</section>";
+    }
+
+    if (s.campaigns && s.campaigns.length) {
+      html += "<section><h2>Tagged links</h2>" +
+        '<p class="note">Links you shared with a ?utm_source= tag, so you can tell the newsletter from Instagram.</p>' +
+        bars(s.campaigns, { head: "Campaign" }) + "</section>";
+    }
+
+    if (t.contacts) {
+      html += "<section><h2>Who reached out</h2>" +
+        '<p class="note">Clicks on an email link, the closest thing this site has to a signup. ' +
+        "A click opens a draft; it doesn’t prove an email was sent.</p>" +
+        '<div class="pair">' +
+        "<div>" +
+        '<p class="note"><b>By source</b>: what brought them to the site.</p>' +
+        bars(s.contactsBySource, {
+          head: "Source",
+          label: function (it) { return esc(it.key.charAt(0).toUpperCase() + it.key.slice(1)); }
+        }) +
+        "</div><div>" +
+        '<p class="note"><b>By page</b>: where they were when they clicked.</p>' +
+        bars(s.contactsByPage, { head: "Page", alt: true, label: function (it) { return esc(prettyPath(it.key)); } }) +
+        "</div></div></section>";
+    }
+
+    html += "<section><h2>What they followed</h2>" +
+      '<p class="note">Links clicked that led off the site or to a file: the book, the newsletter, other projects. Email links and page-to-page navigation are left out.</p>' +
+      bars(s.links, {
+        head: "Link",
+        label: function (it) {
+          return '<a href="' + esc(it.key) + '" rel="noopener">' + esc(prettyLink(it.key)) + "</a>";
+        }
+      }) + "</section>";
+
+    if (s.cities && s.cities.length) {
+      html += "<section><h2>Where from</h2>" +
+        '<p class="note">City and country come from the network edge, never from a stored address.</p>' +
+        '<div class="pair"><div>' + bars(s.cities.slice(0, 10), { head: "City" }) +
+        "</div><div>" + bars(s.countries, { head: "Country", alt: true }) +
+        "</div></div></section>";
+    } else if (s.countries && s.countries.length) {
+      html += "<section><h2>Where from</h2>" +
+        '<p class="note">Country only — derived at the edge, never from a stored address.</p>' +
+        bars(s.countries, { head: "Country" }) + "</section>";
+    }
+
+
+    if (s.devices && s.devices.length) {
+      html += '<section><h2>What they read on</h2>' +
+        '<p class="note">Three coarse buckets. The full browser signature is never stored.</p>' +
+        '<div class="pair"><div>' +
+        bars(s.devices, {
+          head: "Device",
+          label: function (it) { return esc(it.key.charAt(0).toUpperCase() + it.key.slice(1)); }
+        }) +
+        "</div><div>" + bars(s.browsers, { head: "Browser", alt: true }) +
+        "</div></div></section>";
+    }
+
+    app.innerHTML = html;
+    wireChart(s);
+  }
+
+  function tile(n, label) {
+    return '<div class="tile"><div class="tile-n">' + n + '</div><div class="tile-l">' + label + "</div></div>";
+  }
+})();
+</script>
+</body>
+</html>
