@@ -21,8 +21,8 @@ PAGES = {
                            'Peter Nilsson is an educator, author, and musician: former Deerfield Academy teacher, Head of School at King\'s Academy, and co-author of Irreplaceable.'),
 }
 
-FONTS = ('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;'
-         '1,6..72,300;1,6..72,400&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=Figtree:wght@300;400;700&amp;display=swap')
+FONTS = ('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;'
+         '1,6..72,300;1,6..72,400;1,6..72,600&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=Figtree:wght@300;400;700&amp;display=swap')
 
 def build(name, slug, title, desc):
     src = open(os.path.join(SRC, name), encoding='utf-8').read()
@@ -34,6 +34,9 @@ def build(name, slug, title, desc):
         body = body.replace(f'href="{other}"', f'href="{up}{oslug}"')
     body = body.replace('href="#" aria-current="page"', 'href="./" aria-current="page"')
     body = body.replace('<a href="#" style="font-family: \'Figtree\'', f'<a href="{up}" style="font-family: \'Figtree\'', 1)
+    # Artifact asset ids -> site images
+    for bid, fn in {'4dbe492ff282d3f931770a06d61c346b': 'endorse-bali.jpg', '0cf12e4d7d83ae0581832a146d6b7c75': 'endorse-gardner.jpg', '1e7cffb1d82e4f5ff44e54bd28b0b454': 'endorse-fadel.jpg'}.items():
+        body = body.replace(f'src="/_blob/{bid}"', f'src="{up}img/{fn}" width="288" height="288"')
     body = re.sub(r'src="/_blob/[0-9a-f]+"', f'src="{up}img/irreplaceable-cover.jpg" width="720" height="1085"', body)
     body = body.replace('<img ', '<img loading="lazy" ') if slug else body
     # External links open in a new tab
