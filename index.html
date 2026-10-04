@@ -19,9 +19,9 @@
 :root{
   --navy:#00324A; --ink:#2C3033; --body:#43484C; --muted:#5C6166; --rule:#DCDFE2; --paper:#FBFAF7;
   /* Paper-grain texture laid over every color band */
-  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.16'/%3E%3C/svg%3E");
-  --weave:repeating-linear-gradient(45deg, rgba(255,255,255,.035) 0 1px, transparent 1px 4px), repeating-linear-gradient(-45deg, rgba(0,0,0,.05) 0 1px, transparent 1px 4px);
-  --depth:linear-gradient(165deg, rgba(255,255,255,.07) 0%, rgba(0,0,0,0) 45%, rgba(0,0,0,.22) 100%);
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+  --weave:repeating-linear-gradient(45deg, rgba(255,255,255,.10) 0 1px, transparent 1px 4px), repeating-linear-gradient(-45deg, rgba(0,0,0,.12) 0 1px, transparent 1px 4px);
+  --depth:linear-gradient(165deg, rgba(255,255,255,.18) 0%, rgba(255,255,255,0) 45%, rgba(0,0,0,.28) 100%);
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--muted);font-family:'Hanken Grotesk',system-ui,Helvetica,sans-serif;font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
@@ -51,7 +51,7 @@ a:focus-visible{outline:2px solid #2E89B0;outline-offset:3px}
 @media (prefers-reduced-motion:reduce){.down svg{animation:none}}
 
 /* Bands: title on its own line, description right-aligned beneath it */
-.band{position:relative;color:#fff;background-color:var(--c);background-image:var(--grain),var(--weave),var(--depth)}
+.band{position:relative;color:#fff;background-color:var(--c);background-image:var(--grain),var(--weave),var(--depth);background-blend-mode:soft-light,soft-light,soft-light}
 .band .wrap{padding-top:100px;padding-bottom:76px}
 .band h2{margin:0 0 36px;font-family:'Newsreader',Georgia,serif;font-weight:400;font-size:34px;line-height:1.22}
 .band .copy{text-align:right;line-height:1.5}
@@ -94,7 +94,7 @@ footer a{color:var(--navy);text-decoration:none}
   </section>
 
   <div id="work">
-    <section class="band" style="--c:#B3521E">
+    <section class="band" style="--c:#B0511B">
       <div class="wrap">
         <h2>Irreplaceable: How AI Changes Everything (and Nothing) in Teaching and Learning</h2>
         <div class="copy">
@@ -104,7 +104,7 @@ footer a{color:var(--navy);text-decoration:none}
       </div>
     </section>
 
-    <section class="band" style="--c:#5E3F78">
+    <section class="band" style="--c:#58396D">
       <div class="wrap">
         <h2>Schooled: The Musical (working title)</h2>
         <div class="copy">
@@ -114,7 +114,7 @@ footer a{color:var(--navy);text-decoration:none}
       </div>
     </section>
 
-    <section class="band" style="--c:#2F7A3A">
+    <section class="band" style="--c:#247834">
       <div class="wrap">
         <h2>The Educator's Notebook</h2>
         <div class="copy">
@@ -124,7 +124,7 @@ footer a{color:var(--navy);text-decoration:none}
       </div>
     </section>
 
-    <section class="band" style="--c:#2C6A93">
+    <section class="band" style="--c:#246389">
       <div class="wrap">
         <h2>Athena Lab</h2>
         <div class="copy">
@@ -136,7 +136,7 @@ footer a{color:var(--navy);text-decoration:none}
       </div>
     </section>
 
-    <section class="band" style="--c:#6C6F73">
+    <section class="band" style="--c:#6E7072">
       <div class="wrap">
         <h2>Distant Reading</h2>
         <div class="copy">
@@ -146,7 +146,7 @@ footer a{color:var(--navy);text-decoration:none}
       </div>
     </section>
 
-    <section class="band" style="--c:#933A2C">
+    <section class="band" style="--c:#8C3527">
       <div class="wrap">
         <h2>Sense and Sensation</h2>
         <div class="copy">
@@ -156,7 +156,7 @@ footer a{color:var(--navy);text-decoration:none}
       </div>
     </section>
 
-    <section class="band" style="--c:#2A2A2A">
+    <section class="band" style="--c:#252525">
       <div class="wrap">
         <h2>Planning Process Illustrated</h2>
         <div class="copy">
