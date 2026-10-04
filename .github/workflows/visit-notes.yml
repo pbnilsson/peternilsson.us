@@ -4,22 +4,20 @@ name: Visit notes
 # this repo, so the record lives here and not on someone else's server.
 # Same shape as the Schooled site's workflow.
 #
-# NOT YET ACTIVE: there is no collector for peternilsson.us yet. When there is:
-#   1. set COLLECTOR below to its address,
-#   2. add the repo secret PN_NOTES_KEY,
-#   3. un-comment the two schedule lines.
+# Collector: Cloudflare Worker "peternilsson-notes" (code in collector/).
+# Needs the repo secret PN_NOTES_KEY (same value as the Worker secret EXPORT_KEY).
 
 on:
-  # schedule:
-  #   - cron: "10 8 * * *"    # 08:10 UTC — 4am Eastern in summer, 3am in winter
-  #   - cron: "10 20 * * *"   # 20:10 UTC — 4pm Eastern in summer, 3pm in winter
+  schedule:
+    - cron: "10 8 * * *"    # 08:10 UTC — 4am Eastern in summer, 3am in winter
+    - cron: "10 20 * * *"   # 20:10 UTC — 4pm Eastern in summer, 3pm in winter
   workflow_dispatch:          # ...or whenever you press the button
 
 permissions:
   contents: write
 
 env:
-  COLLECTOR: ""   # e.g. https://peternilsson-notes.pbnilsson.workers.dev
+  COLLECTOR: "https://peternilsson-notes.pbnilsson.workers.dev"
 
 jobs:
   sync:

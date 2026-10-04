@@ -8,7 +8,7 @@
 (function () {
   "use strict";
 
-  var EP = ""; // e.g. "https://peternilsson-notes.pbnilsson.workers.dev/p"
+  var EP = "https://peternilsson-notes.pbnilsson.workers.dev/p";
 
   var q = new URLSearchParams(window.location.search);
   var CAMPAIGN = q.get("utm_source") || q.get("ref") || "";
