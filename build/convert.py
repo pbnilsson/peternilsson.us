@@ -36,6 +36,8 @@ def build(name, slug, title, desc):
     body = body.replace('<a href="#" style="font-family: \'Figtree\'', f'<a href="{up}" style="font-family: \'Figtree\'', 1)
     body = re.sub(r'src="/_blob/[0-9a-f]+"', f'src="{up}img/irreplaceable-cover.jpg" width="720" height="1085"', body)
     body = body.replace('<img ', '<img loading="lazy" ') if slug else body
+    # External links open in a new tab
+    body = re.sub(r'<a href="(https?://[^"]+)"(?![^>]*target=)', r'<a href="\1" target="_blank" rel="noopener"', body)
     assert '.dc.html' not in body and '/_blob/' not in body and '{{' not in body, name
     leftover = re.findall(r'href="#"', body)
     if leftover:
