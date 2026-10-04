@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04T04:53:48.321Z",
+  "generated": "2026-10-04T13:53:48.903Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -9,7 +9,7 @@
     "all"
   ],
   "span": {
-    "first": null,
+    "first": "2026-10-04T07:39:33.300Z",
     "days": 1
   },
   "ranges": {
@@ -17,196 +17,886 @@
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-10-03T04:53:48.321Z",
-      "to": "2026-10-04T04:53:48.321Z",
+      "from": "2026-10-03T13:53:48.903Z",
+      "to": "2026-10-04T13:53:48.903Z",
       "available": true,
       "granularity": "hour",
       "totals": {
-        "views": 0,
-        "clicks": 0,
-        "links": 0,
-        "visitors": 0,
+        "views": 4,
+        "clicks": 3,
+        "links": 1,
+        "visitors": 2,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 0,
-        "medianPagesPerVisit": null,
-        "medianDepth": null,
-        "medianSecs": null
+        "days": 1,
+        "medianPagesPerVisit": 2,
+        "medianDepth": 100,
+        "medianSecs": 33
       },
-      "series": [],
-      "pages": [],
-      "journeys": [],
-      "entries": [],
-      "exits": [],
-      "sources": [],
-      "referrers": [],
+      "series": [
+        {
+          "t": "2026-10-03T14:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-03T15:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-03T16:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-03T17:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-03T18:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-03T19:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-03T20:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-03T21:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-03T22:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-03T23:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-04T00:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-04T01:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-04T02:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-04T03:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-04T04:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-04T05:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-04T06:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-04T07:00:00.000Z",
+          "views": 1,
+          "visitors": 1
+        },
+        {
+          "t": "2026-10-04T08:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-04T09:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-04T10:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-04T11:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-04T12:00:00.000Z",
+          "views": 3,
+          "visitors": 1
+        },
+        {
+          "t": "2026-10-04T13:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        }
+      ],
+      "pages": [
+        {
+          "key": "/",
+          "n": 2,
+          "visitors": 2,
+          "depth": 46,
+          "secs": 11,
+          "measured": 1
+        },
+        {
+          "key": "/consulting/",
+          "n": 1,
+          "visitors": 1,
+          "depth": 100,
+          "secs": 39,
+          "measured": 1
+        },
+        {
+          "key": "/consulting/about/",
+          "n": 1,
+          "visitors": 1,
+          "depth": 100,
+          "secs": 33,
+          "measured": 1
+        }
+      ],
+      "journeys": [
+        {
+          "key": "/ → /consulting/ → /consulting/about/",
+          "n": 1
+        }
+      ],
+      "entries": [
+        {
+          "key": "/",
+          "n": 2
+        }
+      ],
+      "exits": [
+        {
+          "key": "/",
+          "n": 1
+        },
+        {
+          "key": "/consulting/about/",
+          "n": 1
+        }
+      ],
+      "sources": [
+        {
+          "key": "internal",
+          "n": 2
+        },
+        {
+          "key": "direct",
+          "n": 1
+        },
+        {
+          "key": "search",
+          "n": 1
+        }
+      ],
+      "referrers": [
+        {
+          "key": "peternilsson.us",
+          "n": 2
+        },
+        {
+          "key": "google.com",
+          "n": 1
+        }
+      ],
       "campaigns": [],
-      "countries": [],
-      "cities": [],
-      "devices": [],
-      "browsers": [],
-      "systems": [],
+      "countries": [
+        {
+          "key": "US",
+          "n": 4
+        }
+      ],
+      "cities": [
+        {
+          "key": "Ashburn, Virginia",
+          "n": 4
+        }
+      ],
+      "devices": [
+        {
+          "key": "desktop",
+          "n": 4
+        }
+      ],
+      "browsers": [
+        {
+          "key": "Chrome",
+          "n": 4
+        }
+      ],
+      "systems": [
+        {
+          "key": "macOS",
+          "n": 3
+        },
+        {
+          "key": "Windows",
+          "n": 1
+        }
+      ],
       "contactsBySource": [],
       "contactsByPage": [],
       "contactsByEntry": [],
-      "links": [],
-      "internalLinks": []
+      "links": [
+        {
+          "key": "https://schooledthemusical.com/",
+          "n": 1
+        }
+      ],
+      "internalLinks": [
+        {
+          "key": "https://peternilsson.us/consulting/",
+          "n": 1
+        },
+        {
+          "key": "https://peternilsson.us/consulting/about/",
+          "n": 1
+        }
+      ]
     },
     "week": {
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-09-27T04:53:48.321Z",
-      "to": "2026-10-04T04:53:48.321Z",
+      "from": "2026-09-27T13:53:48.903Z",
+      "to": "2026-10-04T13:53:48.903Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 0,
-        "clicks": 0,
-        "links": 0,
-        "visitors": 0,
+        "views": 4,
+        "clicks": 3,
+        "links": 1,
+        "visitors": 2,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 0,
-        "medianPagesPerVisit": null,
-        "medianDepth": null,
-        "medianSecs": null
+        "days": 1,
+        "medianPagesPerVisit": 2,
+        "medianDepth": 100,
+        "medianSecs": 33
       },
-      "series": [],
-      "pages": [],
-      "journeys": [],
-      "entries": [],
-      "exits": [],
-      "sources": [],
-      "referrers": [],
+      "series": [
+        {
+          "d": "2026-10-04",
+          "views": 4,
+          "visitors": 2
+        }
+      ],
+      "pages": [
+        {
+          "key": "/",
+          "n": 2,
+          "visitors": 2,
+          "depth": 46,
+          "secs": 11,
+          "measured": 1
+        },
+        {
+          "key": "/consulting/",
+          "n": 1,
+          "visitors": 1,
+          "depth": 100,
+          "secs": 39,
+          "measured": 1
+        },
+        {
+          "key": "/consulting/about/",
+          "n": 1,
+          "visitors": 1,
+          "depth": 100,
+          "secs": 33,
+          "measured": 1
+        }
+      ],
+      "journeys": [
+        {
+          "key": "/ → /consulting/ → /consulting/about/",
+          "n": 1
+        }
+      ],
+      "entries": [
+        {
+          "key": "/",
+          "n": 2
+        }
+      ],
+      "exits": [
+        {
+          "key": "/",
+          "n": 1
+        },
+        {
+          "key": "/consulting/about/",
+          "n": 1
+        }
+      ],
+      "sources": [
+        {
+          "key": "internal",
+          "n": 2
+        },
+        {
+          "key": "direct",
+          "n": 1
+        },
+        {
+          "key": "search",
+          "n": 1
+        }
+      ],
+      "referrers": [
+        {
+          "key": "peternilsson.us",
+          "n": 2
+        },
+        {
+          "key": "google.com",
+          "n": 1
+        }
+      ],
       "campaigns": [],
-      "countries": [],
-      "cities": [],
-      "devices": [],
-      "browsers": [],
-      "systems": [],
+      "countries": [
+        {
+          "key": "US",
+          "n": 4
+        }
+      ],
+      "cities": [
+        {
+          "key": "Ashburn, Virginia",
+          "n": 4
+        }
+      ],
+      "devices": [
+        {
+          "key": "desktop",
+          "n": 4
+        }
+      ],
+      "browsers": [
+        {
+          "key": "Chrome",
+          "n": 4
+        }
+      ],
+      "systems": [
+        {
+          "key": "macOS",
+          "n": 3
+        },
+        {
+          "key": "Windows",
+          "n": 1
+        }
+      ],
       "contactsBySource": [],
       "contactsByPage": [],
       "contactsByEntry": [],
-      "links": [],
-      "internalLinks": []
+      "links": [
+        {
+          "key": "https://schooledthemusical.com/",
+          "n": 1
+        }
+      ],
+      "internalLinks": [
+        {
+          "key": "https://peternilsson.us/consulting/",
+          "n": 1
+        },
+        {
+          "key": "https://peternilsson.us/consulting/about/",
+          "n": 1
+        }
+      ]
     },
     "month": {
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-09-04T04:53:48.321Z",
-      "to": "2026-10-04T04:53:48.321Z",
+      "from": "2026-09-04T13:53:48.903Z",
+      "to": "2026-10-04T13:53:48.903Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 0,
-        "clicks": 0,
-        "links": 0,
-        "visitors": 0,
+        "views": 4,
+        "clicks": 3,
+        "links": 1,
+        "visitors": 2,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 0,
-        "medianPagesPerVisit": null,
-        "medianDepth": null,
-        "medianSecs": null
+        "days": 1,
+        "medianPagesPerVisit": 2,
+        "medianDepth": 100,
+        "medianSecs": 33
       },
-      "series": [],
-      "pages": [],
-      "journeys": [],
-      "entries": [],
-      "exits": [],
-      "sources": [],
-      "referrers": [],
+      "series": [
+        {
+          "d": "2026-10-04",
+          "views": 4,
+          "visitors": 2
+        }
+      ],
+      "pages": [
+        {
+          "key": "/",
+          "n": 2,
+          "visitors": 2,
+          "depth": 46,
+          "secs": 11,
+          "measured": 1
+        },
+        {
+          "key": "/consulting/",
+          "n": 1,
+          "visitors": 1,
+          "depth": 100,
+          "secs": 39,
+          "measured": 1
+        },
+        {
+          "key": "/consulting/about/",
+          "n": 1,
+          "visitors": 1,
+          "depth": 100,
+          "secs": 33,
+          "measured": 1
+        }
+      ],
+      "journeys": [
+        {
+          "key": "/ → /consulting/ → /consulting/about/",
+          "n": 1
+        }
+      ],
+      "entries": [
+        {
+          "key": "/",
+          "n": 2
+        }
+      ],
+      "exits": [
+        {
+          "key": "/",
+          "n": 1
+        },
+        {
+          "key": "/consulting/about/",
+          "n": 1
+        }
+      ],
+      "sources": [
+        {
+          "key": "internal",
+          "n": 2
+        },
+        {
+          "key": "direct",
+          "n": 1
+        },
+        {
+          "key": "search",
+          "n": 1
+        }
+      ],
+      "referrers": [
+        {
+          "key": "peternilsson.us",
+          "n": 2
+        },
+        {
+          "key": "google.com",
+          "n": 1
+        }
+      ],
       "campaigns": [],
-      "countries": [],
-      "cities": [],
-      "devices": [],
-      "browsers": [],
-      "systems": [],
+      "countries": [
+        {
+          "key": "US",
+          "n": 4
+        }
+      ],
+      "cities": [
+        {
+          "key": "Ashburn, Virginia",
+          "n": 4
+        }
+      ],
+      "devices": [
+        {
+          "key": "desktop",
+          "n": 4
+        }
+      ],
+      "browsers": [
+        {
+          "key": "Chrome",
+          "n": 4
+        }
+      ],
+      "systems": [
+        {
+          "key": "macOS",
+          "n": 3
+        },
+        {
+          "key": "Windows",
+          "n": 1
+        }
+      ],
       "contactsBySource": [],
       "contactsByPage": [],
       "contactsByEntry": [],
-      "links": [],
-      "internalLinks": []
+      "links": [
+        {
+          "key": "https://schooledthemusical.com/",
+          "n": 1
+        }
+      ],
+      "internalLinks": [
+        {
+          "key": "https://peternilsson.us/consulting/",
+          "n": 1
+        },
+        {
+          "key": "https://peternilsson.us/consulting/about/",
+          "n": 1
+        }
+      ]
     },
     "year": {
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-10-04T04:53:48.321Z",
-      "to": "2026-10-04T04:53:48.321Z",
+      "from": "2025-10-04T13:53:48.903Z",
+      "to": "2026-10-04T13:53:48.903Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 0,
-        "clicks": 0,
-        "links": 0,
-        "visitors": 0,
+        "views": 4,
+        "clicks": 3,
+        "links": 1,
+        "visitors": 2,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 0,
-        "medianPagesPerVisit": null,
-        "medianDepth": null,
-        "medianSecs": null
+        "days": 1,
+        "medianPagesPerVisit": 2,
+        "medianDepth": 100,
+        "medianSecs": 33
       },
-      "series": [],
-      "pages": [],
-      "journeys": [],
-      "entries": [],
-      "exits": [],
-      "sources": [],
-      "referrers": [],
+      "series": [
+        {
+          "d": "2026-10-04",
+          "views": 4,
+          "visitors": 2
+        }
+      ],
+      "pages": [
+        {
+          "key": "/",
+          "n": 2,
+          "visitors": 2,
+          "depth": 46,
+          "secs": 11,
+          "measured": 1
+        },
+        {
+          "key": "/consulting/",
+          "n": 1,
+          "visitors": 1,
+          "depth": 100,
+          "secs": 39,
+          "measured": 1
+        },
+        {
+          "key": "/consulting/about/",
+          "n": 1,
+          "visitors": 1,
+          "depth": 100,
+          "secs": 33,
+          "measured": 1
+        }
+      ],
+      "journeys": [
+        {
+          "key": "/ → /consulting/ → /consulting/about/",
+          "n": 1
+        }
+      ],
+      "entries": [
+        {
+          "key": "/",
+          "n": 2
+        }
+      ],
+      "exits": [
+        {
+          "key": "/",
+          "n": 1
+        },
+        {
+          "key": "/consulting/about/",
+          "n": 1
+        }
+      ],
+      "sources": [
+        {
+          "key": "internal",
+          "n": 2
+        },
+        {
+          "key": "direct",
+          "n": 1
+        },
+        {
+          "key": "search",
+          "n": 1
+        }
+      ],
+      "referrers": [
+        {
+          "key": "peternilsson.us",
+          "n": 2
+        },
+        {
+          "key": "google.com",
+          "n": 1
+        }
+      ],
       "campaigns": [],
-      "countries": [],
-      "cities": [],
-      "devices": [],
-      "browsers": [],
-      "systems": [],
+      "countries": [
+        {
+          "key": "US",
+          "n": 4
+        }
+      ],
+      "cities": [
+        {
+          "key": "Ashburn, Virginia",
+          "n": 4
+        }
+      ],
+      "devices": [
+        {
+          "key": "desktop",
+          "n": 4
+        }
+      ],
+      "browsers": [
+        {
+          "key": "Chrome",
+          "n": 4
+        }
+      ],
+      "systems": [
+        {
+          "key": "macOS",
+          "n": 3
+        },
+        {
+          "key": "Windows",
+          "n": 1
+        }
+      ],
       "contactsBySource": [],
       "contactsByPage": [],
       "contactsByEntry": [],
-      "links": [],
-      "internalLinks": []
+      "links": [
+        {
+          "key": "https://schooledthemusical.com/",
+          "n": 1
+        }
+      ],
+      "internalLinks": [
+        {
+          "key": "https://peternilsson.us/consulting/",
+          "n": 1
+        },
+        {
+          "key": "https://peternilsson.us/consulting/about/",
+          "n": 1
+        }
+      ]
     },
     "all": {
       "key": "all",
       "label": "All time",
       "short": "All",
-      "from": null,
-      "to": "2026-10-04T04:53:48.321Z",
+      "from": "2026-10-04T07:39:33.300Z",
+      "to": "2026-10-04T13:53:48.903Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 0,
-        "clicks": 0,
-        "links": 0,
-        "visitors": 0,
+        "views": 4,
+        "clicks": 3,
+        "links": 1,
+        "visitors": 2,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 0,
-        "medianPagesPerVisit": null,
-        "medianDepth": null,
-        "medianSecs": null
+        "days": 1,
+        "medianPagesPerVisit": 2,
+        "medianDepth": 100,
+        "medianSecs": 33
       },
-      "series": [],
-      "pages": [],
-      "journeys": [],
-      "entries": [],
-      "exits": [],
-      "sources": [],
-      "referrers": [],
+      "series": [
+        {
+          "d": "2026-10-04",
+          "views": 4,
+          "visitors": 2
+        }
+      ],
+      "pages": [
+        {
+          "key": "/",
+          "n": 2,
+          "visitors": 2,
+          "depth": 46,
+          "secs": 11,
+          "measured": 1
+        },
+        {
+          "key": "/consulting/",
+          "n": 1,
+          "visitors": 1,
+          "depth": 100,
+          "secs": 39,
+          "measured": 1
+        },
+        {
+          "key": "/consulting/about/",
+          "n": 1,
+          "visitors": 1,
+          "depth": 100,
+          "secs": 33,
+          "measured": 1
+        }
+      ],
+      "journeys": [
+        {
+          "key": "/ → /consulting/ → /consulting/about/",
+          "n": 1
+        }
+      ],
+      "entries": [
+        {
+          "key": "/",
+          "n": 2
+        }
+      ],
+      "exits": [
+        {
+          "key": "/",
+          "n": 1
+        },
+        {
+          "key": "/consulting/about/",
+          "n": 1
+        }
+      ],
+      "sources": [
+        {
+          "key": "internal",
+          "n": 2
+        },
+        {
+          "key": "direct",
+          "n": 1
+        },
+        {
+          "key": "search",
+          "n": 1
+        }
+      ],
+      "referrers": [
+        {
+          "key": "peternilsson.us",
+          "n": 2
+        },
+        {
+          "key": "google.com",
+          "n": 1
+        }
+      ],
       "campaigns": [],
-      "countries": [],
-      "cities": [],
-      "devices": [],
-      "browsers": [],
-      "systems": [],
+      "countries": [
+        {
+          "key": "US",
+          "n": 4
+        }
+      ],
+      "cities": [
+        {
+          "key": "Ashburn, Virginia",
+          "n": 4
+        }
+      ],
+      "devices": [
+        {
+          "key": "desktop",
+          "n": 4
+        }
+      ],
+      "browsers": [
+        {
+          "key": "Chrome",
+          "n": 4
+        }
+      ],
+      "systems": [
+        {
+          "key": "macOS",
+          "n": 3
+        },
+        {
+          "key": "Windows",
+          "n": 1
+        }
+      ],
       "contactsBySource": [],
       "contactsByPage": [],
       "contactsByEntry": [],
-      "links": [],
-      "internalLinks": []
+      "links": [
+        {
+          "key": "https://schooledthemusical.com/",
+          "n": 1
+        }
+      ],
+      "internalLinks": [
+        {
+          "key": "https://peternilsson.us/consulting/",
+          "n": 1
+        },
+        {
+          "key": "https://peternilsson.us/consulting/about/",
+          "n": 1
+        }
+      ]
     }
   }
 }
