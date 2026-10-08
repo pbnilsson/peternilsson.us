@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T00:09:49.863Z",
+  "generated": "2026-10-08T15:32:07.124Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -10,105 +10,30 @@
   ],
   "span": {
     "first": "2026-10-04T07:39:33.300Z",
-    "days": 4
+    "days": 5
   },
   "ranges": {
     "24h": {
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-10-07T00:09:49.863Z",
-      "to": "2026-10-08T00:09:49.863Z",
+      "from": "2026-10-07T15:32:07.124Z",
+      "to": "2026-10-08T15:32:07.124Z",
       "available": true,
       "granularity": "hour",
       "totals": {
-        "views": 23,
-        "clicks": 14,
-        "links": 6,
-        "visitors": 15,
-        "contacts": 1,
-        "contactVisitors": 1,
-        "days": 1,
+        "views": 12,
+        "clicks": 5,
+        "links": 1,
+        "visitors": 9,
+        "contacts": 0,
+        "contactVisitors": 0,
+        "days": 2,
         "medianPagesPerVisit": 1,
-        "medianDepth": 39,
-        "medianSecs": 10
+        "medianDepth": 47,
+        "medianSecs": 23
       },
       "series": [
-        {
-          "t": "2026-10-07T01:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-07T02:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-07T03:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-07T04:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-07T05:00:00.000Z",
-          "views": 1,
-          "visitors": 1
-        },
-        {
-          "t": "2026-10-07T06:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-07T07:00:00.000Z",
-          "views": 2,
-          "visitors": 2
-        },
-        {
-          "t": "2026-10-07T08:00:00.000Z",
-          "views": 2,
-          "visitors": 1
-        },
-        {
-          "t": "2026-10-07T09:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-07T10:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-07T11:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-07T12:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-07T13:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-07T14:00:00.000Z",
-          "views": 3,
-          "visitors": 3
-        },
-        {
-          "t": "2026-10-07T15:00:00.000Z",
-          "views": 7,
-          "visitors": 3
-        },
         {
           "t": "2026-10-07T16:00:00.000Z",
           "views": 1,
@@ -153,31 +78,98 @@
           "t": "2026-10-08T00:00:00.000Z",
           "views": 0,
           "visitors": 0
+        },
+        {
+          "t": "2026-10-08T01:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-08T02:00:00.000Z",
+          "views": 1,
+          "visitors": 1
+        },
+        {
+          "t": "2026-10-08T03:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-08T04:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-08T05:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-08T06:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-08T07:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-08T08:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-08T09:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-08T10:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-08T11:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-08T12:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-08T13:00:00.000Z",
+          "views": 1,
+          "visitors": 1
+        },
+        {
+          "t": "2026-10-08T14:00:00.000Z",
+          "views": 1,
+          "visitors": 1
+        },
+        {
+          "t": "2026-10-08T15:00:00.000Z",
+          "views": 0,
+          "visitors": 0
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 15,
-          "visitors": 13,
-          "depth": 25,
-          "secs": 10,
-          "measured": 13
+          "n": 8,
+          "visitors": 8,
+          "depth": 42,
+          "secs": 23,
+          "measured": 7
         },
         {
           "key": "/consulting/",
-          "n": 4,
-          "visitors": 4,
-          "depth": 39,
-          "secs": 4,
-          "measured": 4
-        },
-        {
-          "key": "/consulting/about/",
           "n": 1,
           "visitors": 1,
-          "depth": 65,
-          "secs": 25,
+          "depth": 34,
+          "secs": 7,
           "measured": 1
         },
         {
@@ -207,14 +199,6 @@
       ],
       "journeys": [
         {
-          "key": "/ → /consulting/",
-          "n": 1
-        },
-        {
-          "key": "/ → /consulting/ → /consulting/about/",
-          "n": 1
-        },
-        {
           "key": "/consulting/ → /consulting/schools/ → /consulting/speaking/",
           "n": 1
         },
@@ -226,25 +210,17 @@
       "entries": [
         {
           "key": "/",
-          "n": 13
+          "n": 8
         },
         {
           "key": "/consulting/",
-          "n": 2
+          "n": 1
         }
       ],
       "exits": [
         {
           "key": "/",
-          "n": 10
-        },
-        {
-          "key": "/consulting/",
-          "n": 2
-        },
-        {
-          "key": "/consulting/about/",
-          "n": 1
+          "n": 7
         },
         {
           "key": "/consulting/speaking/",
@@ -258,25 +234,25 @@
       "sources": [
         {
           "key": "internal",
-          "n": 10
+          "n": 5
         },
         {
           "key": "search",
-          "n": 7
+          "n": 4
         },
         {
           "key": "direct",
-          "n": 6
+          "n": 3
         }
       ],
       "referrers": [
         {
           "key": "peternilsson.us",
-          "n": 10
+          "n": 5
         },
         {
           "key": "google.com",
-          "n": 6
+          "n": 3
         },
         {
           "key": "duckduckgo.com",
@@ -287,73 +263,25 @@
       "countries": [
         {
           "key": "US",
-          "n": 17
-        },
-        {
-          "key": "AE",
-          "n": 2
-        },
-        {
-          "key": "DE",
-          "n": 1
-        },
-        {
-          "key": "IL",
-          "n": 1
-        },
-        {
-          "key": "PK",
-          "n": 1
+          "n": 10
         },
         {
           "key": "GB",
+          "n": 1
+        },
+        {
+          "key": "KG",
           "n": 1
         }
       ],
       "cities": [
         {
-          "key": "Atlanta, Georgia",
-          "n": 3
-        },
-        {
-          "key": "Pittsburgh, Pennsylvania",
-          "n": 3
-        },
-        {
           "key": "New York City, New York",
           "n": 3
         },
         {
-          "key": "Waimanalo, Hawaii",
-          "n": 2
-        },
-        {
           "key": "Honolulu, Hawaii",
           "n": 2
-        },
-        {
-          "key": "Abu Dhabi, Abu Dhabi",
-          "n": 1
-        },
-        {
-          "key": "Dubai, Dubai",
-          "n": 1
-        },
-        {
-          "key": "Frankfurt am Main, Hesse",
-          "n": 1
-        },
-        {
-          "key": "Atlit, Haifa",
-          "n": 1
-        },
-        {
-          "key": "Multan, Punjab",
-          "n": 1
-        },
-        {
-          "key": "Providence, Rhode Island",
-          "n": 1
         },
         {
           "key": "London, England",
@@ -370,103 +298,68 @@
         {
           "key": "Bridgeville, Pennsylvania",
           "n": 1
+        },
+        {
+          "key": "Bellerose Terrace, New York",
+          "n": 1
+        },
+        {
+          "key": "Bishkek, Bishkek",
+          "n": 1
+        },
+        {
+          "key": "Council Bluffs, Iowa",
+          "n": 1
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 14
+          "n": 10
         },
         {
           "key": "mobile",
-          "n": 9
+          "n": 2
         }
       ],
       "browsers": [
         {
           "key": "Chrome",
-          "n": 16
+          "n": 10
         },
         {
           "key": "Safari",
-          "n": 7
+          "n": 2
         }
       ],
       "systems": [
-        {
-          "key": "Windows",
-          "n": 9
-        },
-        {
-          "key": "iOS",
-          "n": 7
-        },
         {
           "key": "macOS",
           "n": 5
         },
         {
-          "key": "Android",
+          "key": "Windows",
+          "n": 4
+        },
+        {
+          "key": "iOS",
           "n": 2
-        }
-      ],
-      "contactsBySource": [
+        },
         {
-          "key": "direct",
+          "key": "Linux",
           "n": 1
         }
       ],
-      "contactsByPage": [
-        {
-          "key": "/",
-          "n": 1
-        }
-      ],
-      "contactsByEntry": [
-        {
-          "key": "/",
-          "n": 1
-        }
-      ],
+      "contactsBySource": [],
+      "contactsByPage": [],
+      "contactsByEntry": [],
       "links": [
-        {
-          "key": "https://athenaprospectus.org/",
-          "n": 1
-        },
-        {
-          "key": "http://www.athenalab.io/",
-          "n": 1
-        },
-        {
-          "key": "https://educatorsnotebook.com/subscribe/",
-          "n": 1
-        },
-        {
-          "key": "https://www.amazon.com/Irreplaceable-Everything-Teaching-Learning-technologists/dp/B0FT3PFX1K/",
-          "n": 1
-        },
-        {
-          "key": "http://www.senseandsensation.com/",
-          "n": 1
-        },
         {
           "key": "https://schooledthemusical.com/",
           "n": 1
         }
       ],
       "internalLinks": [
-        {
-          "key": "https://peternilsson.us/consulting/",
-          "n": 2
-        },
-        {
-          "key": "https://peternilsson.us/",
-          "n": 1
-        },
-        {
-          "key": "https://peternilsson.us/consulting/about/",
-          "n": 1
-        },
         {
           "key": "https://peternilsson.us/consulting/schools/",
           "n": 1
@@ -477,6 +370,10 @@
         },
         {
           "key": "https://peternilsson.us/consulting/writing/",
+          "n": 1
+        },
+        {
+          "key": "https://peternilsson.us/#work",
           "n": 1
         }
       ]
@@ -485,21 +382,21 @@
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-10-01T00:09:49.863Z",
-      "to": "2026-10-08T00:09:49.863Z",
+      "from": "2026-10-01T15:32:07.124Z",
+      "to": "2026-10-08T15:32:07.124Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 65,
-        "clicks": 35,
-        "links": 10,
-        "visitors": 37,
+        "views": 68,
+        "clicks": 37,
+        "links": 11,
+        "visitors": 40,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 4,
+        "days": 5,
         "medianPagesPerVisit": 1,
         "medianDepth": 43,
-        "medianSecs": 8
+        "medianSecs": 10
       },
       "series": [
         {
@@ -521,16 +418,21 @@
           "d": "2026-10-07",
           "views": 23,
           "visitors": 15
+        },
+        {
+          "d": "2026-10-08",
+          "views": 3,
+          "visitors": 3
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 39,
-          "visitors": 35,
-          "depth": 30,
-          "secs": 7,
-          "measured": 28
+          "n": 42,
+          "visitors": 38,
+          "depth": 32,
+          "secs": 9,
+          "measured": 30
         },
         {
           "key": "/consulting/",
@@ -598,7 +500,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 35
+          "n": 38
         },
         {
           "key": "/consulting/",
@@ -608,7 +510,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 27
+          "n": 30
         },
         {
           "key": "/consulting/",
@@ -634,11 +536,11 @@
         },
         {
           "key": "direct",
-          "n": 22
+          "n": 23
         },
         {
           "key": "search",
-          "n": 15
+          "n": 17
         }
       ],
       "referrers": [
@@ -648,7 +550,7 @@
         },
         {
           "key": "google.com",
-          "n": 13
+          "n": 15
         },
         {
           "key": "bing.com",
@@ -663,7 +565,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 57
+          "n": 59
         },
         {
           "key": "AE",
@@ -692,6 +594,10 @@
         {
           "key": "GB",
           "n": 1
+        },
+        {
+          "key": "KG",
+          "n": 1
         }
       ],
       "cities": [
@@ -712,6 +618,10 @@
           "n": 4
         },
         {
+          "key": "Council Bluffs, Iowa",
+          "n": 3
+        },
+        {
           "key": "Annapolis, Maryland",
           "n": 3
         },
@@ -729,10 +639,6 @@
         },
         {
           "key": "Ann Arbor, Michigan",
-          "n": 2
-        },
-        {
-          "key": "Council Bluffs, Iowa",
           "n": 2
         },
         {
@@ -779,11 +685,11 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 53
+          "n": 55
         },
         {
           "key": "mobile",
-          "n": 11
+          "n": 12
         },
         {
           "key": "tablet",
@@ -793,11 +699,11 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 39
+          "n": 41
         },
         {
           "key": "Safari",
-          "n": 23
+          "n": 24
         },
         {
           "key": "Edge",
@@ -811,7 +717,7 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 31
+          "n": 32
         },
         {
           "key": "Windows",
@@ -819,7 +725,7 @@
         },
         {
           "key": "iOS",
-          "n": 8
+          "n": 9
         },
         {
           "key": "Android",
@@ -827,7 +733,7 @@
         },
         {
           "key": "Linux",
-          "n": 1
+          "n": 2
         },
         {
           "key": "Other",
@@ -855,7 +761,7 @@
       "links": [
         {
           "key": "https://schooledthemusical.com/",
-          "n": 3
+          "n": 4
         },
         {
           "key": "https://educatorsnotebook.com/subscribe/",
@@ -902,6 +808,10 @@
         {
           "key": "https://peternilsson.us/",
           "n": 2
+        },
+        {
+          "key": "https://peternilsson.us/#work",
+          "n": 1
         }
       ]
     },
@@ -909,21 +819,21 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-09-08T00:09:49.863Z",
-      "to": "2026-10-08T00:09:49.863Z",
+      "from": "2026-09-08T15:32:07.124Z",
+      "to": "2026-10-08T15:32:07.124Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 65,
-        "clicks": 35,
-        "links": 10,
-        "visitors": 37,
+        "views": 68,
+        "clicks": 37,
+        "links": 11,
+        "visitors": 40,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 4,
+        "days": 5,
         "medianPagesPerVisit": 1,
         "medianDepth": 43,
-        "medianSecs": 8
+        "medianSecs": 10
       },
       "series": [
         {
@@ -945,16 +855,21 @@
           "d": "2026-10-07",
           "views": 23,
           "visitors": 15
+        },
+        {
+          "d": "2026-10-08",
+          "views": 3,
+          "visitors": 3
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 39,
-          "visitors": 35,
-          "depth": 30,
-          "secs": 7,
-          "measured": 28
+          "n": 42,
+          "visitors": 38,
+          "depth": 32,
+          "secs": 9,
+          "measured": 30
         },
         {
           "key": "/consulting/",
@@ -1022,7 +937,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 35
+          "n": 38
         },
         {
           "key": "/consulting/",
@@ -1032,7 +947,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 27
+          "n": 30
         },
         {
           "key": "/consulting/",
@@ -1058,11 +973,11 @@
         },
         {
           "key": "direct",
-          "n": 22
+          "n": 23
         },
         {
           "key": "search",
-          "n": 15
+          "n": 17
         }
       ],
       "referrers": [
@@ -1072,7 +987,7 @@
         },
         {
           "key": "google.com",
-          "n": 13
+          "n": 15
         },
         {
           "key": "bing.com",
@@ -1087,7 +1002,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 57
+          "n": 59
         },
         {
           "key": "AE",
@@ -1116,6 +1031,10 @@
         {
           "key": "GB",
           "n": 1
+        },
+        {
+          "key": "KG",
+          "n": 1
         }
       ],
       "cities": [
@@ -1136,6 +1055,10 @@
           "n": 4
         },
         {
+          "key": "Council Bluffs, Iowa",
+          "n": 3
+        },
+        {
           "key": "Annapolis, Maryland",
           "n": 3
         },
@@ -1153,10 +1076,6 @@
         },
         {
           "key": "Ann Arbor, Michigan",
-          "n": 2
-        },
-        {
-          "key": "Council Bluffs, Iowa",
           "n": 2
         },
         {
@@ -1203,11 +1122,11 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 53
+          "n": 55
         },
         {
           "key": "mobile",
-          "n": 11
+          "n": 12
         },
         {
           "key": "tablet",
@@ -1217,11 +1136,11 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 39
+          "n": 41
         },
         {
           "key": "Safari",
-          "n": 23
+          "n": 24
         },
         {
           "key": "Edge",
@@ -1235,7 +1154,7 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 31
+          "n": 32
         },
         {
           "key": "Windows",
@@ -1243,7 +1162,7 @@
         },
         {
           "key": "iOS",
-          "n": 8
+          "n": 9
         },
         {
           "key": "Android",
@@ -1251,7 +1170,7 @@
         },
         {
           "key": "Linux",
-          "n": 1
+          "n": 2
         },
         {
           "key": "Other",
@@ -1279,7 +1198,7 @@
       "links": [
         {
           "key": "https://schooledthemusical.com/",
-          "n": 3
+          "n": 4
         },
         {
           "key": "https://educatorsnotebook.com/subscribe/",
@@ -1326,6 +1245,10 @@
         {
           "key": "https://peternilsson.us/",
           "n": 2
+        },
+        {
+          "key": "https://peternilsson.us/#work",
+          "n": 1
         }
       ]
     },
@@ -1333,21 +1256,21 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-10-08T00:09:49.863Z",
-      "to": "2026-10-08T00:09:49.863Z",
+      "from": "2025-10-08T15:32:07.124Z",
+      "to": "2026-10-08T15:32:07.124Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 65,
-        "clicks": 35,
-        "links": 10,
-        "visitors": 37,
+        "views": 68,
+        "clicks": 37,
+        "links": 11,
+        "visitors": 40,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 4,
+        "days": 5,
         "medianPagesPerVisit": 1,
         "medianDepth": 43,
-        "medianSecs": 8
+        "medianSecs": 10
       },
       "series": [
         {
@@ -1369,16 +1292,21 @@
           "d": "2026-10-07",
           "views": 23,
           "visitors": 15
+        },
+        {
+          "d": "2026-10-08",
+          "views": 3,
+          "visitors": 3
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 39,
-          "visitors": 35,
-          "depth": 30,
-          "secs": 7,
-          "measured": 28
+          "n": 42,
+          "visitors": 38,
+          "depth": 32,
+          "secs": 9,
+          "measured": 30
         },
         {
           "key": "/consulting/",
@@ -1446,7 +1374,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 35
+          "n": 38
         },
         {
           "key": "/consulting/",
@@ -1456,7 +1384,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 27
+          "n": 30
         },
         {
           "key": "/consulting/",
@@ -1482,11 +1410,11 @@
         },
         {
           "key": "direct",
-          "n": 22
+          "n": 23
         },
         {
           "key": "search",
-          "n": 15
+          "n": 17
         }
       ],
       "referrers": [
@@ -1496,7 +1424,7 @@
         },
         {
           "key": "google.com",
-          "n": 13
+          "n": 15
         },
         {
           "key": "bing.com",
@@ -1511,7 +1439,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 57
+          "n": 59
         },
         {
           "key": "AE",
@@ -1540,6 +1468,10 @@
         {
           "key": "GB",
           "n": 1
+        },
+        {
+          "key": "KG",
+          "n": 1
         }
       ],
       "cities": [
@@ -1560,6 +1492,10 @@
           "n": 4
         },
         {
+          "key": "Council Bluffs, Iowa",
+          "n": 3
+        },
+        {
           "key": "Annapolis, Maryland",
           "n": 3
         },
@@ -1577,10 +1513,6 @@
         },
         {
           "key": "Ann Arbor, Michigan",
-          "n": 2
-        },
-        {
-          "key": "Council Bluffs, Iowa",
           "n": 2
         },
         {
@@ -1627,11 +1559,11 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 53
+          "n": 55
         },
         {
           "key": "mobile",
-          "n": 11
+          "n": 12
         },
         {
           "key": "tablet",
@@ -1641,11 +1573,11 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 39
+          "n": 41
         },
         {
           "key": "Safari",
-          "n": 23
+          "n": 24
         },
         {
           "key": "Edge",
@@ -1659,7 +1591,7 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 31
+          "n": 32
         },
         {
           "key": "Windows",
@@ -1667,7 +1599,7 @@
         },
         {
           "key": "iOS",
-          "n": 8
+          "n": 9
         },
         {
           "key": "Android",
@@ -1675,7 +1607,7 @@
         },
         {
           "key": "Linux",
-          "n": 1
+          "n": 2
         },
         {
           "key": "Other",
@@ -1703,7 +1635,7 @@
       "links": [
         {
           "key": "https://schooledthemusical.com/",
-          "n": 3
+          "n": 4
         },
         {
           "key": "https://educatorsnotebook.com/subscribe/",
@@ -1750,6 +1682,10 @@
         {
           "key": "https://peternilsson.us/",
           "n": 2
+        },
+        {
+          "key": "https://peternilsson.us/#work",
+          "n": 1
         }
       ]
     },
@@ -1758,20 +1694,20 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-10-08T00:09:49.863Z",
+      "to": "2026-10-08T15:32:07.124Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 65,
-        "clicks": 35,
-        "links": 10,
-        "visitors": 37,
+        "views": 68,
+        "clicks": 37,
+        "links": 11,
+        "visitors": 40,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 4,
+        "days": 5,
         "medianPagesPerVisit": 1,
         "medianDepth": 43,
-        "medianSecs": 8
+        "medianSecs": 10
       },
       "series": [
         {
@@ -1793,16 +1729,21 @@
           "d": "2026-10-07",
           "views": 23,
           "visitors": 15
+        },
+        {
+          "d": "2026-10-08",
+          "views": 3,
+          "visitors": 3
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 39,
-          "visitors": 35,
-          "depth": 30,
-          "secs": 7,
-          "measured": 28
+          "n": 42,
+          "visitors": 38,
+          "depth": 32,
+          "secs": 9,
+          "measured": 30
         },
         {
           "key": "/consulting/",
@@ -1870,7 +1811,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 35
+          "n": 38
         },
         {
           "key": "/consulting/",
@@ -1880,7 +1821,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 27
+          "n": 30
         },
         {
           "key": "/consulting/",
@@ -1906,11 +1847,11 @@
         },
         {
           "key": "direct",
-          "n": 22
+          "n": 23
         },
         {
           "key": "search",
-          "n": 15
+          "n": 17
         }
       ],
       "referrers": [
@@ -1920,7 +1861,7 @@
         },
         {
           "key": "google.com",
-          "n": 13
+          "n": 15
         },
         {
           "key": "bing.com",
@@ -1935,7 +1876,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 57
+          "n": 59
         },
         {
           "key": "AE",
@@ -1964,6 +1905,10 @@
         {
           "key": "GB",
           "n": 1
+        },
+        {
+          "key": "KG",
+          "n": 1
         }
       ],
       "cities": [
@@ -1984,6 +1929,10 @@
           "n": 4
         },
         {
+          "key": "Council Bluffs, Iowa",
+          "n": 3
+        },
+        {
           "key": "Annapolis, Maryland",
           "n": 3
         },
@@ -2001,10 +1950,6 @@
         },
         {
           "key": "Ann Arbor, Michigan",
-          "n": 2
-        },
-        {
-          "key": "Council Bluffs, Iowa",
           "n": 2
         },
         {
@@ -2051,11 +1996,11 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 53
+          "n": 55
         },
         {
           "key": "mobile",
-          "n": 11
+          "n": 12
         },
         {
           "key": "tablet",
@@ -2065,11 +2010,11 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 39
+          "n": 41
         },
         {
           "key": "Safari",
-          "n": 23
+          "n": 24
         },
         {
           "key": "Edge",
@@ -2083,7 +2028,7 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 31
+          "n": 32
         },
         {
           "key": "Windows",
@@ -2091,7 +2036,7 @@
         },
         {
           "key": "iOS",
-          "n": 8
+          "n": 9
         },
         {
           "key": "Android",
@@ -2099,7 +2044,7 @@
         },
         {
           "key": "Linux",
-          "n": 1
+          "n": 2
         },
         {
           "key": "Other",
@@ -2127,7 +2072,7 @@
       "links": [
         {
           "key": "https://schooledthemusical.com/",
-          "n": 3
+          "n": 4
         },
         {
           "key": "https://educatorsnotebook.com/subscribe/",
@@ -2174,6 +2119,10 @@
         {
           "key": "https://peternilsson.us/",
           "n": 2
+        },
+        {
+          "key": "https://peternilsson.us/#work",
+          "n": 1
         }
       ]
     }
