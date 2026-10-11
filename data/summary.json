@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T14:52:42.535Z",
+  "generated": "2026-10-11T23:37:55.839Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -17,68 +17,23 @@
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-10-10T14:52:42.535Z",
-      "to": "2026-10-11T14:52:42.535Z",
+      "from": "2026-10-10T23:37:55.839Z",
+      "to": "2026-10-11T23:37:55.839Z",
       "available": true,
       "granularity": "hour",
       "totals": {
-        "views": 9,
-        "clicks": 7,
-        "links": 3,
-        "visitors": 5,
+        "views": 5,
+        "clicks": 6,
+        "links": 2,
+        "visitors": 1,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 2,
-        "medianPagesPerVisit": 1,
+        "days": 1,
+        "medianPagesPerVisit": 4,
         "medianDepth": 63,
         "medianSecs": 8
       },
       "series": [
-        {
-          "t": "2026-10-10T15:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-10T16:00:00.000Z",
-          "views": 1,
-          "visitors": 1
-        },
-        {
-          "t": "2026-10-10T17:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-10T18:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-10T19:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-10T20:00:00.000Z",
-          "views": 1,
-          "visitors": 1
-        },
-        {
-          "t": "2026-10-10T21:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-10T22:00:00.000Z",
-          "views": 2,
-          "visitors": 2
-        },
-        {
-          "t": "2026-10-10T23:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
         {
           "t": "2026-10-11T00:00:00.000Z",
           "views": 0,
@@ -153,17 +108,54 @@
           "t": "2026-10-11T14:00:00.000Z",
           "views": 0,
           "visitors": 0
+        },
+        {
+          "t": "2026-10-11T15:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-11T16:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-11T17:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-11T18:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-11T19:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-11T20:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-11T21:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-11T22:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-11T23:00:00.000Z",
+          "views": 0,
+          "visitors": 0
         }
       ],
       "pages": [
-        {
-          "key": "/",
-          "n": 5,
-          "visitors": 5,
-          "depth": 57,
-          "secs": 3,
-          "measured": 5
-        },
         {
           "key": "/consulting/",
           "n": 2,
@@ -171,6 +163,14 @@
           "depth": 82,
           "secs": 10,
           "measured": 2
+        },
+        {
+          "key": "/",
+          "n": 1,
+          "visitors": 1,
+          "depth": 21,
+          "secs": 3,
+          "measured": 1
         },
         {
           "key": "/consulting/writing/",
@@ -198,14 +198,10 @@
       "entries": [
         {
           "key": "/",
-          "n": 5
+          "n": 1
         }
       ],
       "exits": [
-        {
-          "key": "/",
-          "n": 4
-        },
         {
           "key": "/consulting/about/",
           "n": 1
@@ -218,21 +214,13 @@
         },
         {
           "key": "direct",
-          "n": 3
-        },
-        {
-          "key": "search",
-          "n": 2
+          "n": 1
         }
       ],
       "referrers": [
         {
           "key": "peternilsson.us",
           "n": 4
-        },
-        {
-          "key": "google.com",
-          "n": 2
         }
       ],
       "campaigns": [],
@@ -240,76 +228,36 @@
         {
           "key": "SE",
           "n": 5
-        },
-        {
-          "key": "US",
-          "n": 4
         }
       ],
       "cities": [
         {
           "key": "Haninge, Stockholm",
           "n": 5
-        },
-        {
-          "key": "Oakland, California",
-          "n": 2
-        },
-        {
-          "key": "Indiana, Pennsylvania",
-          "n": 1
-        },
-        {
-          "key": "Doral, Florida",
-          "n": 1
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 7
-        },
-        {
-          "key": "mobile",
-          "n": 2
+          "n": 5
         }
       ],
       "browsers": [
         {
           "key": "Firefox",
           "n": 5
-        },
-        {
-          "key": "Safari",
-          "n": 3
-        },
-        {
-          "key": "Chrome",
-          "n": 1
         }
       ],
       "systems": [
         {
           "key": "macOS",
-          "n": 6
-        },
-        {
-          "key": "iOS",
-          "n": 2
-        },
-        {
-          "key": "Windows",
-          "n": 1
+          "n": 5
         }
       ],
       "contactsBySource": [],
       "contactsByPage": [],
       "contactsByEntry": [],
       "links": [
-        {
-          "key": "https://educatorsnotebook.com/subscribe/",
-          "n": 1
-        },
         {
           "key": "https://schooledthemusical.com/",
           "n": 1
@@ -338,8 +286,8 @@
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-10-04T14:52:42.535Z",
-      "to": "2026-10-11T14:52:42.535Z",
+      "from": "2026-10-04T23:37:55.839Z",
+      "to": "2026-10-11T23:37:55.839Z",
       "available": true,
       "granularity": "day",
       "totals": {
@@ -825,8 +773,8 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-09-11T14:52:42.535Z",
-      "to": "2026-10-11T14:52:42.535Z",
+      "from": "2026-09-11T23:37:55.839Z",
+      "to": "2026-10-11T23:37:55.839Z",
       "available": false,
       "granularity": "day",
       "totals": {
@@ -1317,8 +1265,8 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-10-11T14:52:42.535Z",
-      "to": "2026-10-11T14:52:42.535Z",
+      "from": "2025-10-11T23:37:55.839Z",
+      "to": "2026-10-11T23:37:55.839Z",
       "available": false,
       "granularity": "day",
       "totals": {
@@ -1810,7 +1758,7 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-10-11T14:52:42.535Z",
+      "to": "2026-10-11T23:37:55.839Z",
       "available": true,
       "granularity": "day",
       "totals": {
