@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T17:47:52.814Z",
+  "generated": "2026-10-13T01:59:28.658Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -17,63 +17,23 @@
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-10-11T17:47:52.814Z",
-      "to": "2026-10-12T17:47:52.814Z",
+      "from": "2026-10-12T01:59:28.658Z",
+      "to": "2026-10-13T01:59:28.658Z",
       "available": true,
       "granularity": "hour",
       "totals": {
-        "views": 9,
-        "clicks": 3,
-        "links": 0,
-        "visitors": 6,
+        "views": 19,
+        "clicks": 7,
+        "links": 2,
+        "visitors": 14,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 1,
+        "days": 2,
         "medianPagesPerVisit": 1,
-        "medianDepth": 72,
-        "medianSecs": 26
+        "medianDepth": 63,
+        "medianSecs": 18
       },
       "series": [
-        {
-          "t": "2026-10-11T18:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-11T19:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-11T20:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-11T21:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-11T22:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-11T23:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-12T00:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-12T01:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
         {
           "t": "2026-10-12T02:00:00.000Z",
           "views": 0,
@@ -153,24 +113,72 @@
           "t": "2026-10-12T17:00:00.000Z",
           "views": 1,
           "visitors": 1
+        },
+        {
+          "t": "2026-10-12T18:00:00.000Z",
+          "views": 2,
+          "visitors": 2
+        },
+        {
+          "t": "2026-10-12T19:00:00.000Z",
+          "views": 1,
+          "visitors": 1
+        },
+        {
+          "t": "2026-10-12T20:00:00.000Z",
+          "views": 2,
+          "visitors": 2
+        },
+        {
+          "t": "2026-10-12T21:00:00.000Z",
+          "views": 2,
+          "visitors": 1
+        },
+        {
+          "t": "2026-10-12T22:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-12T23:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-13T00:00:00.000Z",
+          "views": 3,
+          "visitors": 2
+        },
+        {
+          "t": "2026-10-13T01:00:00.000Z",
+          "views": 0,
+          "visitors": 0
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 6,
-          "visitors": 6,
-          "depth": 100,
-          "secs": 27,
-          "measured": 5
+          "n": 13,
+          "visitors": 13,
+          "depth": 47,
+          "secs": 21,
+          "measured": 9
+        },
+        {
+          "key": "/consulting/writing/",
+          "n": 3,
+          "visitors": 3,
+          "depth": 64,
+          "secs": 30,
+          "measured": 2
         },
         {
           "key": "/consulting/",
-          "n": 1,
-          "visitors": 1,
-          "depth": 40,
+          "n": 2,
+          "visitors": 2,
+          "depth": 60,
           "secs": 5,
-          "measured": 1
+          "measured": 2
         },
         {
           "key": "/consulting/about/",
@@ -179,68 +187,72 @@
           "depth": 96,
           "secs": 25,
           "measured": 1
-        },
-        {
-          "key": "/consulting/writing/",
-          "n": 1,
-          "visitors": 1,
-          "depth": 28,
-          "secs": 44,
-          "measured": 1
         }
       ],
       "journeys": [
+        {
+          "key": "/ → /consulting/writing/",
+          "n": 2
+        },
         {
           "key": "/ → /consulting/ → /consulting/about/",
           "n": 1
         },
         {
-          "key": "/ → /consulting/writing/",
+          "key": "/ → /consulting/",
           "n": 1
         }
       ],
       "entries": [
         {
           "key": "/",
-          "n": 6
-        }
-      ],
-      "exits": [
-        {
-          "key": "/",
-          "n": 4
-        },
-        {
-          "key": "/consulting/about/",
-          "n": 1
+          "n": 13
         },
         {
           "key": "/consulting/writing/",
           "n": 1
         }
       ],
-      "sources": [
+      "exits": [
         {
-          "key": "search",
-          "n": 4
+          "key": "/",
+          "n": 9
         },
         {
-          "key": "internal",
+          "key": "/consulting/writing/",
           "n": 3
         },
         {
+          "key": "/consulting/about/",
+          "n": 1
+        },
+        {
+          "key": "/consulting/",
+          "n": 1
+        }
+      ],
+      "sources": [
+        {
+          "key": "search",
+          "n": 7
+        },
+        {
+          "key": "internal",
+          "n": 6
+        },
+        {
           "key": "direct",
-          "n": 2
+          "n": 6
         }
       ],
       "referrers": [
         {
           "key": "peternilsson.us",
-          "n": 3
+          "n": 6
         },
         {
           "key": "google.com",
-          "n": 2
+          "n": 5
         },
         {
           "key": "duckduckgo.com",
@@ -255,16 +267,24 @@
       "countries": [
         {
           "key": "US",
-          "n": 9
+          "n": 19
         }
       ],
       "cities": [
+        {
+          "key": "Pittsburgh, Pennsylvania",
+          "n": 6
+        },
         {
           "key": "Honolulu, Hawaii",
           "n": 3
         },
         {
-          "key": "Pittsburgh, Pennsylvania",
+          "key": "Council Bluffs, Iowa",
+          "n": 2
+        },
+        {
+          "key": "Baltimore, Maryland",
           "n": 2
         },
         {
@@ -282,65 +302,82 @@
         {
           "key": "New York City, New York",
           "n": 1
+        },
+        {
+          "key": "Dallas, Texas",
+          "n": 1
+        },
+        {
+          "key": "Bellevue, Pennsylvania",
+          "n": 1
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 6
+          "n": 11
         },
         {
           "key": "mobile",
-          "n": 3
+          "n": 8
         }
       ],
       "browsers": [
         {
           "key": "Chrome",
-          "n": 7
-        },
-        {
-          "key": "Edge",
-          "n": 1
+          "n": 13
         },
         {
           "key": "Safari",
+          "n": 3
+        },
+        {
+          "key": "Firefox",
+          "n": 2
+        },
+        {
+          "key": "Edge",
           "n": 1
         }
       ],
       "systems": [
         {
-          "key": "macOS",
-          "n": 3
-        },
-        {
           "key": "Windows",
-          "n": 3
+          "n": 6
         },
         {
-          "key": "Android",
-          "n": 2
+          "key": "macOS",
+          "n": 5
         },
         {
           "key": "iOS",
-          "n": 1
+          "n": 5
+        },
+        {
+          "key": "Android",
+          "n": 3
         }
       ],
       "contactsBySource": [],
       "contactsByPage": [],
       "contactsByEntry": [],
-      "links": [],
+      "links": [
+        {
+          "key": "https://schooledthemusical.com/",
+          "n": 2
+        }
+      ],
       "internalLinks": [
         {
           "key": "https://peternilsson.us/consulting/",
-          "n": 1
-        },
-        {
-          "key": "https://peternilsson.us/consulting/about/",
-          "n": 1
+          "n": 2
         },
         {
           "key": "https://peternilsson.us/consulting/writing/",
+          "n": 2
+        },
+        {
+          "key": "https://peternilsson.us/consulting/about/",
           "n": 1
         }
       ]
@@ -349,32 +386,27 @@
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-10-05T17:47:52.814Z",
-      "to": "2026-10-12T17:47:52.814Z",
+      "from": "2026-10-06T01:59:28.658Z",
+      "to": "2026-10-13T01:59:28.658Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 100,
-        "clicks": 52,
-        "links": 16,
-        "visitors": 63,
+        "views": 94,
+        "clicks": 45,
+        "links": 18,
+        "visitors": 69,
         "contacts": 1,
         "contactVisitors": 1,
         "days": 8,
         "medianPagesPerVisit": 1,
-        "medianDepth": 51,
-        "medianSecs": 9
+        "medianDepth": 52,
+        "medianSecs": 10
       },
       "series": [
         {
-          "d": "2026-10-05",
-          "views": 2,
-          "visitors": 1
-        },
-        {
           "d": "2026-10-06",
-          "views": 29,
-          "visitors": 12
+          "views": 15,
+          "visitors": 11
         },
         {
           "d": "2026-10-07",
@@ -403,76 +435,77 @@
         },
         {
           "d": "2026-10-12",
-          "views": 9,
-          "visitors": 6
+          "views": 16,
+          "visitors": 12
+        },
+        {
+          "d": "2026-10-13",
+          "views": 3,
+          "visitors": 2
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 61,
-          "visitors": 57,
+          "n": 64,
+          "visitors": 62,
           "depth": 47,
           "secs": 8,
           "measured": 49
         },
         {
           "key": "/consulting/",
-          "n": 17,
+          "n": 15,
           "visitors": 14,
           "depth": 63,
-          "secs": 8,
-          "measured": 17
+          "secs": 7,
+          "measured": 15
         },
         {
           "key": "/consulting/about/",
-          "n": 8,
-          "visitors": 8,
-          "depth": 84,
-          "secs": 18,
-          "measured": 8
+          "n": 7,
+          "visitors": 7,
+          "depth": 86,
+          "secs": 19,
+          "measured": 7
         },
         {
           "key": "/consulting/writing/",
           "n": 5,
-          "visitors": 4,
-          "depth": 28,
-          "secs": 8,
-          "measured": 5
+          "visitors": 5,
+          "depth": 61,
+          "secs": 30,
+          "measured": 4
         },
         {
           "key": "/consulting/schools/",
-          "n": 5,
-          "visitors": 3,
+          "n": 2,
+          "visitors": 2,
           "depth": 62,
-          "secs": 10,
-          "measured": 4
+          "secs": 32,
+          "measured": 2
         },
         {
           "key": "/consulting/speaking/",
-          "n": 4,
-          "visitors": 2,
-          "depth": 80,
-          "secs": 12,
-          "measured": 4
+          "n": 1,
+          "visitors": 1,
+          "depth": 60,
+          "secs": 16,
+          "measured": 1
         }
       ],
       "journeys": [
+        {
+          "key": "/ → /consulting/",
+          "n": 4
+        },
         {
           "key": "/ → /consulting/ → /consulting/about/",
           "n": 4
         },
         {
-          "key": "/ → /consulting/",
-          "n": 3
-        },
-        {
           "key": "/ → /consulting/writing/",
-          "n": 2
-        },
-        {
-          "key": "/ → /consulting/ → /consulting/writing/ → /consulting/speaking/ → /consulting/schools/ → /consulting/speaking/ → /consulting/writing/ → /consulting/about/ → /consulting/schools/ → /consulting/ → / → /consulting/ → /consulting/speaking/",
-          "n": 1
+          "n": 3
         },
         {
           "key": "/consulting/ → /consulting/schools/ → /consulting/speaking/",
@@ -494,7 +527,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 57
+          "n": 62
         },
         {
           "key": "/consulting/",
@@ -503,42 +536,46 @@
         {
           "key": "/consulting/schools/",
           "n": 1
+        },
+        {
+          "key": "/consulting/writing/",
+          "n": 1
         }
       ],
       "exits": [
         {
           "key": "/",
-          "n": 46
+          "n": 50
+        },
+        {
+          "key": "/consulting/",
+          "n": 7
         },
         {
           "key": "/consulting/about/",
           "n": 7
         },
         {
-          "key": "/consulting/",
-          "n": 6
+          "key": "/consulting/writing/",
+          "n": 4
         },
         {
           "key": "/consulting/speaking/",
-          "n": 2
-        },
-        {
-          "key": "/consulting/writing/",
-          "n": 2
+          "n": 1
         }
       ],
       "sources": [
-        {
-          "key": "internal",
-          "n": 38
-        },
         {
           "key": "direct",
           "n": 32
         },
         {
           "key": "search",
-          "n": 29
+          "n": 31
+        },
+        {
+          "key": "internal",
+          "n": 30
         },
         {
           "key": "social",
@@ -548,11 +585,11 @@
       "referrers": [
         {
           "key": "peternilsson.us",
-          "n": 38
+          "n": 30
         },
         {
           "key": "google.com",
-          "n": 26
+          "n": 28
         },
         {
           "key": "duckduckgo.com",
@@ -571,7 +608,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 83
+          "n": 77
         },
         {
           "key": "SE",
@@ -608,8 +645,8 @@
       ],
       "cities": [
         {
-          "key": "Portland, Maine",
-          "n": 14
+          "key": "Pittsburgh, Pennsylvania",
+          "n": 9
         },
         {
           "key": "Honolulu, Hawaii",
@@ -624,7 +661,7 @@
           "n": 6
         },
         {
-          "key": "Pittsburgh, Pennsylvania",
+          "key": "Council Bluffs, Iowa",
           "n": 5
         },
         {
@@ -636,15 +673,15 @@
           "n": 4
         },
         {
-          "key": "Council Bluffs, Iowa",
-          "n": 3
-        },
-        {
           "key": "Annapolis, Maryland",
           "n": 3
         },
         {
           "key": "Atlanta, Georgia",
+          "n": 3
+        },
+        {
+          "key": "Bellevue, Pennsylvania",
           "n": 3
         },
         {
@@ -656,10 +693,6 @@
           "n": 3
         },
         {
-          "key": "Ann Arbor, Michigan",
-          "n": 2
-        },
-        {
           "key": "Corona, California",
           "n": 2
         },
@@ -668,7 +701,7 @@
           "n": 2
         },
         {
-          "key": "Bellevue, Pennsylvania",
+          "key": "Dallas, Texas",
           "n": 2
         },
         {
@@ -686,34 +719,38 @@
         {
           "key": "Oakland, California",
           "n": 2
+        },
+        {
+          "key": "Baltimore, Maryland",
+          "n": 2
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 66
+          "n": 56
         },
         {
           "key": "mobile",
-          "n": 32
+          "n": 37
         },
         {
           "key": "tablet",
-          "n": 2
+          "n": 1
         }
       ],
       "browsers": [
         {
           "key": "Chrome",
-          "n": 50
+          "n": 54
         },
         {
           "key": "Safari",
-          "n": 41
+          "n": 29
         },
         {
           "key": "Firefox",
-          "n": 5
+          "n": 7
         },
         {
           "key": "Other",
@@ -726,20 +763,20 @@
       ],
       "systems": [
         {
-          "key": "macOS",
-          "n": 41
+          "key": "iOS",
+          "n": 30
         },
         {
-          "key": "iOS",
-          "n": 26
+          "key": "macOS",
+          "n": 29
         },
         {
           "key": "Windows",
-          "n": 24
+          "n": 25
         },
         {
           "key": "Android",
-          "n": 6
+          "n": 7
         },
         {
           "key": "Linux",
@@ -767,7 +804,7 @@
       "links": [
         {
           "key": "https://schooledthemusical.com/",
-          "n": 6
+          "n": 8
         },
         {
           "key": "https://www.amazon.com/Irreplaceable-Everything-Teaching-Learning-technologists/dp/B0FT3PFX1K/",
@@ -797,27 +834,27 @@
       "internalLinks": [
         {
           "key": "https://peternilsson.us/consulting/",
-          "n": 11
+          "n": 10
         },
         {
           "key": "https://peternilsson.us/consulting/about/",
-          "n": 8
+          "n": 7
         },
         {
           "key": "https://peternilsson.us/consulting/writing/",
-          "n": 5
-        },
-        {
-          "key": "https://peternilsson.us/consulting/speaking/",
           "n": 4
         },
         {
           "key": "https://peternilsson.us/consulting/schools/",
-          "n": 4
+          "n": 2
         },
         {
           "key": "https://peternilsson.us/",
-          "n": 2
+          "n": 1
+        },
+        {
+          "key": "https://peternilsson.us/consulting/speaking/",
+          "n": 1
         },
         {
           "key": "https://peternilsson.us/#work",
@@ -829,21 +866,21 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-09-12T17:47:52.814Z",
-      "to": "2026-10-12T17:47:52.814Z",
+      "from": "2026-09-13T01:59:28.658Z",
+      "to": "2026-10-13T01:59:28.658Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 111,
-        "clicks": 56,
-        "links": 18,
-        "visitors": 72,
+        "views": 121,
+        "clicks": 60,
+        "links": 20,
+        "visitors": 80,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 9,
+        "days": 10,
         "medianPagesPerVisit": 1,
         "medianDepth": 52,
-        "medianSecs": 10
+        "medianSecs": 9
       },
       "series": [
         {
@@ -888,26 +925,31 @@
         },
         {
           "d": "2026-10-12",
-          "views": 9,
-          "visitors": 6
+          "views": 16,
+          "visitors": 12
+        },
+        {
+          "d": "2026-10-13",
+          "views": 3,
+          "visitors": 2
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 70,
-          "visitors": 66,
+          "n": 77,
+          "visitors": 73,
           "depth": 47,
-          "secs": 9,
-          "measured": 52
+          "secs": 8,
+          "measured": 56
         },
         {
           "key": "/consulting/",
-          "n": 18,
-          "visitors": 15,
-          "depth": 68,
+          "n": 19,
+          "visitors": 16,
+          "depth": 72,
           "secs": 8,
-          "measured": 18
+          "measured": 19
         },
         {
           "key": "/consulting/about/",
@@ -919,11 +961,11 @@
         },
         {
           "key": "/consulting/writing/",
-          "n": 5,
-          "visitors": 4,
-          "depth": 28,
-          "secs": 8,
-          "measured": 5
+          "n": 7,
+          "visitors": 6,
+          "depth": 31,
+          "secs": 12,
+          "measured": 6
         },
         {
           "key": "/consulting/schools/",
@@ -949,11 +991,11 @@
         },
         {
           "key": "/ → /consulting/",
-          "n": 3
+          "n": 4
         },
         {
           "key": "/ → /consulting/writing/",
-          "n": 2
+          "n": 3
         },
         {
           "key": "/ → /consulting/ → /consulting/writing/ → /consulting/speaking/ → /consulting/schools/ → /consulting/speaking/ → /consulting/writing/ → /consulting/about/ → /consulting/schools/ → /consulting/ → / → /consulting/ → /consulting/speaking/",
@@ -979,7 +1021,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 66
+          "n": 73
         },
         {
           "key": "/consulting/",
@@ -988,12 +1030,16 @@
         {
           "key": "/consulting/schools/",
           "n": 1
+        },
+        {
+          "key": "/consulting/writing/",
+          "n": 1
         }
       ],
       "exits": [
         {
           "key": "/",
-          "n": 54
+          "n": 59
         },
         {
           "key": "/consulting/about/",
@@ -1001,29 +1047,29 @@
         },
         {
           "key": "/consulting/",
-          "n": 6
-        },
-        {
-          "key": "/consulting/speaking/",
-          "n": 2
+          "n": 7
         },
         {
           "key": "/consulting/writing/",
+          "n": 4
+        },
+        {
+          "key": "/consulting/speaking/",
           "n": 2
         }
       ],
       "sources": [
         {
           "key": "internal",
-          "n": 41
+          "n": 44
         },
         {
           "key": "direct",
-          "n": 38
+          "n": 42
         },
         {
           "key": "search",
-          "n": 31
+          "n": 34
         },
         {
           "key": "social",
@@ -1033,11 +1079,11 @@
       "referrers": [
         {
           "key": "peternilsson.us",
-          "n": 41
+          "n": 44
         },
         {
           "key": "google.com",
-          "n": 27
+          "n": 30
         },
         {
           "key": "bing.com",
@@ -1056,7 +1102,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 92
+          "n": 102
         },
         {
           "key": "SE",
@@ -1109,6 +1155,10 @@
           "n": 11
         },
         {
+          "key": "Pittsburgh, Pennsylvania",
+          "n": 9
+        },
+        {
           "key": "Honolulu, Hawaii",
           "n": 8
         },
@@ -1117,7 +1167,7 @@
           "n": 6
         },
         {
-          "key": "Pittsburgh, Pennsylvania",
+          "key": "Council Bluffs, Iowa",
           "n": 5
         },
         {
@@ -1129,15 +1179,15 @@
           "n": 4
         },
         {
-          "key": "Council Bluffs, Iowa",
-          "n": 3
-        },
-        {
           "key": "Annapolis, Maryland",
           "n": 3
         },
         {
           "key": "Atlanta, Georgia",
+          "n": 3
+        },
+        {
+          "key": "Bellevue, Pennsylvania",
           "n": 3
         },
         {
@@ -1165,7 +1215,7 @@
           "n": 2
         },
         {
-          "key": "Bellevue, Pennsylvania",
+          "key": "Dallas, Texas",
           "n": 2
         },
         {
@@ -1175,20 +1225,16 @@
         {
           "key": "Harrisburg, Pennsylvania",
           "n": 2
-        },
-        {
-          "key": "Amsterdam, North Holland",
-          "n": 2
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 75
+          "n": 80
         },
         {
           "key": "mobile",
-          "n": 34
+          "n": 39
         },
         {
           "key": "tablet",
@@ -1198,15 +1244,15 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 57
+          "n": 63
         },
         {
           "key": "Safari",
-          "n": 42
+          "n": 44
         },
         {
           "key": "Firefox",
-          "n": 5
+          "n": 7
         },
         {
           "key": "Other",
@@ -1220,19 +1266,19 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 44
+          "n": 46
         },
         {
           "key": "Windows",
-          "n": 28
+          "n": 31
         },
         {
           "key": "iOS",
-          "n": 27
+          "n": 31
         },
         {
           "key": "Android",
-          "n": 7
+          "n": 8
         },
         {
           "key": "Linux",
@@ -1264,7 +1310,7 @@
       "links": [
         {
           "key": "https://schooledthemusical.com/",
-          "n": 7
+          "n": 9
         },
         {
           "key": "https://educatorsnotebook.com/subscribe/",
@@ -1294,7 +1340,7 @@
       "internalLinks": [
         {
           "key": "https://peternilsson.us/consulting/",
-          "n": 12
+          "n": 13
         },
         {
           "key": "https://peternilsson.us/consulting/about/",
@@ -1302,7 +1348,7 @@
         },
         {
           "key": "https://peternilsson.us/consulting/writing/",
-          "n": 5
+          "n": 6
         },
         {
           "key": "https://peternilsson.us/consulting/speaking/",
@@ -1326,21 +1372,21 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-10-12T17:47:52.814Z",
-      "to": "2026-10-12T17:47:52.814Z",
+      "from": "2025-10-13T01:59:28.658Z",
+      "to": "2026-10-13T01:59:28.658Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 111,
-        "clicks": 56,
-        "links": 18,
-        "visitors": 72,
+        "views": 121,
+        "clicks": 60,
+        "links": 20,
+        "visitors": 80,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 9,
+        "days": 10,
         "medianPagesPerVisit": 1,
         "medianDepth": 52,
-        "medianSecs": 10
+        "medianSecs": 9
       },
       "series": [
         {
@@ -1385,26 +1431,31 @@
         },
         {
           "d": "2026-10-12",
-          "views": 9,
-          "visitors": 6
+          "views": 16,
+          "visitors": 12
+        },
+        {
+          "d": "2026-10-13",
+          "views": 3,
+          "visitors": 2
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 70,
-          "visitors": 66,
+          "n": 77,
+          "visitors": 73,
           "depth": 47,
-          "secs": 9,
-          "measured": 52
+          "secs": 8,
+          "measured": 56
         },
         {
           "key": "/consulting/",
-          "n": 18,
-          "visitors": 15,
-          "depth": 68,
+          "n": 19,
+          "visitors": 16,
+          "depth": 72,
           "secs": 8,
-          "measured": 18
+          "measured": 19
         },
         {
           "key": "/consulting/about/",
@@ -1416,11 +1467,11 @@
         },
         {
           "key": "/consulting/writing/",
-          "n": 5,
-          "visitors": 4,
-          "depth": 28,
-          "secs": 8,
-          "measured": 5
+          "n": 7,
+          "visitors": 6,
+          "depth": 31,
+          "secs": 12,
+          "measured": 6
         },
         {
           "key": "/consulting/schools/",
@@ -1446,11 +1497,11 @@
         },
         {
           "key": "/ → /consulting/",
-          "n": 3
+          "n": 4
         },
         {
           "key": "/ → /consulting/writing/",
-          "n": 2
+          "n": 3
         },
         {
           "key": "/ → /consulting/ → /consulting/writing/ → /consulting/speaking/ → /consulting/schools/ → /consulting/speaking/ → /consulting/writing/ → /consulting/about/ → /consulting/schools/ → /consulting/ → / → /consulting/ → /consulting/speaking/",
@@ -1476,7 +1527,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 66
+          "n": 73
         },
         {
           "key": "/consulting/",
@@ -1485,12 +1536,16 @@
         {
           "key": "/consulting/schools/",
           "n": 1
+        },
+        {
+          "key": "/consulting/writing/",
+          "n": 1
         }
       ],
       "exits": [
         {
           "key": "/",
-          "n": 54
+          "n": 59
         },
         {
           "key": "/consulting/about/",
@@ -1498,29 +1553,29 @@
         },
         {
           "key": "/consulting/",
-          "n": 6
-        },
-        {
-          "key": "/consulting/speaking/",
-          "n": 2
+          "n": 7
         },
         {
           "key": "/consulting/writing/",
+          "n": 4
+        },
+        {
+          "key": "/consulting/speaking/",
           "n": 2
         }
       ],
       "sources": [
         {
           "key": "internal",
-          "n": 41
+          "n": 44
         },
         {
           "key": "direct",
-          "n": 38
+          "n": 42
         },
         {
           "key": "search",
-          "n": 31
+          "n": 34
         },
         {
           "key": "social",
@@ -1530,11 +1585,11 @@
       "referrers": [
         {
           "key": "peternilsson.us",
-          "n": 41
+          "n": 44
         },
         {
           "key": "google.com",
-          "n": 27
+          "n": 30
         },
         {
           "key": "bing.com",
@@ -1553,7 +1608,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 92
+          "n": 102
         },
         {
           "key": "SE",
@@ -1606,6 +1661,10 @@
           "n": 11
         },
         {
+          "key": "Pittsburgh, Pennsylvania",
+          "n": 9
+        },
+        {
           "key": "Honolulu, Hawaii",
           "n": 8
         },
@@ -1614,7 +1673,7 @@
           "n": 6
         },
         {
-          "key": "Pittsburgh, Pennsylvania",
+          "key": "Council Bluffs, Iowa",
           "n": 5
         },
         {
@@ -1626,15 +1685,15 @@
           "n": 4
         },
         {
-          "key": "Council Bluffs, Iowa",
-          "n": 3
-        },
-        {
           "key": "Annapolis, Maryland",
           "n": 3
         },
         {
           "key": "Atlanta, Georgia",
+          "n": 3
+        },
+        {
+          "key": "Bellevue, Pennsylvania",
           "n": 3
         },
         {
@@ -1662,7 +1721,7 @@
           "n": 2
         },
         {
-          "key": "Bellevue, Pennsylvania",
+          "key": "Dallas, Texas",
           "n": 2
         },
         {
@@ -1672,20 +1731,16 @@
         {
           "key": "Harrisburg, Pennsylvania",
           "n": 2
-        },
-        {
-          "key": "Amsterdam, North Holland",
-          "n": 2
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 75
+          "n": 80
         },
         {
           "key": "mobile",
-          "n": 34
+          "n": 39
         },
         {
           "key": "tablet",
@@ -1695,15 +1750,15 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 57
+          "n": 63
         },
         {
           "key": "Safari",
-          "n": 42
+          "n": 44
         },
         {
           "key": "Firefox",
-          "n": 5
+          "n": 7
         },
         {
           "key": "Other",
@@ -1717,19 +1772,19 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 44
+          "n": 46
         },
         {
           "key": "Windows",
-          "n": 28
+          "n": 31
         },
         {
           "key": "iOS",
-          "n": 27
+          "n": 31
         },
         {
           "key": "Android",
-          "n": 7
+          "n": 8
         },
         {
           "key": "Linux",
@@ -1761,7 +1816,7 @@
       "links": [
         {
           "key": "https://schooledthemusical.com/",
-          "n": 7
+          "n": 9
         },
         {
           "key": "https://educatorsnotebook.com/subscribe/",
@@ -1791,7 +1846,7 @@
       "internalLinks": [
         {
           "key": "https://peternilsson.us/consulting/",
-          "n": 12
+          "n": 13
         },
         {
           "key": "https://peternilsson.us/consulting/about/",
@@ -1799,7 +1854,7 @@
         },
         {
           "key": "https://peternilsson.us/consulting/writing/",
-          "n": 5
+          "n": 6
         },
         {
           "key": "https://peternilsson.us/consulting/speaking/",
@@ -1824,20 +1879,20 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-10-12T17:47:52.814Z",
+      "to": "2026-10-13T01:59:28.658Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 111,
-        "clicks": 56,
-        "links": 18,
-        "visitors": 72,
+        "views": 121,
+        "clicks": 60,
+        "links": 20,
+        "visitors": 80,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 9,
+        "days": 10,
         "medianPagesPerVisit": 1,
         "medianDepth": 52,
-        "medianSecs": 10
+        "medianSecs": 9
       },
       "series": [
         {
@@ -1882,26 +1937,31 @@
         },
         {
           "d": "2026-10-12",
-          "views": 9,
-          "visitors": 6
+          "views": 16,
+          "visitors": 12
+        },
+        {
+          "d": "2026-10-13",
+          "views": 3,
+          "visitors": 2
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 70,
-          "visitors": 66,
+          "n": 77,
+          "visitors": 73,
           "depth": 47,
-          "secs": 9,
-          "measured": 52
+          "secs": 8,
+          "measured": 56
         },
         {
           "key": "/consulting/",
-          "n": 18,
-          "visitors": 15,
-          "depth": 68,
+          "n": 19,
+          "visitors": 16,
+          "depth": 72,
           "secs": 8,
-          "measured": 18
+          "measured": 19
         },
         {
           "key": "/consulting/about/",
@@ -1913,11 +1973,11 @@
         },
         {
           "key": "/consulting/writing/",
-          "n": 5,
-          "visitors": 4,
-          "depth": 28,
-          "secs": 8,
-          "measured": 5
+          "n": 7,
+          "visitors": 6,
+          "depth": 31,
+          "secs": 12,
+          "measured": 6
         },
         {
           "key": "/consulting/schools/",
@@ -1943,11 +2003,11 @@
         },
         {
           "key": "/ → /consulting/",
-          "n": 3
+          "n": 4
         },
         {
           "key": "/ → /consulting/writing/",
-          "n": 2
+          "n": 3
         },
         {
           "key": "/ → /consulting/ → /consulting/writing/ → /consulting/speaking/ → /consulting/schools/ → /consulting/speaking/ → /consulting/writing/ → /consulting/about/ → /consulting/schools/ → /consulting/ → / → /consulting/ → /consulting/speaking/",
@@ -1973,7 +2033,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 66
+          "n": 73
         },
         {
           "key": "/consulting/",
@@ -1982,12 +2042,16 @@
         {
           "key": "/consulting/schools/",
           "n": 1
+        },
+        {
+          "key": "/consulting/writing/",
+          "n": 1
         }
       ],
       "exits": [
         {
           "key": "/",
-          "n": 54
+          "n": 59
         },
         {
           "key": "/consulting/about/",
@@ -1995,29 +2059,29 @@
         },
         {
           "key": "/consulting/",
-          "n": 6
-        },
-        {
-          "key": "/consulting/speaking/",
-          "n": 2
+          "n": 7
         },
         {
           "key": "/consulting/writing/",
+          "n": 4
+        },
+        {
+          "key": "/consulting/speaking/",
           "n": 2
         }
       ],
       "sources": [
         {
           "key": "internal",
-          "n": 41
+          "n": 44
         },
         {
           "key": "direct",
-          "n": 38
+          "n": 42
         },
         {
           "key": "search",
-          "n": 31
+          "n": 34
         },
         {
           "key": "social",
@@ -2027,11 +2091,11 @@
       "referrers": [
         {
           "key": "peternilsson.us",
-          "n": 41
+          "n": 44
         },
         {
           "key": "google.com",
-          "n": 27
+          "n": 30
         },
         {
           "key": "bing.com",
@@ -2050,7 +2114,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 92
+          "n": 102
         },
         {
           "key": "SE",
@@ -2103,6 +2167,10 @@
           "n": 11
         },
         {
+          "key": "Pittsburgh, Pennsylvania",
+          "n": 9
+        },
+        {
           "key": "Honolulu, Hawaii",
           "n": 8
         },
@@ -2111,7 +2179,7 @@
           "n": 6
         },
         {
-          "key": "Pittsburgh, Pennsylvania",
+          "key": "Council Bluffs, Iowa",
           "n": 5
         },
         {
@@ -2123,15 +2191,15 @@
           "n": 4
         },
         {
-          "key": "Council Bluffs, Iowa",
-          "n": 3
-        },
-        {
           "key": "Annapolis, Maryland",
           "n": 3
         },
         {
           "key": "Atlanta, Georgia",
+          "n": 3
+        },
+        {
+          "key": "Bellevue, Pennsylvania",
           "n": 3
         },
         {
@@ -2159,7 +2227,7 @@
           "n": 2
         },
         {
-          "key": "Bellevue, Pennsylvania",
+          "key": "Dallas, Texas",
           "n": 2
         },
         {
@@ -2169,20 +2237,16 @@
         {
           "key": "Harrisburg, Pennsylvania",
           "n": 2
-        },
-        {
-          "key": "Amsterdam, North Holland",
-          "n": 2
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 75
+          "n": 80
         },
         {
           "key": "mobile",
-          "n": 34
+          "n": 39
         },
         {
           "key": "tablet",
@@ -2192,15 +2256,15 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 57
+          "n": 63
         },
         {
           "key": "Safari",
-          "n": 42
+          "n": 44
         },
         {
           "key": "Firefox",
-          "n": 5
+          "n": 7
         },
         {
           "key": "Other",
@@ -2214,19 +2278,19 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 44
+          "n": 46
         },
         {
           "key": "Windows",
-          "n": 28
+          "n": 31
         },
         {
           "key": "iOS",
-          "n": 27
+          "n": 31
         },
         {
           "key": "Android",
-          "n": 7
+          "n": 8
         },
         {
           "key": "Linux",
@@ -2258,7 +2322,7 @@
       "links": [
         {
           "key": "https://schooledthemusical.com/",
-          "n": 7
+          "n": 9
         },
         {
           "key": "https://educatorsnotebook.com/subscribe/",
@@ -2288,7 +2352,7 @@
       "internalLinks": [
         {
           "key": "https://peternilsson.us/consulting/",
-          "n": 12
+          "n": 13
         },
         {
           "key": "https://peternilsson.us/consulting/about/",
@@ -2296,7 +2360,7 @@
         },
         {
           "key": "https://peternilsson.us/consulting/writing/",
-          "n": 5
+          "n": 6
         },
         {
           "key": "https://peternilsson.us/consulting/speaking/",
