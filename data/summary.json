@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T23:11:11.838Z",
+  "generated": "2026-10-15T13:21:09.984Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -10,15 +10,15 @@
   ],
   "span": {
     "first": "2026-10-04T07:39:33.300Z",
-    "days": 11
+    "days": 12
   },
   "ranges": {
     "24h": {
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-10-13T23:11:11.838Z",
-      "to": "2026-10-14T23:11:11.838Z",
+      "from": "2026-10-14T13:21:09.984Z",
+      "to": "2026-10-15T13:21:09.984Z",
       "available": true,
       "granularity": "hour",
       "totals": {
@@ -30,80 +30,10 @@
         "contactVisitors": 0,
         "days": 2,
         "medianPagesPerVisit": 1,
-        "medianDepth": 61,
-        "medianSecs": 16
+        "medianDepth": 59,
+        "medianSecs": 11
       },
       "series": [
-        {
-          "t": "2026-10-14T00:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-14T01:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-14T02:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-14T03:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-14T04:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-14T05:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-14T06:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-14T07:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-14T08:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-14T09:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-14T10:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-14T11:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-14T12:00:00.000Z",
-          "views": 1,
-          "visitors": 1
-        },
-        {
-          "t": "2026-10-14T13:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
         {
           "t": "2026-10-14T14:00:00.000Z",
           "views": 4,
@@ -153,6 +83,76 @@
           "t": "2026-10-14T23:00:00.000Z",
           "views": 0,
           "visitors": 0
+        },
+        {
+          "t": "2026-10-15T00:00:00.000Z",
+          "views": 2,
+          "visitors": 2
+        },
+        {
+          "t": "2026-10-15T01:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-15T02:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-15T03:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-15T04:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-15T05:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-15T06:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-15T07:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-15T08:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-15T09:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-15T10:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-15T11:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-15T12:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-15T13:00:00.000Z",
+          "views": 0,
+          "visitors": 0
         }
       ],
       "pages": [
@@ -160,9 +160,9 @@
           "key": "/",
           "n": 11,
           "visitors": 11,
-          "depth": 53,
-          "secs": 16,
-          "measured": 9
+          "depth": 37,
+          "secs": 11,
+          "measured": 10
         },
         {
           "key": "/consulting/",
@@ -230,7 +230,7 @@
       "sources": [
         {
           "key": "search",
-          "n": 11
+          "n": 9
         },
         {
           "key": "internal",
@@ -238,13 +238,13 @@
         },
         {
           "key": "direct",
-          "n": 1
+          "n": 3
         }
       ],
       "referrers": [
         {
           "key": "google.com",
-          "n": 10
+          "n": 8
         },
         {
           "key": "peternilsson.us",
@@ -276,12 +276,8 @@
           "n": 3
         },
         {
-          "key": "Richmond, Virginia",
-          "n": 1
-        },
-        {
-          "key": "Parsippany, New Jersey",
-          "n": 1
+          "key": "Bellevue, Pennsylvania",
+          "n": 2
         },
         {
           "key": "Albany, New York",
@@ -307,21 +303,21 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 15
+          "n": 14
         },
         {
           "key": "mobile",
-          "n": 2
+          "n": 3
         }
       ],
       "browsers": [
         {
           "key": "Chrome",
-          "n": 15
+          "n": 14
         },
         {
           "key": "Safari",
-          "n": 2
+          "n": 3
         }
       ],
       "systems": [
@@ -331,11 +327,11 @@
         },
         {
           "key": "Windows",
-          "n": 5
+          "n": 4
         },
         {
           "key": "iOS",
-          "n": 2
+          "n": 3
         }
       ],
       "contactsBySource": [],
@@ -378,27 +374,27 @@
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-10-07T23:11:11.838Z",
-      "to": "2026-10-14T23:11:11.838Z",
+      "from": "2026-10-08T13:21:09.984Z",
+      "to": "2026-10-15T13:21:09.984Z",
       "available": true,
       "granularity": "day",
       "totals": {
         "views": 82,
-        "clicks": 37,
-        "links": 16,
+        "clicks": 35,
+        "links": 15,
         "visitors": 63,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 7,
+        "days": 8,
         "medianPagesPerVisit": 1,
         "medianDepth": 63,
-        "medianSecs": 12
+        "medianSecs": 11
       },
       "series": [
         {
           "d": "2026-10-08",
-          "views": 9,
-          "visitors": 9
+          "views": 7,
+          "visitors": 7
         },
         {
           "d": "2026-10-09",
@@ -429,6 +425,11 @@
           "d": "2026-10-14",
           "views": 16,
           "visitors": 11
+        },
+        {
+          "d": "2026-10-15",
+          "views": 2,
+          "visitors": 2
         }
       ],
       "pages": [
@@ -436,8 +437,8 @@
           "key": "/",
           "n": 58,
           "visitors": 57,
-          "depth": 57,
-          "secs": 13,
+          "depth": 56,
+          "secs": 11,
           "measured": 45
         },
         {
@@ -566,11 +567,11 @@
       "sources": [
         {
           "key": "search",
-          "n": 36
+          "n": 34
         },
         {
           "key": "direct",
-          "n": 24
+          "n": 26
         },
         {
           "key": "internal",
@@ -584,7 +585,7 @@
       "referrers": [
         {
           "key": "google.com",
-          "n": 33
+          "n": 31
         },
         {
           "key": "peternilsson.us",
@@ -607,7 +608,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 70
+          "n": 71
         },
         {
           "key": "SE",
@@ -620,10 +621,6 @@
         {
           "key": "NL",
           "n": 2
-        },
-        {
-          "key": "KG",
-          "n": 1
         },
         {
           "key": "GB",
@@ -644,6 +641,10 @@
           "n": 6
         },
         {
+          "key": "Bellevue, Pennsylvania",
+          "n": 5
+        },
+        {
           "key": "Haninge, Stockholm",
           "n": 5
         },
@@ -657,10 +658,6 @@
         },
         {
           "key": "Bridgeville, Pennsylvania",
-          "n": 3
-        },
-        {
-          "key": "Bellevue, Pennsylvania",
           "n": 3
         },
         {
@@ -715,11 +712,11 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 44
+          "n": 43
         },
         {
           "key": "mobile",
-          "n": 37
+          "n": 38
         },
         {
           "key": "tablet",
@@ -729,11 +726,11 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 44
+          "n": 43
         },
         {
           "key": "Safari",
-          "n": 27
+          "n": 28
         },
         {
           "key": "Firefox",
@@ -751,11 +748,11 @@
       "systems": [
         {
           "key": "iOS",
-          "n": 32
+          "n": 33
         },
         {
           "key": "macOS",
-          "n": 26
+          "n": 25
         },
         {
           "key": "Windows",
@@ -776,7 +773,7 @@
       "links": [
         {
           "key": "https://schooledthemusical.com/",
-          "n": 7
+          "n": 6
         },
         {
           "key": "https://educatorsnotebook.com/subscribe/",
@@ -809,16 +806,16 @@
           "n": 3
         },
         {
-          "key": "https://peternilsson.us/#work",
-          "n": 2
-        },
-        {
           "key": "https://peternilsson.us/consulting/schools/",
           "n": 2
         },
         {
           "key": "https://peternilsson.us/consulting/speaking/",
           "n": 2
+        },
+        {
+          "key": "https://peternilsson.us/#work",
+          "n": 1
         }
       ]
     },
@@ -826,20 +823,20 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-09-14T23:11:11.838Z",
-      "to": "2026-10-14T23:11:11.838Z",
+      "from": "2026-09-15T13:21:09.984Z",
+      "to": "2026-10-15T13:21:09.984Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 147,
+        "views": 149,
         "clicks": 72,
         "links": 26,
-        "visitors": 100,
+        "visitors": 102,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 11,
+        "days": 12,
         "medianPagesPerVisit": 1,
-        "medianDepth": 60,
+        "medianDepth": 57,
         "medianSecs": 10
       },
       "series": [
@@ -897,16 +894,21 @@
           "d": "2026-10-14",
           "views": 16,
           "visitors": 11
+        },
+        {
+          "d": "2026-10-15",
+          "views": 2,
+          "visitors": 2
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 97,
-          "visitors": 92,
-          "depth": 49,
-          "secs": 11,
-          "measured": 73
+          "n": 99,
+          "visitors": 94,
+          "depth": 47,
+          "secs": 10,
+          "measured": 75
         },
         {
           "key": "/consulting/",
@@ -998,7 +1000,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 92
+          "n": 94
         },
         {
           "key": "/consulting/",
@@ -1016,7 +1018,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 76
+          "n": 78
         },
         {
           "key": "/consulting/about/",
@@ -1050,7 +1052,7 @@
         },
         {
           "key": "direct",
-          "n": 46
+          "n": 48
         },
         {
           "key": "social",
@@ -1083,7 +1085,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 127
+          "n": 129
         },
         {
           "key": "SE",
@@ -1152,6 +1154,10 @@
           "n": 5
         },
         {
+          "key": "Bellevue, Pennsylvania",
+          "n": 5
+        },
+        {
           "key": "Haninge, Stockholm",
           "n": 5
         },
@@ -1169,10 +1175,6 @@
         },
         {
           "key": "Atlanta, Georgia",
-          "n": 3
-        },
-        {
-          "key": "Bellevue, Pennsylvania",
           "n": 3
         },
         {
@@ -1215,7 +1217,7 @@
         },
         {
           "key": "mobile",
-          "n": 48
+          "n": 50
         },
         {
           "key": "tablet",
@@ -1229,7 +1231,7 @@
         },
         {
           "key": "Safari",
-          "n": 50
+          "n": 52
         },
         {
           "key": "Firefox",
@@ -1251,7 +1253,7 @@
         },
         {
           "key": "iOS",
-          "n": 40
+          "n": 42
         },
         {
           "key": "Windows",
@@ -1357,20 +1359,20 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-10-14T23:11:11.838Z",
-      "to": "2026-10-14T23:11:11.838Z",
+      "from": "2025-10-15T13:21:09.984Z",
+      "to": "2026-10-15T13:21:09.984Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 147,
+        "views": 149,
         "clicks": 72,
         "links": 26,
-        "visitors": 100,
+        "visitors": 102,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 11,
+        "days": 12,
         "medianPagesPerVisit": 1,
-        "medianDepth": 60,
+        "medianDepth": 57,
         "medianSecs": 10
       },
       "series": [
@@ -1428,16 +1430,21 @@
           "d": "2026-10-14",
           "views": 16,
           "visitors": 11
+        },
+        {
+          "d": "2026-10-15",
+          "views": 2,
+          "visitors": 2
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 97,
-          "visitors": 92,
-          "depth": 49,
-          "secs": 11,
-          "measured": 73
+          "n": 99,
+          "visitors": 94,
+          "depth": 47,
+          "secs": 10,
+          "measured": 75
         },
         {
           "key": "/consulting/",
@@ -1529,7 +1536,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 92
+          "n": 94
         },
         {
           "key": "/consulting/",
@@ -1547,7 +1554,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 76
+          "n": 78
         },
         {
           "key": "/consulting/about/",
@@ -1581,7 +1588,7 @@
         },
         {
           "key": "direct",
-          "n": 46
+          "n": 48
         },
         {
           "key": "social",
@@ -1614,7 +1621,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 127
+          "n": 129
         },
         {
           "key": "SE",
@@ -1683,6 +1690,10 @@
           "n": 5
         },
         {
+          "key": "Bellevue, Pennsylvania",
+          "n": 5
+        },
+        {
           "key": "Haninge, Stockholm",
           "n": 5
         },
@@ -1700,10 +1711,6 @@
         },
         {
           "key": "Atlanta, Georgia",
-          "n": 3
-        },
-        {
-          "key": "Bellevue, Pennsylvania",
           "n": 3
         },
         {
@@ -1746,7 +1753,7 @@
         },
         {
           "key": "mobile",
-          "n": 48
+          "n": 50
         },
         {
           "key": "tablet",
@@ -1760,7 +1767,7 @@
         },
         {
           "key": "Safari",
-          "n": 50
+          "n": 52
         },
         {
           "key": "Firefox",
@@ -1782,7 +1789,7 @@
         },
         {
           "key": "iOS",
-          "n": 40
+          "n": 42
         },
         {
           "key": "Windows",
@@ -1889,19 +1896,19 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-10-14T23:11:11.838Z",
+      "to": "2026-10-15T13:21:09.984Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 147,
+        "views": 149,
         "clicks": 72,
         "links": 26,
-        "visitors": 100,
+        "visitors": 102,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 11,
+        "days": 12,
         "medianPagesPerVisit": 1,
-        "medianDepth": 60,
+        "medianDepth": 57,
         "medianSecs": 10
       },
       "series": [
@@ -1959,16 +1966,21 @@
           "d": "2026-10-14",
           "views": 16,
           "visitors": 11
+        },
+        {
+          "d": "2026-10-15",
+          "views": 2,
+          "visitors": 2
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 97,
-          "visitors": 92,
-          "depth": 49,
-          "secs": 11,
-          "measured": 73
+          "n": 99,
+          "visitors": 94,
+          "depth": 47,
+          "secs": 10,
+          "measured": 75
         },
         {
           "key": "/consulting/",
@@ -2060,7 +2072,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 92
+          "n": 94
         },
         {
           "key": "/consulting/",
@@ -2078,7 +2090,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 76
+          "n": 78
         },
         {
           "key": "/consulting/about/",
@@ -2112,7 +2124,7 @@
         },
         {
           "key": "direct",
-          "n": 46
+          "n": 48
         },
         {
           "key": "social",
@@ -2145,7 +2157,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 127
+          "n": 129
         },
         {
           "key": "SE",
@@ -2214,6 +2226,10 @@
           "n": 5
         },
         {
+          "key": "Bellevue, Pennsylvania",
+          "n": 5
+        },
+        {
           "key": "Haninge, Stockholm",
           "n": 5
         },
@@ -2231,10 +2247,6 @@
         },
         {
           "key": "Atlanta, Georgia",
-          "n": 3
-        },
-        {
-          "key": "Bellevue, Pennsylvania",
           "n": 3
         },
         {
@@ -2277,7 +2289,7 @@
         },
         {
           "key": "mobile",
-          "n": 48
+          "n": 50
         },
         {
           "key": "tablet",
@@ -2291,7 +2303,7 @@
         },
         {
           "key": "Safari",
-          "n": 50
+          "n": 52
         },
         {
           "key": "Firefox",
@@ -2313,7 +2325,7 @@
         },
         {
           "key": "iOS",
-          "n": 40
+          "n": 42
         },
         {
           "key": "Windows",
