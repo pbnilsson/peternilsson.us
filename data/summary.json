@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T12:34:51.547Z",
+  "generated": "2026-10-18T22:23:50.111Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -17,73 +17,23 @@
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-10-17T12:34:51.547Z",
-      "to": "2026-10-18T12:34:51.547Z",
+      "from": "2026-10-17T22:23:50.111Z",
+      "to": "2026-10-18T22:23:50.111Z",
       "available": true,
       "granularity": "hour",
       "totals": {
-        "views": 2,
-        "clicks": 0,
-        "links": 0,
-        "visitors": 2,
+        "views": 4,
+        "clicks": 1,
+        "links": 1,
+        "visitors": 4,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 1,
+        "days": 2,
         "medianPagesPerVisit": 1,
-        "medianDepth": 20,
-        "medianSecs": 4
+        "medianDepth": 57,
+        "medianSecs": 5
       },
       "series": [
-        {
-          "t": "2026-10-17T13:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T14:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T15:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T16:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T17:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T18:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T19:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T20:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T21:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T22:00:00.000Z",
-          "views": 2,
-          "visitors": 2
-        },
         {
           "t": "2026-10-17T23:00:00.000Z",
           "views": 0,
@@ -153,97 +103,173 @@
           "t": "2026-10-18T12:00:00.000Z",
           "views": 0,
           "visitors": 0
+        },
+        {
+          "t": "2026-10-18T13:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T14:00:00.000Z",
+          "views": 1,
+          "visitors": 1
+        },
+        {
+          "t": "2026-10-18T15:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T16:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T17:00:00.000Z",
+          "views": 1,
+          "visitors": 1
+        },
+        {
+          "t": "2026-10-18T18:00:00.000Z",
+          "views": 1,
+          "visitors": 1
+        },
+        {
+          "t": "2026-10-18T19:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T20:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T21:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T22:00:00.000Z",
+          "views": 0,
+          "visitors": 0
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 2,
-          "visitors": 2,
-          "depth": 20,
-          "secs": 4,
-          "measured": 2
+          "n": 4,
+          "visitors": 4,
+          "depth": 57,
+          "secs": 5,
+          "measured": 4
         }
       ],
       "journeys": [],
       "entries": [
         {
           "key": "/",
-          "n": 2
+          "n": 4
         }
       ],
       "exits": [
         {
           "key": "/",
-          "n": 2
+          "n": 4
         }
       ],
       "sources": [
         {
           "key": "direct",
           "n": 2
+        },
+        {
+          "key": "search",
+          "n": 2
         }
       ],
-      "referrers": [],
+      "referrers": [
+        {
+          "key": "bing.com",
+          "n": 2
+        }
+      ],
       "campaigns": [],
       "countries": [
         {
           "key": "US",
-          "n": 2
+          "n": 4
         }
       ],
       "cities": [
         {
-          "key": "Lanham, Maryland",
-          "n": 1
+          "key": "Charleston, West Virginia",
+          "n": 2
         },
         {
           "key": "Annapolis, Maryland",
+          "n": 1
+        },
+        {
+          "key": "Washington, District of Columbia",
           "n": 1
         }
       ],
       "devices": [
         {
           "key": "mobile",
-          "n": 2
+          "n": 3
+        },
+        {
+          "key": "desktop",
+          "n": 1
         }
       ],
       "browsers": [
         {
           "key": "Safari",
-          "n": 2
+          "n": 4
         }
       ],
       "systems": [
         {
           "key": "iOS",
-          "n": 2
+          "n": 3
+        },
+        {
+          "key": "macOS",
+          "n": 1
         }
       ],
       "contactsBySource": [],
       "contactsByPage": [],
       "contactsByEntry": [],
-      "links": [],
+      "links": [
+        {
+          "key": "http://www.athenalab.io/",
+          "n": 1
+        }
+      ],
       "internalLinks": []
     },
     "week": {
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-10-11T12:34:51.547Z",
-      "to": "2026-10-18T12:34:51.547Z",
+      "from": "2026-10-11T22:23:50.111Z",
+      "to": "2026-10-18T22:23:50.111Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 67,
-        "clicks": 27,
-        "links": 10,
-        "visitors": 46,
+        "views": 70,
+        "clicks": 28,
+        "links": 11,
+        "visitors": 49,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 6,
+        "days": 7,
         "medianPagesPerVisit": 1,
-        "medianDepth": 76,
+        "medianDepth": 75,
         "medianSecs": 11
       },
       "series": [
@@ -276,16 +302,21 @@
           "d": "2026-10-17",
           "views": 5,
           "visitors": 4
+        },
+        {
+          "d": "2026-10-18",
+          "views": 3,
+          "visitors": 3
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 47,
-          "visitors": 43,
+          "n": 50,
+          "visitors": 46,
           "depth": 62,
           "secs": 11,
-          "measured": 38
+          "measured": 41
         },
         {
           "key": "/consulting/",
@@ -365,7 +396,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 42
+          "n": 45
         },
         {
           "key": "/consulting/writing/",
@@ -379,7 +410,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 33
+          "n": 36
         },
         {
           "key": "/consulting/writing/",
@@ -405,7 +436,7 @@
       "sources": [
         {
           "key": "search",
-          "n": 32
+          "n": 34
         },
         {
           "key": "internal",
@@ -413,7 +444,7 @@
         },
         {
           "key": "direct",
-          "n": 16
+          "n": 17
         }
       ],
       "referrers": [
@@ -426,19 +457,19 @@
           "n": 19
         },
         {
-          "key": "duckduckgo.com",
-          "n": 2
+          "key": "bing.com",
+          "n": 3
         },
         {
-          "key": "bing.com",
-          "n": 1
+          "key": "duckduckgo.com",
+          "n": 2
         }
       ],
       "campaigns": [],
       "countries": [
         {
           "key": "US",
-          "n": 66
+          "n": 69
         },
         {
           "key": "GB",
@@ -456,7 +487,7 @@
         },
         {
           "key": "Washington, District of Columbia",
-          "n": 5
+          "n": 6
         },
         {
           "key": "Ashburn, Virginia",
@@ -507,6 +538,10 @@
           "n": 2
         },
         {
+          "key": "Charleston, West Virginia",
+          "n": 2
+        },
+        {
           "key": "Goldsboro, North Carolina",
           "n": 1
         },
@@ -521,20 +556,16 @@
         {
           "key": "London, England",
           "n": 1
-        },
-        {
-          "key": "Richmond, Virginia",
-          "n": 1
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 40
+          "n": 41
         },
         {
           "key": "mobile",
-          "n": 27
+          "n": 29
         }
       ],
       "browsers": [
@@ -544,7 +575,7 @@
         },
         {
           "key": "Safari",
-          "n": 15
+          "n": 18
         },
         {
           "key": "Firefox",
@@ -558,11 +589,11 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 25
+          "n": 26
         },
         {
           "key": "iOS",
-          "n": 24
+          "n": 26
         },
         {
           "key": "Windows",
@@ -586,16 +617,16 @@
           "n": 2
         },
         {
+          "key": "http://www.athenalab.io/",
+          "n": 2
+        },
+        {
           "key": "https://www.solutiontree.com/irreplaceable.html",
           "n": 2
         },
         {
           "key": "https://www.amazon.com/Irreplaceable-Everything-Teaching-Learning-technologists/dp/B0FT3PFX1K/",
           "n": 2
-        },
-        {
-          "key": "http://www.athenalab.io/",
-          "n": 1
         }
       ],
       "internalLinks": [
@@ -629,18 +660,18 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-09-18T12:34:51.547Z",
-      "to": "2026-10-18T12:34:51.547Z",
+      "from": "2026-09-18T22:23:50.111Z",
+      "to": "2026-10-18T22:23:50.111Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 169,
-        "clicks": 80,
-        "links": 28,
-        "visitors": 112,
+        "views": 172,
+        "clicks": 81,
+        "links": 29,
+        "visitors": 115,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 14,
+        "days": 15,
         "medianPagesPerVisit": 1,
         "medianDepth": 62,
         "medianSecs": 10
@@ -715,16 +746,21 @@
           "d": "2026-10-17",
           "views": 5,
           "visitors": 4
+        },
+        {
+          "d": "2026-10-18",
+          "views": 3,
+          "visitors": 3
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 111,
-          "visitors": 103,
+          "n": 114,
+          "visitors": 106,
           "depth": 51,
           "secs": 10,
-          "measured": 85
+          "measured": 88
         },
         {
           "key": "/consulting/",
@@ -824,7 +860,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 102
+          "n": 105
         },
         {
           "key": "/consulting/",
@@ -842,7 +878,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 83
+          "n": 86
         },
         {
           "key": "/consulting/about/",
@@ -868,7 +904,7 @@
       "sources": [
         {
           "key": "search",
-          "n": 59
+          "n": 61
         },
         {
           "key": "internal",
@@ -876,7 +912,7 @@
         },
         {
           "key": "direct",
-          "n": 52
+          "n": 53
         },
         {
           "key": "social",
@@ -893,12 +929,12 @@
           "n": 54
         },
         {
-          "key": "duckduckgo.com",
-          "n": 3
+          "key": "bing.com",
+          "n": 4
         },
         {
-          "key": "bing.com",
-          "n": 2
+          "key": "duckduckgo.com",
+          "n": 3
         },
         {
           "key": "linkedin.com",
@@ -909,7 +945,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 149
+          "n": 152
         },
         {
           "key": "SE",
@@ -975,7 +1011,7 @@
         },
         {
           "key": "Washington, District of Columbia",
-          "n": 6
+          "n": 7
         },
         {
           "key": "Council Bluffs, Iowa",
@@ -1037,11 +1073,11 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 109
+          "n": 110
         },
         {
           "key": "mobile",
-          "n": 58
+          "n": 60
         },
         {
           "key": "tablet",
@@ -1055,7 +1091,7 @@
         },
         {
           "key": "Safari",
-          "n": 56
+          "n": 59
         },
         {
           "key": "Firefox",
@@ -1073,11 +1109,11 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 66
+          "n": 67
         },
         {
           "key": "iOS",
-          "n": 50
+          "n": 52
         },
         {
           "key": "Windows",
@@ -1129,7 +1165,7 @@
         },
         {
           "key": "http://www.athenalab.io/",
-          "n": 3
+          "n": 4
         },
         {
           "key": "https://exercisesfortherecoveryofchildhood.com/",
@@ -1183,18 +1219,18 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-10-18T12:34:51.547Z",
-      "to": "2026-10-18T12:34:51.547Z",
+      "from": "2025-10-18T22:23:50.111Z",
+      "to": "2026-10-18T22:23:50.111Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 169,
-        "clicks": 80,
-        "links": 28,
-        "visitors": 112,
+        "views": 172,
+        "clicks": 81,
+        "links": 29,
+        "visitors": 115,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 14,
+        "days": 15,
         "medianPagesPerVisit": 1,
         "medianDepth": 62,
         "medianSecs": 10
@@ -1269,16 +1305,21 @@
           "d": "2026-10-17",
           "views": 5,
           "visitors": 4
+        },
+        {
+          "d": "2026-10-18",
+          "views": 3,
+          "visitors": 3
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 111,
-          "visitors": 103,
+          "n": 114,
+          "visitors": 106,
           "depth": 51,
           "secs": 10,
-          "measured": 85
+          "measured": 88
         },
         {
           "key": "/consulting/",
@@ -1378,7 +1419,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 102
+          "n": 105
         },
         {
           "key": "/consulting/",
@@ -1396,7 +1437,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 83
+          "n": 86
         },
         {
           "key": "/consulting/about/",
@@ -1422,7 +1463,7 @@
       "sources": [
         {
           "key": "search",
-          "n": 59
+          "n": 61
         },
         {
           "key": "internal",
@@ -1430,7 +1471,7 @@
         },
         {
           "key": "direct",
-          "n": 52
+          "n": 53
         },
         {
           "key": "social",
@@ -1447,12 +1488,12 @@
           "n": 54
         },
         {
-          "key": "duckduckgo.com",
-          "n": 3
+          "key": "bing.com",
+          "n": 4
         },
         {
-          "key": "bing.com",
-          "n": 2
+          "key": "duckduckgo.com",
+          "n": 3
         },
         {
           "key": "linkedin.com",
@@ -1463,7 +1504,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 149
+          "n": 152
         },
         {
           "key": "SE",
@@ -1529,7 +1570,7 @@
         },
         {
           "key": "Washington, District of Columbia",
-          "n": 6
+          "n": 7
         },
         {
           "key": "Council Bluffs, Iowa",
@@ -1591,11 +1632,11 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 109
+          "n": 110
         },
         {
           "key": "mobile",
-          "n": 58
+          "n": 60
         },
         {
           "key": "tablet",
@@ -1609,7 +1650,7 @@
         },
         {
           "key": "Safari",
-          "n": 56
+          "n": 59
         },
         {
           "key": "Firefox",
@@ -1627,11 +1668,11 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 66
+          "n": 67
         },
         {
           "key": "iOS",
-          "n": 50
+          "n": 52
         },
         {
           "key": "Windows",
@@ -1683,7 +1724,7 @@
         },
         {
           "key": "http://www.athenalab.io/",
-          "n": 3
+          "n": 4
         },
         {
           "key": "https://exercisesfortherecoveryofchildhood.com/",
@@ -1738,17 +1779,17 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-10-18T12:34:51.547Z",
+      "to": "2026-10-18T22:23:50.111Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 169,
-        "clicks": 80,
-        "links": 28,
-        "visitors": 112,
+        "views": 172,
+        "clicks": 81,
+        "links": 29,
+        "visitors": 115,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 14,
+        "days": 15,
         "medianPagesPerVisit": 1,
         "medianDepth": 62,
         "medianSecs": 10
@@ -1823,16 +1864,21 @@
           "d": "2026-10-17",
           "views": 5,
           "visitors": 4
+        },
+        {
+          "d": "2026-10-18",
+          "views": 3,
+          "visitors": 3
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 111,
-          "visitors": 103,
+          "n": 114,
+          "visitors": 106,
           "depth": 51,
           "secs": 10,
-          "measured": 85
+          "measured": 88
         },
         {
           "key": "/consulting/",
@@ -1932,7 +1978,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 102
+          "n": 105
         },
         {
           "key": "/consulting/",
@@ -1950,7 +1996,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 83
+          "n": 86
         },
         {
           "key": "/consulting/about/",
@@ -1976,7 +2022,7 @@
       "sources": [
         {
           "key": "search",
-          "n": 59
+          "n": 61
         },
         {
           "key": "internal",
@@ -1984,7 +2030,7 @@
         },
         {
           "key": "direct",
-          "n": 52
+          "n": 53
         },
         {
           "key": "social",
@@ -2001,12 +2047,12 @@
           "n": 54
         },
         {
-          "key": "duckduckgo.com",
-          "n": 3
+          "key": "bing.com",
+          "n": 4
         },
         {
-          "key": "bing.com",
-          "n": 2
+          "key": "duckduckgo.com",
+          "n": 3
         },
         {
           "key": "linkedin.com",
@@ -2017,7 +2063,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 149
+          "n": 152
         },
         {
           "key": "SE",
@@ -2083,7 +2129,7 @@
         },
         {
           "key": "Washington, District of Columbia",
-          "n": 6
+          "n": 7
         },
         {
           "key": "Council Bluffs, Iowa",
@@ -2145,11 +2191,11 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 109
+          "n": 110
         },
         {
           "key": "mobile",
-          "n": 58
+          "n": 60
         },
         {
           "key": "tablet",
@@ -2163,7 +2209,7 @@
         },
         {
           "key": "Safari",
-          "n": 56
+          "n": 59
         },
         {
           "key": "Firefox",
@@ -2181,11 +2227,11 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 66
+          "n": 67
         },
         {
           "key": "iOS",
-          "n": 50
+          "n": 52
         },
         {
           "key": "Windows",
@@ -2237,7 +2283,7 @@
         },
         {
           "key": "http://www.athenalab.io/",
-          "n": 3
+          "n": 4
         },
         {
           "key": "https://exercisesfortherecoveryofchildhood.com/",
