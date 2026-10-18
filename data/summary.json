@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T22:15:10.189Z",
+  "generated": "2026-10-18T12:34:51.547Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -10,100 +10,30 @@
   ],
   "span": {
     "first": "2026-10-04T07:39:33.300Z",
-    "days": 14
+    "days": 15
   },
   "ranges": {
     "24h": {
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-10-16T22:15:10.189Z",
-      "to": "2026-10-17T22:15:10.189Z",
+      "from": "2026-10-17T12:34:51.547Z",
+      "to": "2026-10-18T12:34:51.547Z",
       "available": true,
       "granularity": "hour",
       "totals": {
-        "views": 4,
-        "clicks": 1,
+        "views": 2,
+        "clicks": 0,
         "links": 0,
-        "visitors": 3,
+        "visitors": 2,
         "contacts": 0,
         "contactVisitors": 0,
         "days": 1,
         "medianPagesPerVisit": 1,
-        "medianDepth": 100,
-        "medianSecs": 9
+        "medianDepth": 20,
+        "medianSecs": 4
       },
       "series": [
-        {
-          "t": "2026-10-16T23:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T00:00:00.000Z",
-          "views": 3,
-          "visitors": 2
-        },
-        {
-          "t": "2026-10-17T01:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T02:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T03:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T04:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T05:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T06:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T07:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T08:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T09:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T10:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T11:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-17T12:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
         {
           "t": "2026-10-17T13:00:00.000Z",
           "views": 0,
@@ -151,100 +81,128 @@
         },
         {
           "t": "2026-10-17T22:00:00.000Z",
-          "views": 1,
-          "visitors": 1
+          "views": 2,
+          "visitors": 2
+        },
+        {
+          "t": "2026-10-17T23:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T00:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T01:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T02:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T03:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T04:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T05:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T06:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T07:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T08:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T09:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T10:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T11:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-18T12:00:00.000Z",
+          "views": 0,
+          "visitors": 0
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 3,
-          "visitors": 3,
-          "depth": 60,
-          "secs": 8,
+          "n": 2,
+          "visitors": 2,
+          "depth": 20,
+          "secs": 4,
           "measured": 2
-        },
-        {
-          "key": "/consulting/",
-          "n": 1,
-          "visitors": 1,
-          "depth": 100,
-          "secs": 9,
-          "measured": 1
         }
       ],
-      "journeys": [
-        {
-          "key": "/ → /consulting/",
-          "n": 1
-        }
-      ],
+      "journeys": [],
       "entries": [
         {
           "key": "/",
-          "n": 3
+          "n": 2
         }
       ],
       "exits": [
         {
           "key": "/",
           "n": 2
-        },
-        {
-          "key": "/consulting/",
-          "n": 1
         }
       ],
       "sources": [
         {
           "key": "direct",
           "n": 2
-        },
-        {
-          "key": "search",
-          "n": 1
-        },
-        {
-          "key": "internal",
-          "n": 1
         }
       ],
-      "referrers": [
-        {
-          "key": "google.com",
-          "n": 1
-        },
-        {
-          "key": "peternilsson.us",
-          "n": 1
-        }
-      ],
+      "referrers": [],
       "campaigns": [],
       "countries": [
         {
           "key": "US",
-          "n": 4
+          "n": 2
         }
       ],
       "cities": [
         {
-          "key": "Cambridge, Massachusetts",
-          "n": 2
-        },
-        {
-          "key": "Pittsburgh, Pennsylvania",
+          "key": "Lanham, Maryland",
           "n": 1
         },
         {
-          "key": "Lanham, Maryland",
+          "key": "Annapolis, Maryland",
           "n": 1
         }
       ],
       "devices": [
-        {
-          "key": "desktop",
-          "n": 2
-        },
         {
           "key": "mobile",
           "n": 2
@@ -252,19 +210,11 @@
       ],
       "browsers": [
         {
-          "key": "Chrome",
-          "n": 2
-        },
-        {
           "key": "Safari",
           "n": 2
         }
       ],
       "systems": [
-        {
-          "key": "macOS",
-          "n": 2
-        },
         {
           "key": "iOS",
           "n": 2
@@ -274,39 +224,29 @@
       "contactsByPage": [],
       "contactsByEntry": [],
       "links": [],
-      "internalLinks": [
-        {
-          "key": "https://peternilsson.us/consulting/",
-          "n": 1
-        }
-      ]
+      "internalLinks": []
     },
     "week": {
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-10-10T22:15:10.189Z",
-      "to": "2026-10-17T22:15:10.189Z",
+      "from": "2026-10-11T12:34:51.547Z",
+      "to": "2026-10-18T12:34:51.547Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 71,
-        "clicks": 33,
-        "links": 12,
+        "views": 67,
+        "clicks": 27,
+        "links": 10,
         "visitors": 46,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 7,
+        "days": 6,
         "medianPagesPerVisit": 1,
         "medianDepth": 76,
         "medianSecs": 11
       },
       "series": [
-        {
-          "d": "2026-10-11",
-          "views": 5,
-          "visitors": 1
-        },
         {
           "d": "2026-10-12",
           "views": 16,
@@ -334,8 +274,8 @@
         },
         {
           "d": "2026-10-17",
-          "views": 4,
-          "visitors": 3
+          "views": 5,
+          "visitors": 4
         }
       ],
       "pages": [
@@ -349,27 +289,19 @@
         },
         {
           "key": "/consulting/",
-          "n": 11,
-          "visitors": 9,
+          "n": 9,
+          "visitors": 8,
           "depth": 81,
-          "secs": 8,
-          "measured": 11
+          "secs": 6,
+          "measured": 9
         },
         {
           "key": "/consulting/writing/",
-          "n": 6,
-          "visitors": 6,
-          "depth": 40,
-          "secs": 14,
-          "measured": 5
-        },
-        {
-          "key": "/consulting/about/",
-          "n": 3,
-          "visitors": 3,
-          "depth": 82,
-          "secs": 16,
-          "measured": 3
+          "n": 5,
+          "visitors": 5,
+          "depth": 61,
+          "secs": 15,
+          "measured": 4
         },
         {
           "key": "/consulting/speaking/",
@@ -378,6 +310,14 @@
           "depth": 100,
           "secs": 32,
           "measured": 3
+        },
+        {
+          "key": "/consulting/about/",
+          "n": 2,
+          "visitors": 2,
+          "depth": 77,
+          "secs": 15,
+          "measured": 2
         },
         {
           "key": "/consulting/schools/",
@@ -396,10 +336,6 @@
         {
           "key": "/ → /consulting/",
           "n": 2
-        },
-        {
-          "key": "/ → /consulting/writing/ → /consulting/ → /consulting/about/",
-          "n": 1
         },
         {
           "key": "/ → /consulting/ → /consulting/about/",
@@ -443,19 +379,19 @@
       "exits": [
         {
           "key": "/",
-          "n": 32
+          "n": 33
         },
         {
           "key": "/consulting/writing/",
           "n": 5
         },
         {
-          "key": "/consulting/about/",
+          "key": "/consulting/",
           "n": 3
         },
         {
-          "key": "/consulting/",
-          "n": 3
+          "key": "/consulting/about/",
+          "n": 2
         },
         {
           "key": "/consulting/speaking/",
@@ -473,7 +409,7 @@
         },
         {
           "key": "internal",
-          "n": 23
+          "n": 19
         },
         {
           "key": "direct",
@@ -487,7 +423,7 @@
         },
         {
           "key": "peternilsson.us",
-          "n": 23
+          "n": 19
         },
         {
           "key": "duckduckgo.com",
@@ -502,11 +438,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 65
-        },
-        {
-          "key": "SE",
-          "n": 5
+          "n": 66
         },
         {
           "key": "GB",
@@ -521,10 +453,6 @@
         {
           "key": "New York City, New York",
           "n": 9
-        },
-        {
-          "key": "Haninge, Stockholm",
-          "n": 5
         },
         {
           "key": "Washington, District of Columbia",
@@ -593,16 +521,20 @@
         {
           "key": "London, England",
           "n": 1
+        },
+        {
+          "key": "Richmond, Virginia",
+          "n": 1
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 45
+          "n": 40
         },
         {
           "key": "mobile",
-          "n": 26
+          "n": 27
         }
       ],
       "browsers": [
@@ -612,11 +544,11 @@
         },
         {
           "key": "Safari",
-          "n": 14
+          "n": 15
         },
         {
           "key": "Firefox",
-          "n": 7
+          "n": 2
         },
         {
           "key": "Edge",
@@ -626,11 +558,11 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 30
+          "n": 25
         },
         {
           "key": "iOS",
-          "n": 23
+          "n": 24
         },
         {
           "key": "Windows",
@@ -647,11 +579,7 @@
       "links": [
         {
           "key": "https://schooledthemusical.com/",
-          "n": 4
-        },
-        {
-          "key": "http://www.athenalab.io/",
-          "n": 2
+          "n": 3
         },
         {
           "key": "https://educatorsnotebook.com/subscribe/",
@@ -664,24 +592,28 @@
         {
           "key": "https://www.amazon.com/Irreplaceable-Everything-Teaching-Learning-technologists/dp/B0FT3PFX1K/",
           "n": 2
+        },
+        {
+          "key": "http://www.athenalab.io/",
+          "n": 1
         }
       ],
       "internalLinks": [
         {
           "key": "https://peternilsson.us/consulting/",
-          "n": 9
+          "n": 7
         },
         {
           "key": "https://peternilsson.us/consulting/writing/",
-          "n": 4
-        },
-        {
-          "key": "https://peternilsson.us/consulting/about/",
           "n": 3
         },
         {
           "key": "https://peternilsson.us/consulting/speaking/",
           "n": 3
+        },
+        {
+          "key": "https://peternilsson.us/consulting/about/",
+          "n": 2
         },
         {
           "key": "https://peternilsson.us/#work",
@@ -697,15 +629,15 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-09-17T22:15:10.189Z",
-      "to": "2026-10-17T22:15:10.189Z",
+      "from": "2026-09-18T12:34:51.547Z",
+      "to": "2026-10-18T12:34:51.547Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 168,
+        "views": 169,
         "clicks": 80,
         "links": 28,
-        "visitors": 111,
+        "visitors": 112,
         "contacts": 1,
         "contactVisitors": 1,
         "days": 14,
@@ -781,18 +713,18 @@
         },
         {
           "d": "2026-10-17",
-          "views": 4,
-          "visitors": 3
+          "views": 5,
+          "visitors": 4
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 110,
-          "visitors": 102,
+          "n": 111,
+          "visitors": 103,
           "depth": 51,
           "secs": 10,
-          "measured": 84
+          "measured": 85
         },
         {
           "key": "/consulting/",
@@ -892,7 +824,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 101
+          "n": 102
         },
         {
           "key": "/consulting/",
@@ -910,7 +842,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 82
+          "n": 83
         },
         {
           "key": "/consulting/about/",
@@ -944,7 +876,7 @@
         },
         {
           "key": "direct",
-          "n": 51
+          "n": 52
         },
         {
           "key": "social",
@@ -977,7 +909,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 148
+          "n": 149
         },
         {
           "key": "SE",
@@ -1058,16 +990,16 @@
           "n": 5
         },
         {
+          "key": "Annapolis, Maryland",
+          "n": 4
+        },
+        {
           "key": "Bridgeville, Pennsylvania",
           "n": 4
         },
         {
           "key": "Whitehouse Station, New Jersey",
           "n": 4
-        },
-        {
-          "key": "Annapolis, Maryland",
-          "n": 3
         },
         {
           "key": "Atlanta, Georgia",
@@ -1109,7 +1041,7 @@
         },
         {
           "key": "mobile",
-          "n": 57
+          "n": 58
         },
         {
           "key": "tablet",
@@ -1123,7 +1055,7 @@
         },
         {
           "key": "Safari",
-          "n": 55
+          "n": 56
         },
         {
           "key": "Firefox",
@@ -1145,7 +1077,7 @@
         },
         {
           "key": "iOS",
-          "n": 49
+          "n": 50
         },
         {
           "key": "Windows",
@@ -1251,15 +1183,15 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-10-17T22:15:10.189Z",
-      "to": "2026-10-17T22:15:10.189Z",
+      "from": "2025-10-18T12:34:51.547Z",
+      "to": "2026-10-18T12:34:51.547Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 168,
+        "views": 169,
         "clicks": 80,
         "links": 28,
-        "visitors": 111,
+        "visitors": 112,
         "contacts": 1,
         "contactVisitors": 1,
         "days": 14,
@@ -1335,18 +1267,18 @@
         },
         {
           "d": "2026-10-17",
-          "views": 4,
-          "visitors": 3
+          "views": 5,
+          "visitors": 4
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 110,
-          "visitors": 102,
+          "n": 111,
+          "visitors": 103,
           "depth": 51,
           "secs": 10,
-          "measured": 84
+          "measured": 85
         },
         {
           "key": "/consulting/",
@@ -1446,7 +1378,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 101
+          "n": 102
         },
         {
           "key": "/consulting/",
@@ -1464,7 +1396,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 82
+          "n": 83
         },
         {
           "key": "/consulting/about/",
@@ -1498,7 +1430,7 @@
         },
         {
           "key": "direct",
-          "n": 51
+          "n": 52
         },
         {
           "key": "social",
@@ -1531,7 +1463,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 148
+          "n": 149
         },
         {
           "key": "SE",
@@ -1612,16 +1544,16 @@
           "n": 5
         },
         {
+          "key": "Annapolis, Maryland",
+          "n": 4
+        },
+        {
           "key": "Bridgeville, Pennsylvania",
           "n": 4
         },
         {
           "key": "Whitehouse Station, New Jersey",
           "n": 4
-        },
-        {
-          "key": "Annapolis, Maryland",
-          "n": 3
         },
         {
           "key": "Atlanta, Georgia",
@@ -1663,7 +1595,7 @@
         },
         {
           "key": "mobile",
-          "n": 57
+          "n": 58
         },
         {
           "key": "tablet",
@@ -1677,7 +1609,7 @@
         },
         {
           "key": "Safari",
-          "n": 55
+          "n": 56
         },
         {
           "key": "Firefox",
@@ -1699,7 +1631,7 @@
         },
         {
           "key": "iOS",
-          "n": 49
+          "n": 50
         },
         {
           "key": "Windows",
@@ -1806,14 +1738,14 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-10-17T22:15:10.189Z",
+      "to": "2026-10-18T12:34:51.547Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 168,
+        "views": 169,
         "clicks": 80,
         "links": 28,
-        "visitors": 111,
+        "visitors": 112,
         "contacts": 1,
         "contactVisitors": 1,
         "days": 14,
@@ -1889,18 +1821,18 @@
         },
         {
           "d": "2026-10-17",
-          "views": 4,
-          "visitors": 3
+          "views": 5,
+          "visitors": 4
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 110,
-          "visitors": 102,
+          "n": 111,
+          "visitors": 103,
           "depth": 51,
           "secs": 10,
-          "measured": 84
+          "measured": 85
         },
         {
           "key": "/consulting/",
@@ -2000,7 +1932,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 101
+          "n": 102
         },
         {
           "key": "/consulting/",
@@ -2018,7 +1950,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 82
+          "n": 83
         },
         {
           "key": "/consulting/about/",
@@ -2052,7 +1984,7 @@
         },
         {
           "key": "direct",
-          "n": 51
+          "n": 52
         },
         {
           "key": "social",
@@ -2085,7 +2017,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 148
+          "n": 149
         },
         {
           "key": "SE",
@@ -2166,16 +2098,16 @@
           "n": 5
         },
         {
+          "key": "Annapolis, Maryland",
+          "n": 4
+        },
+        {
           "key": "Bridgeville, Pennsylvania",
           "n": 4
         },
         {
           "key": "Whitehouse Station, New Jersey",
           "n": 4
-        },
-        {
-          "key": "Annapolis, Maryland",
-          "n": 3
         },
         {
           "key": "Atlanta, Georgia",
@@ -2217,7 +2149,7 @@
         },
         {
           "key": "mobile",
-          "n": 57
+          "n": 58
         },
         {
           "key": "tablet",
@@ -2231,7 +2163,7 @@
         },
         {
           "key": "Safari",
-          "n": 55
+          "n": 56
         },
         {
           "key": "Firefox",
@@ -2253,7 +2185,7 @@
         },
         {
           "key": "iOS",
-          "n": 49
+          "n": 50
         },
         {
           "key": "Windows",
