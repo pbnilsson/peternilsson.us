@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T13:09:09.164Z",
+  "generated": "2026-10-25T22:31:35.030Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -17,35 +17,205 @@
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-10-24T13:09:09.164Z",
-      "to": "2026-10-25T13:09:09.164Z",
+      "from": "2026-10-24T22:31:35.030Z",
+      "to": "2026-10-25T22:31:35.030Z",
       "available": true,
       "granularity": "hour",
       "totals": {
-        "views": 0,
+        "views": 1,
         "clicks": 0,
         "links": 0,
-        "visitors": 0,
+        "visitors": 1,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 0,
-        "medianPagesPerVisit": null,
-        "medianDepth": null,
-        "medianSecs": null
+        "days": 1,
+        "medianPagesPerVisit": 1,
+        "medianDepth": 22,
+        "medianSecs": 6
       },
-      "series": [],
-      "pages": [],
+      "series": [
+        {
+          "t": "2026-10-24T23:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T00:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T01:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T02:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T03:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T04:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T05:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T06:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T07:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T08:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T09:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T10:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T11:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T12:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T13:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T14:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T15:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T16:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T17:00:00.000Z",
+          "views": 1,
+          "visitors": 1
+        },
+        {
+          "t": "2026-10-25T18:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T19:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T20:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T21:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-10-25T22:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        }
+      ],
+      "pages": [
+        {
+          "key": "/",
+          "n": 1,
+          "visitors": 1,
+          "depth": 22,
+          "secs": 6,
+          "measured": 1
+        }
+      ],
       "journeys": [],
-      "entries": [],
-      "exits": [],
-      "sources": [],
+      "entries": [
+        {
+          "key": "/",
+          "n": 1
+        }
+      ],
+      "exits": [
+        {
+          "key": "/",
+          "n": 1
+        }
+      ],
+      "sources": [
+        {
+          "key": "direct",
+          "n": 1
+        }
+      ],
       "referrers": [],
       "campaigns": [],
-      "countries": [],
-      "cities": [],
-      "devices": [],
-      "browsers": [],
-      "systems": [],
+      "countries": [
+        {
+          "key": "US",
+          "n": 1
+        }
+      ],
+      "cities": [
+        {
+          "key": "Philadelphia, Pennsylvania",
+          "n": 1
+        }
+      ],
+      "devices": [
+        {
+          "key": "mobile",
+          "n": 1
+        }
+      ],
+      "browsers": [
+        {
+          "key": "Safari",
+          "n": 1
+        }
+      ],
+      "systems": [
+        {
+          "key": "iOS",
+          "n": 1
+        }
+      ],
       "contactsBySource": [],
       "contactsByPage": [],
       "contactsByEntry": [],
@@ -56,15 +226,15 @@
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-10-18T13:09:09.164Z",
-      "to": "2026-10-25T13:09:09.164Z",
+      "from": "2026-10-18T22:31:35.030Z",
+      "to": "2026-10-25T22:31:35.030Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 124,
-        "clicks": 70,
-        "links": 28,
-        "visitors": 80,
+        "views": 122,
+        "clicks": 69,
+        "links": 27,
+        "visitors": 78,
         "contacts": 0,
         "contactVisitors": 0,
         "days": 7,
@@ -73,11 +243,6 @@
         "medianSecs": 13
       },
       "series": [
-        {
-          "d": "2026-10-18",
-          "views": 3,
-          "visitors": 3
-        },
         {
           "d": "2026-10-19",
           "views": 21,
@@ -107,16 +272,21 @@
           "d": "2026-10-24",
           "views": 4,
           "visitors": 4
+        },
+        {
+          "d": "2026-10-25",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 78,
-          "visitors": 72,
-          "depth": 51,
+          "n": 76,
+          "visitors": 70,
+          "depth": 48,
           "secs": 14,
-          "measured": 70
+          "measured": 68
         },
         {
           "key": "/consulting/",
@@ -208,7 +378,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 72
+          "n": 70
         },
         {
           "key": "/consulting/writing/",
@@ -222,7 +392,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 56
+          "n": 54
         },
         {
           "key": "/consulting/writing/",
@@ -248,7 +418,7 @@
       "sources": [
         {
           "key": "search",
-          "n": 64
+          "n": 62
         },
         {
           "key": "internal",
@@ -270,7 +440,7 @@
         },
         {
           "key": "bing.com",
-          "n": 6
+          "n": 4
         },
         {
           "key": "duckduckgo.com",
@@ -281,7 +451,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 122
+          "n": 120
         },
         {
           "key": "SE",
@@ -299,7 +469,7 @@
         },
         {
           "key": "Philadelphia, Pennsylvania",
-          "n": 17
+          "n": 18
         },
         {
           "key": "Pittsburgh, Pennsylvania",
@@ -319,7 +489,7 @@
         },
         {
           "key": "Washington, District of Columbia",
-          "n": 5
+          "n": 4
         },
         {
           "key": "McKinney, Texas",
@@ -336,10 +506,6 @@
         {
           "key": "Waipahu, Hawaii",
           "n": 3
-        },
-        {
-          "key": "Charleston, West Virginia",
-          "n": 2
         },
         {
           "key": "Hāwī, Hawaii",
@@ -372,16 +538,20 @@
         {
           "key": "Lansdowne, Pennsylvania",
           "n": 1
+        },
+        {
+          "key": "Bellevue, Pennsylvania",
+          "n": 1
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 78
+          "n": 77
         },
         {
           "key": "mobile",
-          "n": 45
+          "n": 44
         },
         {
           "key": "tablet",
@@ -395,7 +565,7 @@
         },
         {
           "key": "Safari",
-          "n": 44
+          "n": 42
         },
         {
           "key": "Edge",
@@ -413,15 +583,15 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 42
-        },
-        {
-          "key": "iOS",
-          "n": 37
+          "n": 41
         },
         {
           "key": "Windows",
           "n": 37
+        },
+        {
+          "key": "iOS",
+          "n": 36
         },
         {
           "key": "Android",
@@ -455,10 +625,6 @@
         {
           "key": "https://www.solutiontree.com/irreplaceable.html",
           "n": 2
-        },
-        {
-          "key": "http://www.athenalab.io/",
-          "n": 1
         },
         {
           "key": "https://distantreading.org/",
@@ -500,18 +666,18 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-09-25T13:09:09.164Z",
-      "to": "2026-10-25T13:09:09.164Z",
+      "from": "2026-09-25T22:31:35.030Z",
+      "to": "2026-10-25T22:31:35.030Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 293,
+        "views": 294,
         "clicks": 150,
         "links": 56,
-        "visitors": 190,
+        "visitors": 191,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 21,
+        "days": 22,
         "medianPagesPerVisit": 1,
         "medianDepth": 65,
         "medianSecs": 11
@@ -621,16 +787,21 @@
           "d": "2026-10-24",
           "views": 4,
           "visitors": 4
+        },
+        {
+          "d": "2026-10-25",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 189,
-          "visitors": 173,
+          "n": 190,
+          "visitors": 174,
           "depth": 51,
           "secs": 11,
-          "measured": 155
+          "measured": 156
         },
         {
           "key": "/consulting/",
@@ -738,7 +909,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 172
+          "n": 173
         },
         {
           "key": "/consulting/writing/",
@@ -756,7 +927,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 137
+          "n": 138
         },
         {
           "key": "/consulting/writing/",
@@ -790,7 +961,7 @@
         },
         {
           "key": "direct",
-          "n": 72
+          "n": 73
         },
         {
           "key": "social",
@@ -823,7 +994,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 271
+          "n": 272
         },
         {
           "key": "SE",
@@ -881,7 +1052,7 @@
         },
         {
           "key": "Philadelphia, Pennsylvania",
-          "n": 17
+          "n": 18
         },
         {
           "key": "Ashburn, Virginia",
@@ -959,7 +1130,7 @@
         },
         {
           "key": "mobile",
-          "n": 103
+          "n": 104
         },
         {
           "key": "tablet",
@@ -973,7 +1144,7 @@
         },
         {
           "key": "Safari",
-          "n": 100
+          "n": 101
         },
         {
           "key": "Firefox",
@@ -999,7 +1170,7 @@
         },
         {
           "key": "iOS",
-          "n": 87
+          "n": 88
         },
         {
           "key": "Windows",
@@ -1109,18 +1280,18 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-10-25T13:09:09.164Z",
-      "to": "2026-10-25T13:09:09.164Z",
+      "from": "2025-10-25T22:31:35.030Z",
+      "to": "2026-10-25T22:31:35.030Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 293,
+        "views": 294,
         "clicks": 150,
         "links": 56,
-        "visitors": 190,
+        "visitors": 191,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 21,
+        "days": 22,
         "medianPagesPerVisit": 1,
         "medianDepth": 65,
         "medianSecs": 11
@@ -1230,16 +1401,21 @@
           "d": "2026-10-24",
           "views": 4,
           "visitors": 4
+        },
+        {
+          "d": "2026-10-25",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 189,
-          "visitors": 173,
+          "n": 190,
+          "visitors": 174,
           "depth": 51,
           "secs": 11,
-          "measured": 155
+          "measured": 156
         },
         {
           "key": "/consulting/",
@@ -1347,7 +1523,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 172
+          "n": 173
         },
         {
           "key": "/consulting/writing/",
@@ -1365,7 +1541,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 137
+          "n": 138
         },
         {
           "key": "/consulting/writing/",
@@ -1399,7 +1575,7 @@
         },
         {
           "key": "direct",
-          "n": 72
+          "n": 73
         },
         {
           "key": "social",
@@ -1432,7 +1608,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 271
+          "n": 272
         },
         {
           "key": "SE",
@@ -1490,7 +1666,7 @@
         },
         {
           "key": "Philadelphia, Pennsylvania",
-          "n": 17
+          "n": 18
         },
         {
           "key": "Ashburn, Virginia",
@@ -1568,7 +1744,7 @@
         },
         {
           "key": "mobile",
-          "n": 103
+          "n": 104
         },
         {
           "key": "tablet",
@@ -1582,7 +1758,7 @@
         },
         {
           "key": "Safari",
-          "n": 100
+          "n": 101
         },
         {
           "key": "Firefox",
@@ -1608,7 +1784,7 @@
         },
         {
           "key": "iOS",
-          "n": 87
+          "n": 88
         },
         {
           "key": "Windows",
@@ -1719,17 +1895,17 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-10-25T13:09:09.164Z",
+      "to": "2026-10-25T22:31:35.030Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 293,
+        "views": 294,
         "clicks": 150,
         "links": 56,
-        "visitors": 190,
+        "visitors": 191,
         "contacts": 1,
         "contactVisitors": 1,
-        "days": 21,
+        "days": 22,
         "medianPagesPerVisit": 1,
         "medianDepth": 65,
         "medianSecs": 11
@@ -1839,16 +2015,21 @@
           "d": "2026-10-24",
           "views": 4,
           "visitors": 4
+        },
+        {
+          "d": "2026-10-25",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 189,
-          "visitors": 173,
+          "n": 190,
+          "visitors": 174,
           "depth": 51,
           "secs": 11,
-          "measured": 155
+          "measured": 156
         },
         {
           "key": "/consulting/",
@@ -1956,7 +2137,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 172
+          "n": 173
         },
         {
           "key": "/consulting/writing/",
@@ -1974,7 +2155,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 137
+          "n": 138
         },
         {
           "key": "/consulting/writing/",
@@ -2008,7 +2189,7 @@
         },
         {
           "key": "direct",
-          "n": 72
+          "n": 73
         },
         {
           "key": "social",
@@ -2041,7 +2222,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 271
+          "n": 272
         },
         {
           "key": "SE",
@@ -2099,7 +2280,7 @@
         },
         {
           "key": "Philadelphia, Pennsylvania",
-          "n": 17
+          "n": 18
         },
         {
           "key": "Ashburn, Virginia",
@@ -2177,7 +2358,7 @@
         },
         {
           "key": "mobile",
-          "n": 103
+          "n": 104
         },
         {
           "key": "tablet",
@@ -2191,7 +2372,7 @@
         },
         {
           "key": "Safari",
-          "n": 100
+          "n": 101
         },
         {
           "key": "Firefox",
@@ -2217,7 +2398,7 @@
         },
         {
           "key": "iOS",
-          "n": 87
+          "n": 88
         },
         {
           "key": "Windows",
