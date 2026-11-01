@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T14:59:55.834Z",
+  "generated": "2026-11-01T23:32:59.759Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -17,8 +17,8 @@
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-10-31T14:59:55.834Z",
-      "to": "2026-11-01T14:59:55.834Z",
+      "from": "2026-10-31T23:32:59.759Z",
+      "to": "2026-11-01T23:32:59.759Z",
       "available": true,
       "granularity": "hour",
       "totals": {
@@ -56,28 +56,23 @@
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-10-25T14:59:55.834Z",
-      "to": "2026-11-01T14:59:55.834Z",
+      "from": "2026-10-25T23:32:59.759Z",
+      "to": "2026-11-01T23:32:59.759Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 57,
+        "views": 56,
         "clicks": 38,
         "links": 14,
-        "visitors": 37,
+        "visitors": 36,
         "contacts": 5,
         "contactVisitors": 3,
-        "days": 7,
+        "days": 6,
         "medianPagesPerVisit": 1,
-        "medianDepth": 56,
+        "medianDepth": 58,
         "medianSecs": 7
       },
       "series": [
-        {
-          "d": "2026-10-25",
-          "views": 1,
-          "visitors": 1
-        },
         {
           "d": "2026-10-26",
           "views": 10,
@@ -112,11 +107,11 @@
       "pages": [
         {
           "key": "/",
-          "n": 29,
-          "visitors": 28,
-          "depth": 44,
+          "n": 28,
+          "visitors": 27,
+          "depth": 47,
           "secs": 5,
-          "measured": 28
+          "measured": 27
         },
         {
           "key": "/consulting/",
@@ -192,7 +187,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 28
+          "n": 27
         },
         {
           "key": "/consulting/",
@@ -214,7 +209,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 23
+          "n": 22
         },
         {
           "key": "/consulting/",
@@ -248,7 +243,7 @@
         },
         {
           "key": "direct",
-          "n": 16
+          "n": 15
         }
       ],
       "referrers": [
@@ -265,7 +260,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 50
+          "n": 49
         },
         {
           "key": "CA",
@@ -338,10 +333,6 @@
           "n": 2
         },
         {
-          "key": "Philadelphia, Pennsylvania",
-          "n": 1
-        },
-        {
           "key": "Hidden Hills, California",
           "n": 1
         },
@@ -360,6 +351,10 @@
         {
           "key": "Vétroz, Valais",
           "n": 1
+        },
+        {
+          "key": "Ashburn, Virginia",
+          "n": 1
         }
       ],
       "devices": [
@@ -369,7 +364,7 @@
         },
         {
           "key": "mobile",
-          "n": 17
+          "n": 16
         },
         {
           "key": "tablet",
@@ -383,7 +378,7 @@
         },
         {
           "key": "Safari",
-          "n": 24
+          "n": 23
         }
       ],
       "systems": [
@@ -393,7 +388,7 @@
         },
         {
           "key": "iOS",
-          "n": 17
+          "n": 16
         },
         {
           "key": "Windows",
@@ -475,8 +470,8 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-10-02T14:59:55.834Z",
-      "to": "2026-11-01T14:59:55.834Z",
+      "from": "2026-10-02T23:32:59.759Z",
+      "to": "2026-11-01T23:32:59.759Z",
       "available": false,
       "granularity": "day",
       "totals": {
@@ -1151,8 +1146,8 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-11-01T14:59:55.834Z",
-      "to": "2026-11-01T14:59:55.834Z",
+      "from": "2025-11-01T23:32:59.759Z",
+      "to": "2026-11-01T23:32:59.759Z",
       "available": false,
       "granularity": "day",
       "totals": {
@@ -1828,7 +1823,7 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-11-01T14:59:55.834Z",
+      "to": "2026-11-01T23:32:59.759Z",
       "available": true,
       "granularity": "day",
       "totals": {
