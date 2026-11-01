@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T23:20:14.601Z",
+  "generated": "2026-11-01T14:59:55.834Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -10,217 +10,42 @@
   ],
   "span": {
     "first": "2026-10-04T07:39:33.300Z",
-    "days": 28
+    "days": 29
   },
   "ranges": {
     "24h": {
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-10-30T23:20:14.601Z",
-      "to": "2026-10-31T23:20:14.601Z",
+      "from": "2026-10-31T14:59:55.834Z",
+      "to": "2026-11-01T14:59:55.834Z",
       "available": true,
       "granularity": "hour",
       "totals": {
-        "views": 1,
+        "views": 0,
         "clicks": 0,
         "links": 0,
-        "visitors": 1,
+        "visitors": 0,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 1,
-        "medianPagesPerVisit": 1,
-        "medianDepth": 87,
-        "medianSecs": 6
+        "days": 0,
+        "medianPagesPerVisit": null,
+        "medianDepth": null,
+        "medianSecs": null
       },
-      "series": [
-        {
-          "t": "2026-10-31T00:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T01:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T02:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T03:00:00.000Z",
-          "views": 1,
-          "visitors": 1
-        },
-        {
-          "t": "2026-10-31T04:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T05:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T06:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T07:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T08:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T09:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T10:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T11:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T12:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T13:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T14:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T15:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T16:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T17:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T18:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T19:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T20:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T21:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T22:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-10-31T23:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        }
-      ],
-      "pages": [
-        {
-          "key": "/",
-          "n": 1,
-          "visitors": 1,
-          "depth": 87,
-          "secs": 6,
-          "measured": 1
-        }
-      ],
+      "series": [],
+      "pages": [],
       "journeys": [],
-      "entries": [
-        {
-          "key": "/",
-          "n": 1
-        }
-      ],
-      "exits": [
-        {
-          "key": "/",
-          "n": 1
-        }
-      ],
-      "sources": [
-        {
-          "key": "search",
-          "n": 1
-        }
-      ],
-      "referrers": [
-        {
-          "key": "google.com",
-          "n": 1
-        }
-      ],
+      "entries": [],
+      "exits": [],
+      "sources": [],
+      "referrers": [],
       "campaigns": [],
-      "countries": [
-        {
-          "key": "US",
-          "n": 1
-        }
-      ],
-      "cities": [
-        {
-          "key": "Oberlin, Ohio",
-          "n": 1
-        }
-      ],
-      "devices": [
-        {
-          "key": "desktop",
-          "n": 1
-        }
-      ],
-      "browsers": [
-        {
-          "key": "Safari",
-          "n": 1
-        }
-      ],
-      "systems": [
-        {
-          "key": "macOS",
-          "n": 1
-        }
-      ],
+      "countries": [],
+      "cities": [],
+      "devices": [],
+      "browsers": [],
+      "systems": [],
       "contactsBySource": [],
       "contactsByPage": [],
       "contactsByEntry": [],
@@ -231,8 +56,8 @@
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-10-24T23:20:14.601Z",
-      "to": "2026-10-31T23:20:14.601Z",
+      "from": "2026-10-25T14:59:55.834Z",
+      "to": "2026-11-01T14:59:55.834Z",
       "available": true,
       "granularity": "day",
       "totals": {
@@ -650,8 +475,8 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-10-01T23:20:14.601Z",
-      "to": "2026-10-31T23:20:14.601Z",
+      "from": "2026-10-02T14:59:55.834Z",
+      "to": "2026-11-01T14:59:55.834Z",
       "available": false,
       "granularity": "day",
       "totals": {
@@ -1326,8 +1151,8 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-10-31T23:20:14.601Z",
-      "to": "2026-10-31T23:20:14.601Z",
+      "from": "2025-11-01T14:59:55.834Z",
+      "to": "2026-11-01T14:59:55.834Z",
       "available": false,
       "granularity": "day",
       "totals": {
@@ -2003,7 +1828,7 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-10-31T23:20:14.601Z",
+      "to": "2026-11-01T14:59:55.834Z",
       "available": true,
       "granularity": "day",
       "totals": {
