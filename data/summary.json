@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T23:32:59.759Z",
+  "generated": "2026-11-02T18:13:33.884Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -10,42 +10,212 @@
   ],
   "span": {
     "first": "2026-10-04T07:39:33.300Z",
-    "days": 29
+    "days": 30
   },
   "ranges": {
     "24h": {
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-10-31T23:32:59.759Z",
-      "to": "2026-11-01T23:32:59.759Z",
+      "from": "2026-11-01T18:13:33.884Z",
+      "to": "2026-11-02T18:13:33.884Z",
       "available": true,
       "granularity": "hour",
       "totals": {
-        "views": 0,
+        "views": 1,
         "clicks": 0,
         "links": 0,
-        "visitors": 0,
+        "visitors": 1,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 0,
-        "medianPagesPerVisit": null,
+        "days": 1,
+        "medianPagesPerVisit": 1,
         "medianDepth": null,
         "medianSecs": null
       },
-      "series": [],
-      "pages": [],
+      "series": [
+        {
+          "t": "2026-11-01T19:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-01T20:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-01T21:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-01T22:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-01T23:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T00:00:00.000Z",
+          "views": 1,
+          "visitors": 1
+        },
+        {
+          "t": "2026-11-02T01:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T02:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T03:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T04:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T05:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T06:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T07:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T08:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T09:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T10:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T11:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T12:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T13:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T14:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T15:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T16:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T17:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-02T18:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        }
+      ],
+      "pages": [
+        {
+          "key": "/",
+          "n": 1,
+          "visitors": 1,
+          "depth": null,
+          "secs": null,
+          "measured": 0
+        }
+      ],
       "journeys": [],
-      "entries": [],
-      "exits": [],
-      "sources": [],
+      "entries": [
+        {
+          "key": "/",
+          "n": 1
+        }
+      ],
+      "exits": [
+        {
+          "key": "/",
+          "n": 1
+        }
+      ],
+      "sources": [
+        {
+          "key": "direct",
+          "n": 1
+        }
+      ],
       "referrers": [],
       "campaigns": [],
-      "countries": [],
-      "cities": [],
-      "devices": [],
-      "browsers": [],
-      "systems": [],
+      "countries": [
+        {
+          "key": "US",
+          "n": 1
+        }
+      ],
+      "cities": [
+        {
+          "key": "North Adams, Massachusetts",
+          "n": 1
+        }
+      ],
+      "devices": [
+        {
+          "key": "desktop",
+          "n": 1
+        }
+      ],
+      "browsers": [
+        {
+          "key": "Other",
+          "n": 1
+        }
+      ],
+      "systems": [
+        {
+          "key": "macOS",
+          "n": 1
+        }
+      ],
       "contactsBySource": [],
       "contactsByPage": [],
       "contactsByEntry": [],
@@ -56,27 +226,27 @@
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-10-25T23:32:59.759Z",
-      "to": "2026-11-01T23:32:59.759Z",
+      "from": "2026-10-26T18:13:33.884Z",
+      "to": "2026-11-02T18:13:33.884Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 56,
-        "clicks": 38,
-        "links": 14,
-        "visitors": 36,
-        "contacts": 5,
-        "contactVisitors": 3,
-        "days": 6,
+        "views": 50,
+        "clicks": 34,
+        "links": 11,
+        "visitors": 30,
+        "contacts": 4,
+        "contactVisitors": 2,
+        "days": 8,
         "medianPagesPerVisit": 1,
-        "medianDepth": 58,
-        "medianSecs": 7
+        "medianDepth": 53,
+        "medianSecs": 8
       },
       "series": [
         {
           "d": "2026-10-26",
-          "views": 10,
-          "visitors": 10
+          "views": 3,
+          "visitors": 3
         },
         {
           "d": "2026-10-27",
@@ -102,16 +272,26 @@
           "d": "2026-10-31",
           "views": 1,
           "visitors": 1
+        },
+        {
+          "d": "2026-11-01",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "d": "2026-11-02",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 28,
-          "visitors": 27,
-          "depth": 47,
+          "n": 22,
+          "visitors": 21,
+          "depth": 37,
           "secs": 5,
-          "measured": 27
+          "measured": 20
         },
         {
           "key": "/consulting/",
@@ -187,7 +367,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 27
+          "n": 21
         },
         {
           "key": "/consulting/",
@@ -209,7 +389,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 22
+          "n": 16
         },
         {
           "key": "/consulting/",
@@ -239,11 +419,11 @@
         },
         {
           "key": "search",
-          "n": 20
+          "n": 19
         },
         {
           "key": "direct",
-          "n": 15
+          "n": 10
         }
       ],
       "referrers": [
@@ -253,22 +433,18 @@
         },
         {
           "key": "google.com",
-          "n": 20
+          "n": 19
         }
       ],
       "campaigns": [],
       "countries": [
         {
           "key": "US",
-          "n": 49
+          "n": 45
         },
         {
           "key": "CA",
           "n": 4
-        },
-        {
-          "key": "AR",
-          "n": 2
         },
         {
           "key": "CH",
@@ -289,10 +465,6 @@
           "n": 4
         },
         {
-          "key": "Boston, Massachusetts",
-          "n": 3
-        },
-        {
           "key": "McKinney, Texas",
           "n": 3
         },
@@ -305,19 +477,15 @@
           "n": 3
         },
         {
-          "key": "Buenos Aires, Buenos Aires F.D.",
-          "n": 2
-        },
-        {
-          "key": "College Park, Maryland",
-          "n": 2
-        },
-        {
           "key": "Lanham, Maryland",
           "n": 2
         },
         {
           "key": "East Honolulu, Hawaii",
+          "n": 2
+        },
+        {
+          "key": "Boston, Massachusetts",
           "n": 2
         },
         {
@@ -333,15 +501,7 @@
           "n": 2
         },
         {
-          "key": "Hidden Hills, California",
-          "n": 1
-        },
-        {
-          "key": "Katonah, New York",
-          "n": 1
-        },
-        {
-          "key": "Jupiter, Florida",
+          "key": "College Park, Maryland",
           "n": 1
         },
         {
@@ -355,16 +515,32 @@
         {
           "key": "Ashburn, Virginia",
           "n": 1
+        },
+        {
+          "key": "Plymouth Meeting, Pennsylvania",
+          "n": 1
+        },
+        {
+          "key": "Oakland, California",
+          "n": 1
+        },
+        {
+          "key": "Littleton, Colorado",
+          "n": 1
+        },
+        {
+          "key": "Andover, Massachusetts",
+          "n": 1
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 39
+          "n": 38
         },
         {
           "key": "mobile",
-          "n": 16
+          "n": 11
         },
         {
           "key": "tablet",
@@ -374,35 +550,35 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 33
+          "n": 29
         },
         {
           "key": "Safari",
-          "n": 23
+          "n": 20
+        },
+        {
+          "key": "Other",
+          "n": 1
         }
       ],
       "systems": [
         {
           "key": "macOS",
-          "n": 28
-        },
-        {
-          "key": "iOS",
-          "n": 16
+          "n": 27
         },
         {
           "key": "Windows",
           "n": 12
+        },
+        {
+          "key": "iOS",
+          "n": 11
         }
       ],
       "contactsBySource": [
         {
           "key": "search",
           "n": 4
-        },
-        {
-          "key": "direct",
-          "n": 1
         }
       ],
       "contactsByPage": [
@@ -413,34 +589,22 @@
         {
           "key": "/consulting/about/",
           "n": 2
-        },
-        {
-          "key": "/",
-          "n": 1
         }
       ],
       "contactsByEntry": [
         {
           "key": "/consulting/speaking/",
           "n": 4
-        },
-        {
-          "key": "/",
-          "n": 1
         }
       ],
       "links": [
         {
           "key": "https://educatorsnotebook.com/subscribe/",
-          "n": 7
-        },
-        {
-          "key": "https://schooledthemusical.com/",
           "n": 6
         },
         {
-          "key": "https://exercisesfortherecoveryofchildhood.com/",
-          "n": 1
+          "key": "https://schooledthemusical.com/",
+          "n": 5
         }
       ],
       "internalLinks": [
@@ -470,18 +634,18 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-10-02T23:32:59.759Z",
-      "to": "2026-11-01T23:32:59.759Z",
+      "from": "2026-10-03T18:13:33.884Z",
+      "to": "2026-11-02T18:13:33.884Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 350,
+        "views": 351,
         "clicks": 188,
         "links": 70,
-        "visitors": 226,
+        "visitors": 227,
         "contacts": 6,
         "contactVisitors": 4,
-        "days": 28,
+        "days": 30,
         "medianPagesPerVisit": 1,
         "medianDepth": 64,
         "medianSecs": 11
@@ -626,13 +790,23 @@
           "d": "2026-10-31",
           "views": 1,
           "visitors": 1
+        },
+        {
+          "d": "2026-11-01",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "d": "2026-11-02",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 218,
-          "visitors": 201,
+          "n": 219,
+          "visitors": 202,
           "depth": 48,
           "secs": 10,
           "measured": 183
@@ -743,7 +917,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 200
+          "n": 201
         },
         {
           "key": "/consulting/",
@@ -769,7 +943,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 160
+          "n": 161
         },
         {
           "key": "/consulting/",
@@ -803,7 +977,7 @@
         },
         {
           "key": "direct",
-          "n": 88
+          "n": 89
         },
         {
           "key": "social",
@@ -836,7 +1010,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 321
+          "n": 322
         },
         {
           "key": "SE",
@@ -976,7 +1150,7 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 226
+          "n": 227
         },
         {
           "key": "mobile",
@@ -1006,7 +1180,7 @@
         },
         {
           "key": "Other",
-          "n": 4
+          "n": 5
         },
         {
           "key": "Samsung Internet",
@@ -1016,7 +1190,7 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 136
+          "n": 137
         },
         {
           "key": "iOS",
@@ -1146,18 +1320,18 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-11-01T23:32:59.759Z",
-      "to": "2026-11-01T23:32:59.759Z",
+      "from": "2025-11-02T18:13:33.884Z",
+      "to": "2026-11-02T18:13:33.884Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 350,
+        "views": 351,
         "clicks": 188,
         "links": 70,
-        "visitors": 226,
+        "visitors": 227,
         "contacts": 6,
         "contactVisitors": 4,
-        "days": 28,
+        "days": 30,
         "medianPagesPerVisit": 1,
         "medianDepth": 64,
         "medianSecs": 11
@@ -1302,13 +1476,23 @@
           "d": "2026-10-31",
           "views": 1,
           "visitors": 1
+        },
+        {
+          "d": "2026-11-01",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "d": "2026-11-02",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 218,
-          "visitors": 201,
+          "n": 219,
+          "visitors": 202,
           "depth": 48,
           "secs": 10,
           "measured": 183
@@ -1419,7 +1603,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 200
+          "n": 201
         },
         {
           "key": "/consulting/",
@@ -1445,7 +1629,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 160
+          "n": 161
         },
         {
           "key": "/consulting/",
@@ -1479,7 +1663,7 @@
         },
         {
           "key": "direct",
-          "n": 88
+          "n": 89
         },
         {
           "key": "social",
@@ -1512,7 +1696,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 321
+          "n": 322
         },
         {
           "key": "SE",
@@ -1652,7 +1836,7 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 226
+          "n": 227
         },
         {
           "key": "mobile",
@@ -1682,7 +1866,7 @@
         },
         {
           "key": "Other",
-          "n": 4
+          "n": 5
         },
         {
           "key": "Samsung Internet",
@@ -1692,7 +1876,7 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 136
+          "n": 137
         },
         {
           "key": "iOS",
@@ -1823,17 +2007,17 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-11-01T23:32:59.759Z",
+      "to": "2026-11-02T18:13:33.884Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 350,
+        "views": 351,
         "clicks": 188,
         "links": 70,
-        "visitors": 226,
+        "visitors": 227,
         "contacts": 6,
         "contactVisitors": 4,
-        "days": 28,
+        "days": 30,
         "medianPagesPerVisit": 1,
         "medianDepth": 64,
         "medianSecs": 11
@@ -1978,13 +2162,23 @@
           "d": "2026-10-31",
           "views": 1,
           "visitors": 1
+        },
+        {
+          "d": "2026-11-01",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "d": "2026-11-02",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 218,
-          "visitors": 201,
+          "n": 219,
+          "visitors": 202,
           "depth": 48,
           "secs": 10,
           "measured": 183
@@ -2095,7 +2289,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 200
+          "n": 201
         },
         {
           "key": "/consulting/",
@@ -2121,7 +2315,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 160
+          "n": 161
         },
         {
           "key": "/consulting/",
@@ -2155,7 +2349,7 @@
         },
         {
           "key": "direct",
-          "n": 88
+          "n": 89
         },
         {
           "key": "social",
@@ -2188,7 +2382,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 321
+          "n": 322
         },
         {
           "key": "SE",
@@ -2328,7 +2522,7 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 226
+          "n": 227
         },
         {
           "key": "mobile",
@@ -2358,7 +2552,7 @@
         },
         {
           "key": "Other",
-          "n": 4
+          "n": 5
         },
         {
           "key": "Samsung Internet",
@@ -2368,7 +2562,7 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 136
+          "n": 137
         },
         {
           "key": "iOS",
