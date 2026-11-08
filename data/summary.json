@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T23:37:08.358Z",
+  "generated": "2026-11-08T15:03:58.286Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -10,212 +10,42 @@
   ],
   "span": {
     "first": "2026-10-04T07:39:33.300Z",
-    "days": 35
+    "days": 36
   },
   "ranges": {
     "24h": {
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-11-06T23:37:08.358Z",
-      "to": "2026-11-07T23:37:08.358Z",
+      "from": "2026-11-07T15:03:58.286Z",
+      "to": "2026-11-08T15:03:58.286Z",
       "available": true,
       "granularity": "hour",
       "totals": {
-        "views": 1,
+        "views": 0,
         "clicks": 0,
         "links": 0,
-        "visitors": 1,
+        "visitors": 0,
         "contacts": 0,
         "contactVisitors": 0,
-        "days": 1,
-        "medianPagesPerVisit": 1,
-        "medianDepth": 23,
-        "medianSecs": 19
+        "days": 0,
+        "medianPagesPerVisit": null,
+        "medianDepth": null,
+        "medianSecs": null
       },
-      "series": [
-        {
-          "t": "2026-11-07T00:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T01:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T02:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T03:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T04:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T05:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T06:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T07:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T08:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T09:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T10:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T11:00:00.000Z",
-          "views": 1,
-          "visitors": 1
-        },
-        {
-          "t": "2026-11-07T12:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T13:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T14:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T15:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T16:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T17:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T18:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T19:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T20:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T21:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T22:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-07T23:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        }
-      ],
-      "pages": [
-        {
-          "key": "/",
-          "n": 1,
-          "visitors": 1,
-          "depth": 23,
-          "secs": 19,
-          "measured": 1
-        }
-      ],
+      "series": [],
+      "pages": [],
       "journeys": [],
-      "entries": [
-        {
-          "key": "/",
-          "n": 1
-        }
-      ],
-      "exits": [
-        {
-          "key": "/",
-          "n": 1
-        }
-      ],
-      "sources": [
-        {
-          "key": "direct",
-          "n": 1
-        }
-      ],
+      "entries": [],
+      "exits": [],
+      "sources": [],
       "referrers": [],
       "campaigns": [],
-      "countries": [
-        {
-          "key": "US",
-          "n": 1
-        }
-      ],
-      "cities": [
-        {
-          "key": "Boardman, Oregon",
-          "n": 1
-        }
-      ],
-      "devices": [
-        {
-          "key": "desktop",
-          "n": 1
-        }
-      ],
-      "browsers": [
-        {
-          "key": "Chrome",
-          "n": 1
-        }
-      ],
-      "systems": [
-        {
-          "key": "Linux",
-          "n": 1
-        }
-      ],
+      "countries": [],
+      "cities": [],
+      "devices": [],
+      "browsers": [],
+      "systems": [],
       "contactsBySource": [],
       "contactsByPage": [],
       "contactsByEntry": [],
@@ -226,8 +56,8 @@
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-10-31T23:37:08.358Z",
-      "to": "2026-11-07T23:37:08.358Z",
+      "from": "2026-11-01T15:03:58.286Z",
+      "to": "2026-11-08T15:03:58.286Z",
       "available": true,
       "granularity": "day",
       "totals": {
@@ -696,27 +526,27 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-10-08T23:37:08.358Z",
-      "to": "2026-11-07T23:37:08.358Z",
+      "from": "2026-10-09T15:03:58.286Z",
+      "to": "2026-11-08T15:03:58.286Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 351,
-        "clicks": 182,
-        "links": 63,
-        "visitors": 229,
+        "views": 345,
+        "clicks": 181,
+        "links": 62,
+        "visitors": 223,
         "contacts": 9,
         "contactVisitors": 6,
         "days": 30,
         "medianPagesPerVisit": 1,
-        "medianDepth": 68,
+        "medianDepth": 69,
         "medianSecs": 11
       },
       "series": [
         {
           "d": "2026-10-09",
-          "views": 18,
-          "visitors": 14
+          "views": 12,
+          "visitors": 8
         },
         {
           "d": "2026-10-10",
@@ -867,19 +697,19 @@
       "pages": [
         {
           "key": "/",
-          "n": 206,
-          "visitors": 193,
+          "n": 201,
+          "visitors": 188,
           "depth": 51,
           "secs": 10,
-          "measured": 179
+          "measured": 177
         },
         {
           "key": "/consulting/",
-          "n": 54,
-          "visitors": 49,
+          "n": 53,
+          "visitors": 48,
           "depth": 82,
           "secs": 9,
-          "measured": 54
+          "measured": 53
         },
         {
           "key": "/consulting/about/",
@@ -979,11 +809,11 @@
       "entries": [
         {
           "key": "/",
-          "n": 192
+          "n": 187
         },
         {
           "key": "/consulting/",
-          "n": 14
+          "n": 13
         },
         {
           "key": "/consulting/writing/",
@@ -1005,11 +835,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 152
-        },
-        {
-          "key": "/consulting/",
-          "n": 20
+          "n": 147
         },
         {
           "key": "/consulting/writing/",
@@ -1017,6 +843,10 @@
         },
         {
           "key": "/consulting/about/",
+          "n": 19
+        },
+        {
+          "key": "/consulting/",
           "n": 19
         },
         {
@@ -1039,7 +869,7 @@
         },
         {
           "key": "direct",
-          "n": 89
+          "n": 83
         },
         {
           "key": "social",
@@ -1072,7 +902,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 327
+          "n": 321
         },
         {
           "key": "SE",
@@ -1134,15 +964,15 @@
         },
         {
           "key": "Ashburn, Virginia",
-          "n": 17
-        },
-        {
-          "key": "Washington, District of Columbia",
-          "n": 11
+          "n": 13
         },
         {
           "key": "Waimanalo, Hawaii",
           "n": 11
+        },
+        {
+          "key": "Washington, District of Columbia",
+          "n": 10
         },
         {
           "key": "Chicago, Illinois",
@@ -1200,25 +1030,25 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 223
+          "n": 219
         },
         {
           "key": "mobile",
-          "n": 122
+          "n": 121
         },
         {
           "key": "tablet",
-          "n": 6
+          "n": 5
         }
       ],
       "browsers": [
         {
           "key": "Chrome",
-          "n": 212
+          "n": 207
         },
         {
           "key": "Safari",
-          "n": 120
+          "n": 119
         },
         {
           "key": "Firefox",
@@ -1240,26 +1070,26 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 150
+          "n": 149
         },
         {
           "key": "iOS",
-          "n": 109
+          "n": 108
         },
         {
           "key": "Windows",
-          "n": 75
+          "n": 73
         },
         {
           "key": "Android",
           "n": 13
         },
         {
-          "key": "Linux",
-          "n": 3
+          "key": "Other",
+          "n": 1
         },
         {
-          "key": "Other",
+          "key": "Linux",
           "n": 1
         }
       ],
@@ -1311,12 +1141,12 @@
       ],
       "links": [
         {
-          "key": "https://schooledthemusical.com/",
+          "key": "https://educatorsnotebook.com/subscribe/",
           "n": 17
         },
         {
-          "key": "https://educatorsnotebook.com/subscribe/",
-          "n": 17
+          "key": "https://schooledthemusical.com/",
+          "n": 16
         },
         {
           "key": "https://www.amazon.com/Irreplaceable-Everything-Teaching-Learning-technologists/dp/B0FT3PFX1K/",
@@ -1378,8 +1208,8 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-11-07T23:37:08.358Z",
-      "to": "2026-11-07T23:37:08.358Z",
+      "from": "2025-11-08T15:03:58.286Z",
+      "to": "2026-11-08T15:03:58.286Z",
       "available": false,
       "granularity": "day",
       "totals": {
@@ -2106,7 +1936,7 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-11-07T23:37:08.358Z",
+      "to": "2026-11-08T15:03:58.286Z",
       "available": true,
       "granularity": "day",
       "totals": {
