@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T00:52:19.495Z",
+  "generated": "2026-11-14T14:58:45.968Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -10,100 +10,30 @@
   ],
   "span": {
     "first": "2026-10-04T07:39:33.300Z",
-    "days": 41
+    "days": 42
   },
   "ranges": {
     "24h": {
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-11-13T00:52:19.495Z",
-      "to": "2026-11-14T00:52:19.495Z",
+      "from": "2026-11-13T14:58:45.968Z",
+      "to": "2026-11-14T14:58:45.968Z",
       "available": true,
       "granularity": "hour",
       "totals": {
-        "views": 24,
-        "clicks": 20,
-        "links": 11,
+        "views": 23,
+        "clicks": 19,
+        "links": 10,
         "visitors": 14,
         "contacts": 2,
         "contactVisitors": 2,
-        "days": 1,
+        "days": 2,
         "medianPagesPerVisit": 1,
-        "medianDepth": 53,
-        "medianSecs": 12
+        "medianDepth": 46,
+        "medianSecs": 11
       },
       "series": [
-        {
-          "t": "2026-11-13T01:00:00.000Z",
-          "views": 2,
-          "visitors": 1
-        },
-        {
-          "t": "2026-11-13T02:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-13T03:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-13T04:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-13T05:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-13T06:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-13T07:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-13T08:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-13T09:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-13T10:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-13T11:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-13T12:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-13T13:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-13T14:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
         {
           "t": "2026-11-13T15:00:00.000Z",
           "views": 1,
@@ -153,6 +83,76 @@
           "t": "2026-11-14T00:00:00.000Z",
           "views": 0,
           "visitors": 0
+        },
+        {
+          "t": "2026-11-14T01:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-14T02:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-14T03:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-14T04:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-14T05:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-14T06:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-14T07:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-14T08:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-14T09:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-14T10:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-14T11:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-14T12:00:00.000Z",
+          "views": 1,
+          "visitors": 1
+        },
+        {
+          "t": "2026-11-14T13:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-14T14:00:00.000Z",
+          "views": 0,
+          "visitors": 0
         }
       ],
       "pages": [
@@ -160,9 +160,9 @@
           "key": "/",
           "n": 16,
           "visitors": 14,
-          "depth": 46,
+          "depth": 45,
           "secs": 11,
-          "measured": 15
+          "measured": 14
         },
         {
           "key": "/consulting/schools/",
@@ -187,21 +187,9 @@
           "depth": 57,
           "secs": 7,
           "measured": 2
-        },
-        {
-          "key": "/consulting/about/",
-          "n": 1,
-          "visitors": 1,
-          "depth": 88,
-          "secs": 35,
-          "measured": 1
         }
       ],
       "journeys": [
-        {
-          "key": "/ → /consulting/about/",
-          "n": 1
-        },
         {
           "key": "/ → /consulting/ → /consulting/schools/ → /consulting/speaking/ → /consulting/schools/ → /consulting/speaking/ → /consulting/schools/ → /consulting/ → /",
           "n": 1
@@ -216,11 +204,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 13
-        },
-        {
-          "key": "/consulting/about/",
-          "n": 1
+          "n": 14
         }
       ],
       "sources": [
@@ -229,12 +213,12 @@
           "n": 9
         },
         {
-          "key": "search",
+          "key": "direct",
           "n": 8
         },
         {
-          "key": "direct",
-          "n": 7
+          "key": "search",
+          "n": 6
         }
       ],
       "referrers": [
@@ -244,14 +228,14 @@
         },
         {
           "key": "google.com",
-          "n": 8
+          "n": 6
         }
       ],
       "campaigns": [],
       "countries": [
         {
           "key": "US",
-          "n": 24
+          "n": 23
         }
       ],
       "cities": [
@@ -262,10 +246,6 @@
         {
           "key": "Bayonne, New Jersey",
           "n": 5
-        },
-        {
-          "key": "South Burlington, Vermont",
-          "n": 2
         },
         {
           "key": "Cochituate, Massachusetts",
@@ -286,22 +266,26 @@
         {
           "key": "Fairfax, Virginia",
           "n": 1
+        },
+        {
+          "key": "Dallas, Texas",
+          "n": 1
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 15
+          "n": 16
         },
         {
           "key": "mobile",
-          "n": 9
+          "n": 7
         }
       ],
       "browsers": [
         {
           "key": "Chrome",
-          "n": 19
+          "n": 18
         },
         {
           "key": "Safari",
@@ -315,10 +299,14 @@
         },
         {
           "key": "iOS",
-          "n": 9
+          "n": 7
         },
         {
           "key": "Windows",
+          "n": 1
+        },
+        {
+          "key": "Linux",
           "n": 1
         }
       ],
@@ -348,10 +336,6 @@
         {
           "key": "https://planningprocessillustrated.com/",
           "n": 2
-        },
-        {
-          "key": "https://educatorsnotebook.com/",
-          "n": 1
         },
         {
           "key": "https://distantreading.org/",
@@ -397,8 +381,8 @@
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-11-07T00:52:19.495Z",
-      "to": "2026-11-14T00:52:19.495Z",
+      "from": "2026-11-07T14:58:45.968Z",
+      "to": "2026-11-14T14:58:45.968Z",
       "available": true,
       "granularity": "day",
       "totals": {
@@ -410,15 +394,10 @@
         "contactVisitors": 6,
         "days": 7,
         "medianPagesPerVisit": 1,
-        "medianDepth": 56,
+        "medianDepth": 59,
         "medianSecs": 10
       },
       "series": [
-        {
-          "d": "2026-11-07",
-          "views": 1,
-          "visitors": 1
-        },
         {
           "d": "2026-11-08",
           "views": 2,
@@ -448,6 +427,11 @@
           "d": "2026-11-13",
           "views": 24,
           "visitors": 14
+        },
+        {
+          "d": "2026-11-14",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
@@ -456,8 +440,8 @@
           "n": 48,
           "visitors": 43,
           "depth": 47,
-          "secs": 11,
-          "measured": 42
+          "secs": 10,
+          "measured": 41
         },
         {
           "key": "/consulting/about/",
@@ -695,6 +679,10 @@
           "n": 2
         },
         {
+          "key": "Dallas, Texas",
+          "n": 2
+        },
+        {
           "key": "Raleigh, North Carolina",
           "n": 2
         },
@@ -715,10 +703,6 @@
           "n": 2
         },
         {
-          "key": "Boardman, Oregon",
-          "n": 1
-        },
-        {
           "key": "Waimanalo, Hawaii",
           "n": 1
         },
@@ -727,11 +711,11 @@
           "n": 1
         },
         {
-          "key": "Dallas, Texas",
+          "key": "Nashville, Tennessee",
           "n": 1
         },
         {
-          "key": "Nashville, Tennessee",
+          "key": "Cruz Bay, Saint John Island",
           "n": 1
         }
       ],
@@ -916,18 +900,18 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-10-15T00:52:19.495Z",
-      "to": "2026-11-14T00:52:19.495Z",
+      "from": "2026-10-15T14:58:45.968Z",
+      "to": "2026-11-14T14:58:45.968Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 372,
+        "views": 373,
         "clicks": 206,
         "links": 71,
-        "visitors": 235,
+        "visitors": 236,
         "contacts": 16,
         "contactVisitors": 12,
-        "days": 30,
+        "days": 31,
         "medianPagesPerVisit": 1,
         "medianDepth": 67,
         "medianSecs": 11
@@ -1082,13 +1066,18 @@
           "d": "2026-11-13",
           "views": 24,
           "visitors": 14
+        },
+        {
+          "d": "2026-11-14",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 202,
-          "visitors": 186,
+          "n": 203,
+          "visitors": 187,
           "depth": 49,
           "secs": 10,
           "measured": 179
@@ -1199,7 +1188,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 185
+          "n": 186
         },
         {
           "key": "/consulting/about/",
@@ -1225,7 +1214,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 150
+          "n": 151
         },
         {
           "key": "/consulting/about/",
@@ -1259,7 +1248,7 @@
         },
         {
           "key": "direct",
-          "n": 95
+          "n": 96
         },
         {
           "key": "social",
@@ -1300,7 +1289,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 355
+          "n": 356
         },
         {
           "key": "CA",
@@ -1428,7 +1417,7 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 252
+          "n": 253
         },
         {
           "key": "mobile",
@@ -1442,7 +1431,7 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 244
+          "n": 245
         },
         {
           "key": "Safari",
@@ -1483,11 +1472,11 @@
           "n": 9
         },
         {
-          "key": "Other",
-          "n": 1
+          "key": "Linux",
+          "n": 2
         },
         {
-          "key": "Linux",
+          "key": "Other",
           "n": 1
         }
       ],
@@ -1634,18 +1623,18 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-11-14T00:52:19.495Z",
-      "to": "2026-11-14T00:52:19.495Z",
+      "from": "2025-11-14T14:58:45.968Z",
+      "to": "2026-11-14T14:58:45.968Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 521,
+        "views": 522,
         "clicks": 278,
         "links": 97,
-        "visitors": 335,
+        "visitors": 336,
         "contacts": 17,
         "contactVisitors": 13,
-        "days": 41,
+        "days": 42,
         "medianPagesPerVisit": 1,
         "medianDepth": 63,
         "medianSecs": 11
@@ -1855,13 +1844,18 @@
           "d": "2026-11-13",
           "views": 24,
           "visitors": 14
+        },
+        {
+          "d": "2026-11-14",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 301,
-          "visitors": 278,
+          "n": 302,
+          "visitors": 279,
           "depth": 49,
           "secs": 10,
           "measured": 254
@@ -1972,7 +1966,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 277
+          "n": 278
         },
         {
           "key": "/consulting/about/",
@@ -1998,7 +1992,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 226
+          "n": 227
         },
         {
           "key": "/consulting/about/",
@@ -2032,7 +2026,7 @@
         },
         {
           "key": "direct",
-          "n": 143
+          "n": 144
         },
         {
           "key": "social",
@@ -2077,7 +2071,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 484
+          "n": 485
         },
         {
           "key": "CA",
@@ -2225,7 +2219,7 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 349
+          "n": 350
         },
         {
           "key": "mobile",
@@ -2239,7 +2233,7 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 327
+          "n": 328
         },
         {
           "key": "Safari",
@@ -2281,7 +2275,7 @@
         },
         {
           "key": "Linux",
-          "n": 5
+          "n": 6
         },
         {
           "key": "Other",
@@ -2432,17 +2426,17 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-11-14T00:52:19.495Z",
+      "to": "2026-11-14T14:58:45.968Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 521,
+        "views": 522,
         "clicks": 278,
         "links": 97,
-        "visitors": 335,
+        "visitors": 336,
         "contacts": 17,
         "contactVisitors": 13,
-        "days": 41,
+        "days": 42,
         "medianPagesPerVisit": 1,
         "medianDepth": 63,
         "medianSecs": 11
@@ -2652,13 +2646,18 @@
           "d": "2026-11-13",
           "views": 24,
           "visitors": 14
+        },
+        {
+          "d": "2026-11-14",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 301,
-          "visitors": 278,
+          "n": 302,
+          "visitors": 279,
           "depth": 49,
           "secs": 10,
           "measured": 254
@@ -2769,7 +2768,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 277
+          "n": 278
         },
         {
           "key": "/consulting/about/",
@@ -2795,7 +2794,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 226
+          "n": 227
         },
         {
           "key": "/consulting/about/",
@@ -2829,7 +2828,7 @@
         },
         {
           "key": "direct",
-          "n": 143
+          "n": 144
         },
         {
           "key": "social",
@@ -2874,7 +2873,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 484
+          "n": 485
         },
         {
           "key": "CA",
@@ -3022,7 +3021,7 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 349
+          "n": 350
         },
         {
           "key": "mobile",
@@ -3036,7 +3035,7 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 327
+          "n": 328
         },
         {
           "key": "Safari",
@@ -3078,7 +3077,7 @@
         },
         {
           "key": "Linux",
-          "n": 5
+          "n": 6
         },
         {
           "key": "Other",
