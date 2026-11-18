@@ -1,0 +1,48 @@
+name: Network stats
+
+# Builds data/network.json for the all-sites stats page at /stats/.
+# Runs after the four sites' own "Visit notes" syncs have committed their rows
+# (Schooled and this site at :10, Childhood Recovery at :25, Educator's
+# Notebook at :40), then reads those rows straight from the public repos.
+# Nothing new is collected here.
+
+on:
+  schedule:
+    - cron: "5 9 * * *"     # 09:05 UTC — 5am Eastern in summer, 4am in winter
+    - cron: "5 21 * * *"    # 21:05 UTC — 5pm Eastern in summer, 4pm in winter
+  workflow_dispatch:          # ...or whenever you press the button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-commits
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch the other sites' visit rows
+        run: |
+          fetch() {   # repo, folder to keep
+            git clone --quiet --depth 1 --filter=blob:none --sparse "https://github.com/pbnilsson/$1.git" "/tmp/$1"
+            git -C "/tmp/$1" sparse-checkout set "$2"
+          }
+          fetch SchooledTheMusical data/days
+          fetch TheEducatorsNotebook visits
+          fetch ChildhoodRecovery data/days
+
+      - name: Build the network summary
+        run: node scripts/build-network.js /tmp/SchooledTheMusical /tmp/TheEducatorsNotebook /tmp/ChildhoodRecovery
+
+      - name: Commit anything new
+        run: |
+          git config user.name "Peter Nilsson"
+          git config user.email "pbnilsson@gmail.com"
+          git add data/network.json
+          git diff --staged --quiet || git commit -m "Network stats: build $(date -u +'%F %H:%M')"
+          git pull --rebase --quiet
+          git push
