@@ -57,10 +57,17 @@ function cleanPath(p, prefix) {
 }
 
 const rows = [];
+// Cloud data-center rows (dc: 1) are left out here just as each site's own
+// summary leaves them out, and counted per site.
+const dataCenter = {};
 function add(list, site, prefix) {
   for (const r of list) {
     const p = cleanPath(r.path, prefix);
     const s = typeof site === "function" ? site(p) : site;
+    if (r.dc) {
+      if (r.kind === "view") dataCenter[s] = (dataCenter[s] || 0) + 1;
+      continue;
+    }
     rows.push(Object.assign({}, r, { path: p, site: s }));
   }
 }
@@ -323,6 +330,7 @@ const out = {
   generated: now.toISOString(),
   defaultRange: "month",
   order: RANGES.map((r) => r.key),
+  dataCenterViews: dataCenter,
   sites: SITES.map((s) => ({ key: s.key, name: s.name, host: s.host, stats: s.stats, since: since[s.key] })),
   ranges,
 };

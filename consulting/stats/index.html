@@ -712,6 +712,22 @@
       .sort(function (a, b) { return b.n - a.n; });
   }
 
+  // Since Nov 2026 the collector tags cloud data-center visits and the builder
+  // leaves them out of every count. Older rows can't be told apart, so the
+  // general caution stays alongside the tally.
+  function dcLine(s) {
+    var d = s.dataCenter, out = "";
+    if (d && d.views) {
+      out = "Not counted: " + d.views + (d.views === 1 ? " page view" : " page views") +
+        " from cloud data centers" +
+        (d.places && d.places.length
+          ? " (" + d.places.slice(0, 3).map(function (p) { return esc(p.key) + " " + p.n; }).join(", ") + ")"
+          : "") + ". ";
+    }
+    return out + "Visits recorded before screening began couldn’t be checked, so some automated " +
+      "traffic remains in those counts, mostly as Virginia (Ashburn) and Iowa (Council Bluffs).";
+  }
+
   function mapSection(s) {
     if (!(s.countries && s.countries.length)) return "";
     return "<section><h2>Where on the map</h2>" +
@@ -720,8 +736,7 @@
         '<div class="map chartbox" id="map-us"><h3>United States</h3></div>' +
         '<div class="map chartbox" id="map-world"><h3>World</h3></div>' +
       "</div>" +
-      '<p class="aside">Some of this is automated traffic from cloud data centers, ' +
-      "which shows up mostly as Virginia (Ashburn) and Iowa (Council Bluffs).</p>" +
+      '<p class="aside">' + dcLine(s) + "</p>" +
       "</section>";
   }
 
