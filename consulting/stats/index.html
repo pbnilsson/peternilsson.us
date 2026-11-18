@@ -110,6 +110,21 @@
     .pill{padding:6px 10px;font-size:13px;}
   }
 
+  /* maps */
+  .maps{display:flex;flex-direction:column;gap:36px;}
+  .map h3{font-family:'Hanken Grotesk',system-ui,sans-serif;font-weight:600;font-size:14px;letter-spacing:.08em;
+          text-transform:uppercase;color:var(--muted);margin:0 0 10px;}
+  .map svg path{stroke:#FBFAF7;stroke-width:.75;stroke-linejoin:round;vector-effect:non-scaling-stroke;}
+  .map svg path.hit{cursor:default;}
+  .map svg path.hit:hover{stroke:var(--navy);stroke-width:1.5;}
+  .aside{font-size:13px;font-style:italic;color:var(--muted);margin:20px 0 0;max-width:620px;}
+  .mapkey{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin:0 0 14px;}
+  .mapkey .steps{display:flex;gap:2px;}
+  .mapkey .steps span{display:flex;flex-direction:column;align-items:center;gap:3px;font-variant-numeric:tabular-nums;}
+  .mapkey .steps i{display:block;width:44px;height:10px;}
+  .mapkey .steps span:first-child i{border-radius:4px 0 0 4px;}
+  .mapkey .steps span:last-child i{border-radius:0 4px 4px 0;}
+
   .empty{border-top:2px solid var(--navy);padding:28px 0 0;color:var(--ink2);font-size:17px;max-width:640px;}
   .empty p{margin:0 0 12px;}
   .empty code{font-size:14px;background:var(--rule2);padding:1px 6px;border-radius:2px;}
@@ -638,6 +653,8 @@
         }
       }) + "</section>";
 
+    html += mapSection(s);
+
     if (s.cities && s.cities.length) {
       html += "<section><h2>Where from</h2>" +
         '<p class="note">City and country come from the network edge, never from a stored address.</p>' +
@@ -665,6 +682,139 @@
 
     app.innerHTML = html;
     wireChart(s);
+    drawMaps(s);
+  }
+
+  // ---- maps -------------------------------------------------------------
+  // Shapes live in geo.json beside this page: US states already projected
+  // (Albers, Alaska and Hawaii inset) and world countries in Equal Earth,
+  // keyed by state name and two-letter country code. Fetched once, on demand.
+  var GEO = null, geoWait = null;
+  function loadGeo() {
+    if (!geoWait) geoWait = fetch("geo.json").then(function (r) { return r.json(); })
+      .then(function (g) { GEO = g; return g; });
+    return geoWait;
+  }
+
+  // One hue, light to dark (sky ramp ending in navy). Zero stays the track gray.
+  var RAMP = ["#CFE3EE", "#93C0D8", "#5A9FC4", "#2E7FA6", "#00324A"];
+  var ZERO = "#E6E8EA";
+
+  function stateCounts(s) {
+    if (s.states) return s.states;
+    // Older summary.json: rebuild from the city list ("City, State").
+    var names = GEO ? GEO.us.states : {}, m = {};
+    (s.cities || []).forEach(function (c) {
+      var st = String(c.key).split(", ").pop();
+      if (names[st]) m[st] = (m[st] || 0) + c.n;
+    });
+    return Object.keys(m).map(function (k) { return { key: k, n: m[k] }; })
+      .sort(function (a, b) { return b.n - a.n; });
+  }
+
+  function mapSection(s) {
+    if (!(s.countries && s.countries.length)) return "";
+    return "<section><h2>Where on the map</h2>" +
+      '<p class="note">Page views by state and by country. Darker means more. Hover for the count.</p>' +
+      '<div class="maps">' +
+        '<div class="map chartbox" id="map-us"><h3>United States</h3></div>' +
+        '<div class="map chartbox" id="map-world"><h3>World</h3></div>' +
+      "</div>" +
+      '<p class="aside">Some of this is automated traffic from cloud data centers, ' +
+      "which shows up mostly as Virginia (Ashburn) and Iowa (Council Bluffs).</p>" +
+      "</section>";
+  }
+
+  // Log-scaled bins, so one busy state doesn't wash every other one out.
+  function binner(max) {
+    var k = RAMP.length;
+    if (max <= k) return { bin: function (n) { return Math.min(k, n) - 1 + (k - Math.min(k, max)); },
+      edges: null };
+    var L = Math.log(max + 1);
+    var edges = [];
+    for (var i = 1; i <= k; i++) edges.push(Math.round(Math.exp((L * i) / k) - 1));
+    return {
+      bin: function (n) {
+        for (var i = 0; i < edges.length; i++) if (n <= edges[i]) return i;
+        return k - 1;
+      },
+      edges: edges
+    };
+  }
+
+  function keyHtml(max, b) {
+    var steps = "";
+    if (!b.edges) {
+      var first = RAMP.length - Math.min(RAMP.length, max);
+      for (var i = first; i < RAMP.length; i++)
+        steps += '<span><i style="background:' + RAMP[i] + '"></i>' + (i - first + 1) + "</span>";
+    } else {
+      var lo = 1;
+      b.edges.forEach(function (e, i) {
+        if (e < lo) return;
+        steps += '<span><i style="background:' + RAMP[i] + '"></i>' +
+          (lo === e ? e : lo + "–" + e) + "</span>";
+        lo = e + 1;
+      });
+    }
+    return '<div class="mapkey"><span>Views</span><div class="steps">' +
+      '<span><i style="background:' + ZERO + '"></i>0</span>' + steps + "</div></div>";
+  }
+
+  function drawOne(box, shapes, w, h, counts, nameOf, label) {
+    var by = {}, max = 0;
+    counts.forEach(function (c) { by[c.key] = c.n; if (c.n > max) max = c.n; });
+    var b = binner(Math.max(1, max));
+    var paths = "";
+    Object.keys(shapes).forEach(function (k) {
+      var n = by[k] || 0;
+      paths += '<path class="hit" d="' + shapes[k] + '" fill="' + (n ? RAMP[b.bin(n)] : ZERO) +
+        '" data-k="' + esc(k) + '" data-n="' + n + '"/>';
+    });
+    box.insertAdjacentHTML("beforeend", keyHtml(max, b) +
+      '<svg viewBox="0 0 ' + w + " " + h + '" role="img" aria-label="' + esc(label) + '">' + paths + "</svg>" +
+      '<div class="tip"></div>');
+    var svg = box.querySelector("svg"), tip = box.querySelector(".tip");
+    function at(ev, el) {
+      var n = +el.getAttribute("data-n");
+      tip.innerHTML = "<b>" + esc(nameOf(el.getAttribute("data-k"))) + "</b>" +
+        '<div class="r">' + (n ? n + (n === 1 ? " view" : " views") : "No visits") + "</div>";
+      var rb = box.getBoundingClientRect();
+      tip.style.left = (ev.clientX - rb.left) + "px";
+      tip.style.top = (ev.clientY - rb.top - 8) + "px";
+      tip.style.opacity = "1";
+    }
+    svg.addEventListener("mousemove", function (ev) {
+      if (ev.target.classList && ev.target.classList.contains("hit")) at(ev, ev.target);
+      else tip.style.opacity = "0";
+    });
+    svg.addEventListener("click", function (ev) {
+      if (ev.target.classList && ev.target.classList.contains("hit")) at(ev, ev.target);
+    });
+    svg.addEventListener("mouseleave", function () { tip.style.opacity = "0"; });
+  }
+
+  var regionName = (function () {
+    try {
+      var dn = new Intl.DisplayNames(["en"], { type: "region" });
+      return function (c) { try { return dn.of(c) || c; } catch (e) { return c; } };
+    } catch (e) { return function (c) { return c; }; }
+  })();
+
+  function drawMaps(s) {
+    if (!document.getElementById("map-us")) return;
+    loadGeo().then(function (g) {
+      var us = document.getElementById("map-us"), wd = document.getElementById("map-world");
+      if (!us || current !== s) return;   // range changed while loading
+      drawOne(us, g.us.states, g.us.w, g.us.h, stateCounts(s),
+        function (k) { return k; }, "Page views by US state");
+      drawOne(wd, g.world.countries, g.world.w, g.world.h, s.mapCountries || s.countries,
+        function (k) { return /^X/.test(k) && k !== "XK" ? k : regionName(k); },
+        "Page views by country");
+    }).catch(function () {
+      var m = document.querySelector("#map-us");
+      if (m) m.closest("section").remove();
+    });
   }
 
   function tile(n, label) {

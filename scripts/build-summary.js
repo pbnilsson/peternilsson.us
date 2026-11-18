@@ -234,6 +234,9 @@ function summarize(rows, granularity) {
       (r) => (r.city ? r.city + (r.region ? ", " + r.region : "") : null),
       20
     ),
+    // For the maps: every country (not just the top 20) and US states.
+    mapCountries: tally(views, (r) => r.country),
+    states: tally(views.filter((r) => r.country === "US"), (r) => r.region),
     devices: tally(views, (r) => r.device),
     browsers: tally(views, (r) => r.browser, 10),
     systems: tally(views, (r) => r.os, 10),

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18T02:23:54.668Z",
+  "generated": "2026-11-18T14:24:11.705Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -10,90 +10,30 @@
   ],
   "span": {
     "first": "2026-10-04T07:39:33.300Z",
-    "days": 45
+    "days": 46
   },
   "ranges": {
     "24h": {
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-11-17T02:23:54.668Z",
-      "to": "2026-11-18T02:23:54.668Z",
+      "from": "2026-11-17T14:24:11.705Z",
+      "to": "2026-11-18T14:24:11.705Z",
       "available": true,
       "granularity": "hour",
       "totals": {
-        "views": 21,
-        "clicks": 9,
-        "links": 5,
-        "visitors": 17,
+        "views": 19,
+        "clicks": 7,
+        "links": 3,
+        "visitors": 15,
         "contacts": 0,
         "contactVisitors": 0,
         "days": 1,
         "medianPagesPerVisit": 1,
         "medianDepth": 78,
-        "medianSecs": 14
+        "medianSecs": 16
       },
       "series": [
-        {
-          "t": "2026-11-17T03:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-17T04:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-17T05:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-17T06:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-17T07:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-17T08:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-17T09:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-17T10:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-17T11:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-17T12:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-17T13:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-17T14:00:00.000Z",
-          "views": 4,
-          "visitors": 4
-        },
         {
           "t": "2026-11-17T15:00:00.000Z",
           "views": 0,
@@ -153,16 +93,76 @@
           "t": "2026-11-18T02:00:00.000Z",
           "views": 0,
           "visitors": 0
+        },
+        {
+          "t": "2026-11-18T03:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-18T04:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-18T05:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-18T06:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-18T07:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-18T08:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-18T09:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-18T10:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-18T11:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-18T12:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-18T13:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-18T14:00:00.000Z",
+          "views": 0,
+          "visitors": 0
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 17,
-          "visitors": 15,
+          "n": 15,
+          "visitors": 13,
           "depth": 54,
-          "secs": 14,
-          "measured": 17
+          "secs": 16,
+          "measured": 15
         },
         {
           "key": "/consulting/",
@@ -190,7 +190,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 15
+          "n": 13
         },
         {
           "key": "/consulting/",
@@ -204,7 +204,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 13
+          "n": 11
         },
         {
           "key": "/consulting/",
@@ -218,7 +218,7 @@
       "sources": [
         {
           "key": "search",
-          "n": 13
+          "n": 11
         },
         {
           "key": "internal",
@@ -232,7 +232,7 @@
       "referrers": [
         {
           "key": "google.com",
-          "n": 13
+          "n": 11
         },
         {
           "key": "peternilsson.us",
@@ -243,7 +243,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 21
+          "n": 19
         }
       ],
       "cities": [
@@ -256,22 +256,42 @@
           "n": 4
         },
         {
-          "key": "Fort Wayne, Indiana",
-          "n": 3
-        },
-        {
           "key": "Indianapolis, Indiana",
           "n": 1
         },
         {
           "key": "Bayonne, New Jersey",
           "n": 1
+        },
+        {
+          "key": "Fort Wayne, Indiana",
+          "n": 1
+        }
+      ],
+      "mapCountries": [
+        {
+          "key": "US",
+          "n": 19
+        }
+      ],
+      "states": [
+        {
+          "key": "New York",
+          "n": 12
+        },
+        {
+          "key": "New Jersey",
+          "n": 5
+        },
+        {
+          "key": "Indiana",
+          "n": 2
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 13
+          "n": 11
         },
         {
           "key": "mobile",
@@ -281,7 +301,7 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 12
+          "n": 10
         },
         {
           "key": "Safari",
@@ -299,7 +319,7 @@
         },
         {
           "key": "Windows",
-          "n": 3
+          "n": 1
         }
       ],
       "contactsBySource": [],
@@ -308,7 +328,7 @@
       "links": [
         {
           "key": "https://schooledthemusical.com/",
-          "n": 4
+          "n": 2
         },
         {
           "key": "https://educatorsnotebook.com/subscribe/",
@@ -330,27 +350,27 @@
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-11-11T02:23:54.668Z",
-      "to": "2026-11-18T02:23:54.668Z",
+      "from": "2026-11-11T14:24:11.705Z",
+      "to": "2026-11-18T14:24:11.705Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 109,
+        "views": 108,
         "clicks": 65,
         "links": 25,
-        "visitors": 73,
+        "visitors": 72,
         "contacts": 7,
         "contactVisitors": 6,
         "days": 7,
         "medianPagesPerVisit": 1,
-        "medianDepth": 68,
+        "medianDepth": 66,
         "medianSecs": 11
       },
       "series": [
         {
           "d": "2026-11-11",
-          "views": 12,
-          "visitors": 11
+          "views": 11,
+          "visitors": 10
         },
         {
           "d": "2026-11-12",
@@ -386,11 +406,11 @@
       "pages": [
         {
           "key": "/",
-          "n": 63,
-          "visitors": 57,
+          "n": 62,
+          "visitors": 56,
           "depth": 55,
-          "secs": 11,
-          "measured": 58
+          "secs": 10,
+          "measured": 57
         },
         {
           "key": "/consulting/about/",
@@ -482,7 +502,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 57
+          "n": 56
         },
         {
           "key": "/consulting/about/",
@@ -496,7 +516,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 51
+          "n": 50
         },
         {
           "key": "/consulting/about/",
@@ -522,7 +542,7 @@
       "sources": [
         {
           "key": "search",
-          "n": 39
+          "n": 38
         },
         {
           "key": "internal",
@@ -544,7 +564,7 @@
       "referrers": [
         {
           "key": "google.com",
-          "n": 39
+          "n": 38
         },
         {
           "key": "peternilsson.us",
@@ -568,10 +588,6 @@
         {
           "key": "GB",
           "n": 3
-        },
-        {
-          "key": "KG",
-          "n": 1
         }
       ],
       "cities": [
@@ -640,10 +656,6 @@
           "n": 2
         },
         {
-          "key": "Bishkek, Bishkek",
-          "n": 1
-        },
-        {
           "key": "Los Angeles, California",
           "n": 1
         },
@@ -654,12 +666,96 @@
         {
           "key": "Bala Cynwyd, Pennsylvania",
           "n": 1
+        },
+        {
+          "key": "McKinney, Texas",
+          "n": 1
+        }
+      ],
+      "mapCountries": [
+        {
+          "key": "US",
+          "n": 105
+        },
+        {
+          "key": "GB",
+          "n": 3
+        }
+      ],
+      "states": [
+        {
+          "key": "New York",
+          "n": 35
+        },
+        {
+          "key": "Indiana",
+          "n": 12
+        },
+        {
+          "key": "Massachusetts",
+          "n": 10
+        },
+        {
+          "key": "Delaware",
+          "n": 10
+        },
+        {
+          "key": "New Jersey",
+          "n": 10
+        },
+        {
+          "key": "Missouri",
+          "n": 6
+        },
+        {
+          "key": "Rhode Island",
+          "n": 4
+        },
+        {
+          "key": "California",
+          "n": 3
+        },
+        {
+          "key": "Texas",
+          "n": 3
+        },
+        {
+          "key": "Pennsylvania",
+          "n": 2
+        },
+        {
+          "key": "Vermont",
+          "n": 2
+        },
+        {
+          "key": "Maryland",
+          "n": 2
+        },
+        {
+          "key": "Florida",
+          "n": 2
+        },
+        {
+          "key": "Ohio",
+          "n": 1
+        },
+        {
+          "key": "Connecticut",
+          "n": 1
+        },
+        {
+          "key": "Virginia",
+          "n": 1
+        },
+        {
+          "key": "Georgia",
+          "n": 1
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 75
+          "n": 74
         },
         {
           "key": "mobile",
@@ -673,7 +769,7 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 82
+          "n": 81
         },
         {
           "key": "Safari",
@@ -695,7 +791,7 @@
         },
         {
           "key": "Windows",
-          "n": 10
+          "n": 9
         },
         {
           "key": "Linux",
@@ -825,27 +921,27 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-10-19T02:23:54.668Z",
-      "to": "2026-11-18T02:23:54.668Z",
+      "from": "2026-10-19T14:24:11.705Z",
+      "to": "2026-11-18T14:24:11.705Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 398,
-        "clicks": 219,
-        "links": 77,
-        "visitors": 258,
+        "views": 389,
+        "clicks": 216,
+        "links": 75,
+        "visitors": 251,
         "contacts": 18,
         "contactVisitors": 14,
         "days": 30,
         "medianPagesPerVisit": 1,
-        "medianDepth": 68,
-        "medianSecs": 12
+        "medianDepth": 67,
+        "medianSecs": 11
       },
       "series": [
         {
           "d": "2026-10-19",
-          "views": 21,
-          "visitors": 16
+          "views": 12,
+          "visitors": 8
         },
         {
           "d": "2026-10-20",
@@ -996,19 +1092,19 @@
       "pages": [
         {
           "key": "/",
-          "n": 221,
-          "visitors": 204,
-          "depth": 51,
+          "n": 214,
+          "visitors": 198,
+          "depth": 50,
           "secs": 10,
-          "measured": 197
+          "measured": 191
         },
         {
           "key": "/consulting/",
-          "n": 55,
-          "visitors": 50,
-          "depth": 83,
+          "n": 53,
+          "visitors": 48,
+          "depth": 81,
           "secs": 11,
-          "measured": 54
+          "measured": 52
         },
         {
           "key": "/consulting/about/",
@@ -1046,7 +1142,7 @@
       "journeys": [
         {
           "key": "/ → /consulting/",
-          "n": 10
+          "n": 9
         },
         {
           "key": "/ → /consulting/ → /consulting/schools/",
@@ -1108,7 +1204,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 204
+          "n": 198
         },
         {
           "key": "/consulting/about/",
@@ -1116,7 +1212,7 @@
         },
         {
           "key": "/consulting/",
-          "n": 14
+          "n": 13
         },
         {
           "key": "/consulting/writing/",
@@ -1134,7 +1230,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 167
+          "n": 162
         },
         {
           "key": "/consulting/about/",
@@ -1142,7 +1238,7 @@
         },
         {
           "key": "/consulting/",
-          "n": 22
+          "n": 20
         },
         {
           "key": "/consulting/writing/",
@@ -1160,15 +1256,15 @@
       "sources": [
         {
           "key": "search",
-          "n": 154
+          "n": 148
         },
         {
           "key": "internal",
-          "n": 136
+          "n": 134
         },
         {
           "key": "direct",
-          "n": 104
+          "n": 103
         },
         {
           "key": "social",
@@ -1182,18 +1278,18 @@
       "referrers": [
         {
           "key": "google.com",
-          "n": 143
+          "n": 138
         },
         {
           "key": "peternilsson.us",
-          "n": 136
-        },
-        {
-          "key": "duckduckgo.com",
-          "n": 6
+          "n": 134
         },
         {
           "key": "bing.com",
+          "n": 5
+        },
+        {
+          "key": "duckduckgo.com",
           "n": 5
         },
         {
@@ -1209,7 +1305,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 378
+          "n": 369
         },
         {
           "key": "CA",
@@ -1270,10 +1366,6 @@
           "n": 16
         },
         {
-          "key": "Pittsburgh, Pennsylvania",
-          "n": 14
-        },
-        {
           "key": "Waimanalo, Hawaii",
           "n": 12
         },
@@ -1288,6 +1380,10 @@
         {
           "key": "Wilmington, Delaware",
           "n": 10
+        },
+        {
+          "key": "Pittsburgh, Pennsylvania",
+          "n": 9
         },
         {
           "key": "McKinney, Texas",
@@ -1318,10 +1414,6 @@
           "n": 5
         },
         {
-          "key": "Washington, District of Columbia",
-          "n": 4
-        },
-        {
           "key": "Kīhei, Hawaii",
           "n": 4
         },
@@ -1332,16 +1424,192 @@
         {
           "key": "Boston, Massachusetts",
           "n": 4
+        },
+        {
+          "key": "Acton, Massachusetts",
+          "n": 4
+        }
+      ],
+      "mapCountries": [
+        {
+          "key": "US",
+          "n": 369
+        },
+        {
+          "key": "CA",
+          "n": 5
+        },
+        {
+          "key": "GB",
+          "n": 4
+        },
+        {
+          "key": "AR",
+          "n": 3
+        },
+        {
+          "key": "VI",
+          "n": 2
+        },
+        {
+          "key": "SE",
+          "n": 1
+        },
+        {
+          "key": "AT",
+          "n": 1
+        },
+        {
+          "key": "CH",
+          "n": 1
+        },
+        {
+          "key": "TH",
+          "n": 1
+        },
+        {
+          "key": "PK",
+          "n": 1
+        },
+        {
+          "key": "KG",
+          "n": 1
+        }
+      ],
+      "states": [
+        {
+          "key": "Hawaii",
+          "n": 77
+        },
+        {
+          "key": "New York",
+          "n": 67
+        },
+        {
+          "key": "Pennsylvania",
+          "n": 44
+        },
+        {
+          "key": "Massachusetts",
+          "n": 30
+        },
+        {
+          "key": "Indiana",
+          "n": 23
+        },
+        {
+          "key": "Virginia",
+          "n": 13
+        },
+        {
+          "key": "Texas",
+          "n": 12
+        },
+        {
+          "key": "New Jersey",
+          "n": 12
+        },
+        {
+          "key": "California",
+          "n": 11
+        },
+        {
+          "key": "Missouri",
+          "n": 11
+        },
+        {
+          "key": "Delaware",
+          "n": 10
+        },
+        {
+          "key": "Illinois",
+          "n": 9
+        },
+        {
+          "key": "Maryland",
+          "n": 8
+        },
+        {
+          "key": "Michigan",
+          "n": 6
+        },
+        {
+          "key": "Tennessee",
+          "n": 4
+        },
+        {
+          "key": "Rhode Island",
+          "n": 4
+        },
+        {
+          "key": "Florida",
+          "n": 3
+        },
+        {
+          "key": "Colorado",
+          "n": 3
+        },
+        {
+          "key": "District of Columbia",
+          "n": 2
+        },
+        {
+          "key": "Kansas",
+          "n": 2
+        },
+        {
+          "key": "Oregon",
+          "n": 2
+        },
+        {
+          "key": "Ohio",
+          "n": 2
+        },
+        {
+          "key": "Iowa",
+          "n": 2
+        },
+        {
+          "key": "New Hampshire",
+          "n": 2
+        },
+        {
+          "key": "Connecticut",
+          "n": 2
+        },
+        {
+          "key": "North Carolina",
+          "n": 2
+        },
+        {
+          "key": "Vermont",
+          "n": 2
+        },
+        {
+          "key": "Arizona",
+          "n": 1
+        },
+        {
+          "key": "Nevada",
+          "n": 1
+        },
+        {
+          "key": "Alabama",
+          "n": 1
+        },
+        {
+          "key": "Georgia",
+          "n": 1
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 271
+          "n": 268
         },
         {
           "key": "mobile",
-          "n": 121
+          "n": 115
         },
         {
           "key": "tablet",
@@ -1351,11 +1619,11 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 261
+          "n": 257
         },
         {
           "key": "Safari",
-          "n": 125
+          "n": 120
         },
         {
           "key": "Firefox",
@@ -1377,15 +1645,15 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 197
+          "n": 195
         },
         {
           "key": "iOS",
-          "n": 112
+          "n": 106
         },
         {
           "key": "Windows",
-          "n": 76
+          "n": 75
         },
         {
           "key": "Android",
@@ -1465,14 +1733,14 @@
         },
         {
           "key": "https://educatorsnotebook.com/subscribe/",
-          "n": 17
-        },
-        {
-          "key": "https://www.amazon.com/Irreplaceable-Everything-Teaching-Learning-technologists/dp/B0FT3PFX1K/",
-          "n": 8
+          "n": 16
         },
         {
           "key": "https://exercisesfortherecoveryofchildhood.com/",
+          "n": 7
+        },
+        {
+          "key": "https://www.amazon.com/Irreplaceable-Everything-Teaching-Learning-technologists/dp/B0FT3PFX1K/",
           "n": 7
         },
         {
@@ -1511,7 +1779,7 @@
       "internalLinks": [
         {
           "key": "https://peternilsson.us/consulting/",
-          "n": 38
+          "n": 37
         },
         {
           "key": "https://peternilsson.us/consulting/writing/",
@@ -1543,8 +1811,8 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-11-18T02:23:54.668Z",
-      "to": "2026-11-18T02:23:54.668Z",
+      "from": "2025-11-18T14:24:11.705Z",
+      "to": "2026-11-18T14:24:11.705Z",
       "available": false,
       "granularity": "day",
       "totals": {
@@ -2151,6 +2419,218 @@
           "n": 5
         }
       ],
+      "mapCountries": [
+        {
+          "key": "US",
+          "n": 530
+        },
+        {
+          "key": "CA",
+          "n": 6
+        },
+        {
+          "key": "GB",
+          "n": 6
+        },
+        {
+          "key": "SE",
+          "n": 6
+        },
+        {
+          "key": "DE",
+          "n": 4
+        },
+        {
+          "key": "AR",
+          "n": 3
+        },
+        {
+          "key": "AE",
+          "n": 2
+        },
+        {
+          "key": "PK",
+          "n": 2
+        },
+        {
+          "key": "KG",
+          "n": 2
+        },
+        {
+          "key": "NL",
+          "n": 2
+        },
+        {
+          "key": "VI",
+          "n": 2
+        },
+        {
+          "key": "PL",
+          "n": 1
+        },
+        {
+          "key": "IL",
+          "n": 1
+        },
+        {
+          "key": "AT",
+          "n": 1
+        },
+        {
+          "key": "CH",
+          "n": 1
+        },
+        {
+          "key": "TH",
+          "n": 1
+        }
+      ],
+      "states": [
+        {
+          "key": "Hawaii",
+          "n": 89
+        },
+        {
+          "key": "New York",
+          "n": 83
+        },
+        {
+          "key": "Pennsylvania",
+          "n": 76
+        },
+        {
+          "key": "Massachusetts",
+          "n": 36
+        },
+        {
+          "key": "Virginia",
+          "n": 28
+        },
+        {
+          "key": "Indiana",
+          "n": 23
+        },
+        {
+          "key": "New Jersey",
+          "n": 20
+        },
+        {
+          "key": "Texas",
+          "n": 18
+        },
+        {
+          "key": "Maryland",
+          "n": 18
+        },
+        {
+          "key": "California",
+          "n": 16
+        },
+        {
+          "key": "Maine",
+          "n": 14
+        },
+        {
+          "key": "Delaware",
+          "n": 13
+        },
+        {
+          "key": "District of Columbia",
+          "n": 11
+        },
+        {
+          "key": "Missouri",
+          "n": 11
+        },
+        {
+          "key": "Illinois",
+          "n": 10
+        },
+        {
+          "key": "Michigan",
+          "n": 8
+        },
+        {
+          "key": "Rhode Island",
+          "n": 8
+        },
+        {
+          "key": "Iowa",
+          "n": 7
+        },
+        {
+          "key": "Florida",
+          "n": 5
+        },
+        {
+          "key": "Georgia",
+          "n": 4
+        },
+        {
+          "key": "North Carolina",
+          "n": 4
+        },
+        {
+          "key": "Tennessee",
+          "n": 4
+        },
+        {
+          "key": "Ohio",
+          "n": 3
+        },
+        {
+          "key": "Colorado",
+          "n": 3
+        },
+        {
+          "key": "West Virginia",
+          "n": 2
+        },
+        {
+          "key": "Kansas",
+          "n": 2
+        },
+        {
+          "key": "Oregon",
+          "n": 2
+        },
+        {
+          "key": "New Hampshire",
+          "n": 2
+        },
+        {
+          "key": "Connecticut",
+          "n": 2
+        },
+        {
+          "key": "Vermont",
+          "n": 2
+        },
+        {
+          "key": "Utah",
+          "n": 1
+        },
+        {
+          "key": "South Carolina",
+          "n": 1
+        },
+        {
+          "key": "South Dakota",
+          "n": 1
+        },
+        {
+          "key": "Arizona",
+          "n": 1
+        },
+        {
+          "key": "Nevada",
+          "n": 1
+        },
+        {
+          "key": "Alabama",
+          "n": 1
+        }
+      ],
       "devices": [
         {
           "key": "desktop",
@@ -2361,7 +2841,7 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-11-18T02:23:54.668Z",
+      "to": "2026-11-18T14:24:11.705Z",
       "available": true,
       "granularity": "day",
       "totals": {
@@ -2966,6 +3446,218 @@
         {
           "key": "Providence, Rhode Island",
           "n": 5
+        }
+      ],
+      "mapCountries": [
+        {
+          "key": "US",
+          "n": 530
+        },
+        {
+          "key": "CA",
+          "n": 6
+        },
+        {
+          "key": "GB",
+          "n": 6
+        },
+        {
+          "key": "SE",
+          "n": 6
+        },
+        {
+          "key": "DE",
+          "n": 4
+        },
+        {
+          "key": "AR",
+          "n": 3
+        },
+        {
+          "key": "AE",
+          "n": 2
+        },
+        {
+          "key": "PK",
+          "n": 2
+        },
+        {
+          "key": "KG",
+          "n": 2
+        },
+        {
+          "key": "NL",
+          "n": 2
+        },
+        {
+          "key": "VI",
+          "n": 2
+        },
+        {
+          "key": "PL",
+          "n": 1
+        },
+        {
+          "key": "IL",
+          "n": 1
+        },
+        {
+          "key": "AT",
+          "n": 1
+        },
+        {
+          "key": "CH",
+          "n": 1
+        },
+        {
+          "key": "TH",
+          "n": 1
+        }
+      ],
+      "states": [
+        {
+          "key": "Hawaii",
+          "n": 89
+        },
+        {
+          "key": "New York",
+          "n": 83
+        },
+        {
+          "key": "Pennsylvania",
+          "n": 76
+        },
+        {
+          "key": "Massachusetts",
+          "n": 36
+        },
+        {
+          "key": "Virginia",
+          "n": 28
+        },
+        {
+          "key": "Indiana",
+          "n": 23
+        },
+        {
+          "key": "New Jersey",
+          "n": 20
+        },
+        {
+          "key": "Texas",
+          "n": 18
+        },
+        {
+          "key": "Maryland",
+          "n": 18
+        },
+        {
+          "key": "California",
+          "n": 16
+        },
+        {
+          "key": "Maine",
+          "n": 14
+        },
+        {
+          "key": "Delaware",
+          "n": 13
+        },
+        {
+          "key": "District of Columbia",
+          "n": 11
+        },
+        {
+          "key": "Missouri",
+          "n": 11
+        },
+        {
+          "key": "Illinois",
+          "n": 10
+        },
+        {
+          "key": "Michigan",
+          "n": 8
+        },
+        {
+          "key": "Rhode Island",
+          "n": 8
+        },
+        {
+          "key": "Iowa",
+          "n": 7
+        },
+        {
+          "key": "Florida",
+          "n": 5
+        },
+        {
+          "key": "Georgia",
+          "n": 4
+        },
+        {
+          "key": "North Carolina",
+          "n": 4
+        },
+        {
+          "key": "Tennessee",
+          "n": 4
+        },
+        {
+          "key": "Ohio",
+          "n": 3
+        },
+        {
+          "key": "Colorado",
+          "n": 3
+        },
+        {
+          "key": "West Virginia",
+          "n": 2
+        },
+        {
+          "key": "Kansas",
+          "n": 2
+        },
+        {
+          "key": "Oregon",
+          "n": 2
+        },
+        {
+          "key": "New Hampshire",
+          "n": 2
+        },
+        {
+          "key": "Connecticut",
+          "n": 2
+        },
+        {
+          "key": "Vermont",
+          "n": 2
+        },
+        {
+          "key": "Utah",
+          "n": 1
+        },
+        {
+          "key": "South Carolina",
+          "n": 1
+        },
+        {
+          "key": "South Dakota",
+          "n": 1
+        },
+        {
+          "key": "Arizona",
+          "n": 1
+        },
+        {
+          "key": "Nevada",
+          "n": 1
+        },
+        {
+          "key": "Alabama",
+          "n": 1
         }
       ],
       "devices": [
