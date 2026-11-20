@@ -21,7 +21,7 @@
   }
   *{box-sizing:border-box;}
   body{background:var(--bg);color:var(--ink2);font-family:'Hanken Grotesk',system-ui,Helvetica,sans-serif;
-       line-height:1.6;margin:0;padding:36px 24px 96px;}
+       line-height:1.6;margin:0;padding:20px 24px 96px;}
   .wrap{max-width:960px;margin:0 auto;}
   a{color:var(--navy);}
   a:focus-visible,button:focus-visible{outline:2px solid var(--s1);outline-offset:3px;}
@@ -115,29 +115,39 @@
   .empty code{font-size:14px;background:var(--rule2);padding:1px 6px;border-radius:2px;}
   .foot{margin-top:72px;padding-top:24px;border-top:1px solid var(--rule);font-size:14px;color:var(--muted);}
   /* ---- all-sites additions ---- */
+  /* compact header: title, build stamp and brand on one line so the chart sits above the fold */
+  .head{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 18px;margin:0 0 6px;}
+  .head h1{font-size:32px;margin:0;}
+  .head .stamp{margin:0;}
+  .head .brand{margin:0 0 0 auto;font-size:14px;}
+  .rangebar{margin-bottom:18px;padding:8px 0;}
   #visitors{border-top:0;padding-top:0;}
+  #visitors .note.after{font-size:13px;margin:10px 0 0;}
   .sitelinks{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0 0 40px;font-size:14px;color:var(--muted);}
   .sitelinks a{color:var(--navy);text-decoration:none;border-bottom:1px solid var(--rule);}
   .sitelinks a:hover{border-color:var(--navy);}
-  .tiles.sites{grid-template-columns:repeat(3,1fr);row-gap:8px;}
-  .tiles.sites .tile:nth-child(3n+1){padding-left:0;border-left:0;}
-  .tiles.sites .tile:nth-child(n+4){border-top:1px solid var(--rule);padding-top:20px;}
-  .tile-k{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--ink);font-weight:500;margin-bottom:8px;}
+  .tiles.sites{grid-template-columns:repeat(6,minmax(0,1fr));margin-bottom:14px;}
+  .tiles.sites .tile{padding:12px 10px 2px 0;}
+  .tiles.sites .tile + .tile{padding-left:12px;}
+  .tile-k{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--ink);font-weight:500;margin-bottom:4px;
+          white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
   .tile-k i{width:10px;height:10px;border-radius:2px;display:inline-block;flex:none;}
   .tile-k a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule);}
   .tile-k a:hover{border-color:var(--navy);}
-  .tile .tile-n{font-size:44px;}
-  .tile-s{font-size:13px;color:var(--faint);margin-top:4px;}
+  .tile .tile-n{font-size:32px;}
+  .tiles.sites .tile-l{font-size:12px;margin-top:4px;line-height:1.35;}
+  .tile-l .v{color:var(--faint);}
   @media(max-width:680px){
-    .tiles.sites{grid-template-columns:repeat(2,1fr);}
-    .tiles.sites .tile{padding-left:0 !important;border-left:0 !important;}
+    .tiles.sites{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:6px;}
+    .tiles.sites .tile:nth-child(3n+1){padding-left:0;border-left:0;}
+    .head .brand{display:none;}
   }
   .toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin:0 0 14px;font-size:14px;color:var(--muted);}
   .seg{display:inline-flex;border:1px solid var(--rule);border-radius:2px;overflow:hidden;}
   .seg button{font-family:inherit;font-size:13px;font-weight:500;background:transparent;border:0;color:var(--ink2);padding:5px 12px;cursor:pointer;}
   .seg button + button{border-left:1px solid var(--rule);}
   .seg button.on{background:var(--navy);color:#fff;}
-  .keys{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px;}
+  .keys{display:flex;flex-wrap:wrap;gap:6px;margin:0;}
   .key{font-family:inherit;font-size:13px;color:var(--ink);background:var(--card);border:1px solid var(--rule);
        border-radius:2px;padding:4px 10px;cursor:pointer;display:inline-flex;align-items:center;gap:7px;}
   .key i{width:10px;height:10px;border-radius:2px;display:inline-block;}
@@ -159,13 +169,11 @@
 </head>
 <body>
 <div class="wrap">
-  <a class="brand" href="../">Peter Nilsson</a>
-
-  <p class="eyebrow">Private · not linked from the site</p>
-  <h1>All sites</h1>
-  <p class="sub">Visitors across Consulting, the peternilsson.us home page, Schooled, the Educator’s Notebook, and Childhood Recovery.</p>
-  <p class="stamp" id="stamp">Loading…</p>
-  <p class="sitelinks" id="sitelinks"></p>
+  <div class="head">
+    <h1>All sites</h1>
+    <p class="stamp" id="stamp">Loading…</p>
+    <a class="brand" href="../">Peter Nilsson</a>
+  </div>
 
   <div class="rangebar" id="rangebar" hidden>
     <div class="pills" id="pills" role="group" aria-label="Time range"></div>
@@ -173,15 +181,14 @@
   </div>
 
   <section id="visitors">
-    <h2>Visitors</h2>
-    <p class="note">People are separate browser sessions on each site. Someone who visits two sites counts once on each, so the combined figure is a sum. Click a site’s name to open its own stats page.</p>
+    <h2 class="sr-only" style="position:absolute;left:-9999px">Visitors</h2>
     <div id="tiles"></div>
     <div class="toolbar">
       <span class="seg" id="metric" role="group" aria-label="Measure"><button type="button" data-m="people">People</button><button type="button" data-m="views">Page views</button></span>
-      <span>Click a site below to hide or show its line.</span>
+      <div class="keys" id="keys" role="group" aria-label="Show or hide a site’s line"></div>
     </div>
-    <div class="keys" id="keys"></div>
     <div id="chart"></div>
+    <p class="note after">People are separate browser sessions on each site. Someone who visits two sites counts once on each, so the All sites figure is a sum. Click a site’s name above to open its own stats page; click a site button to hide or show its line.</p>
   </section>
 
   <section>
@@ -213,6 +220,8 @@
   </section>
 
   <p class="foot">
+    Private · not linked from the site. Covers Consulting, the peternilsson.us home page, Schooled, the Educator’s Notebook, and Childhood Recovery.<br>
+    <span id="sitelinks"></span><br>
     Built twice a day from each site’s own visit records — no cookies, IP addresses, or third-party trackers.<br>
     <a href="../">← Back to the site</a>
   </p>
@@ -309,30 +318,34 @@ var STATES = {"Alabama":"M647.9,492.4L651.8,491.5L652.9,491.7L648.9,492.6ZM641.6
   // ---- visitors: tiles + one chart, a line per site ------------------------
   function renderVisitors(r) {
     var t = '<div class="tiles sites">' +
-      tile(null, r.totals.people, "people across all sites", r.totals.views + " page views") +
+      tile(null, r.totals.people, r.totals.views, "") +
       r.sites.map(function (s) {
         var meta = SITE[s.key];
-        return tile(s.key, s.people, "people", s.views + " page views" +
-          (meta.since ? " · since " + dayLabel(meta.since) : ""));
+        return tile(s.key, s.people, s.views, meta.since ? "Tracking since " + dayLabel(meta.since) : "");
       }).join("") + "</div>";
     $("tiles").innerHTML = t;
     renderKeys();
     renderChart(r);
   }
 
-  function tile(key, n, label, small) {
+  // Shorter names for the narrow one-row tiles and the line toggles; full name stays in the tooltip.
+  var SHORT = { home: "Home page", ednotebook: "Ed. Notebook", childhood: "Childhood Rec." };
+  function short(k) { return SHORT[k] || SITE[k].name; }
+  function num(n) { return Number(n || 0).toLocaleString("en-US"); }
+  function tile(key, people, views, since) {
     var head = key
       ? '<div class="tile-k"><i style="background:' + COLORS[key] + '"></i>' +
-        (SITE[key].stats ? '<a href="' + esc(SITE[key].stats) + '" title="Open this site’s own stats page">' + esc(SITE[key].name) + "</a>" : esc(SITE[key].name)) + "</div>"
+        (SITE[key].stats ? '<a href="' + esc(SITE[key].stats) + '" title="' + esc(SITE[key].name) + ' — open its own stats page">' + esc(short(key)) + "</a>" : esc(short(key))) + "</div>"
       : '<div class="tile-k">All sites</div>';
-    return '<div class="tile">' + head + '<div class="tile-n">' + n + '</div><div class="tile-l">' + label +
-      '</div><div class="tile-s">' + small + "</div></div>";
+    return '<div class="tile"' + (since ? ' title="' + since + '"' : "") + ">" + head +
+      '<div class="tile-n">' + num(people) + '</div><div class="tile-l">people <span class="v">· ' + num(views) +
+      " views</span></div></div>";
   }
 
   function renderKeys() {
     $("keys").innerHTML = DATA.sites.map(function (s) {
       return '<button type="button" class="key' + (hidden[s.key] ? " off" : "") + '" data-k="' + s.key + '" aria-pressed="' +
-        (hidden[s.key] ? "false" : "true") + '"><i style="background:' + COLORS[s.key] + '"></i>' + esc(s.name) + "</button>";
+        (hidden[s.key] ? "false" : "true") + '" title="Hide or show ' + esc(s.name) + '"><i style="background:' + COLORS[s.key] + '"></i>' + esc(short(s.key)) + "</button>";
     }).join("");
     [].forEach.call($("keys").children, function (b) {
       b.onclick = function () {
