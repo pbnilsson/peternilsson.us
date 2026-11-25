@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T03:31:06.946Z",
+  "generated": "2026-11-25T18:36:56.070Z",
   "defaultRange": "all",
   "order": [
     "24h",
@@ -10,105 +10,30 @@
   ],
   "span": {
     "first": "2026-10-04T07:39:33.300Z",
-    "days": 52
+    "days": 53
   },
   "ranges": {
     "24h": {
       "key": "24h",
       "label": "Last 24 hours",
       "short": "24h",
-      "from": "2026-11-24T03:31:06.946Z",
-      "to": "2026-11-25T03:31:06.946Z",
+      "from": "2026-11-24T18:36:56.070Z",
+      "to": "2026-11-25T18:36:56.070Z",
       "available": true,
       "granularity": "hour",
       "totals": {
-        "views": 15,
-        "clicks": 7,
+        "views": 7,
+        "clicks": 3,
         "links": 3,
-        "visitors": 11,
-        "contacts": 1,
-        "contactVisitors": 1,
-        "days": 1,
+        "visitors": 6,
+        "contacts": 0,
+        "contactVisitors": 0,
+        "days": 2,
         "medianPagesPerVisit": 1,
-        "medianDepth": 36,
-        "medianSecs": 13
+        "medianDepth": 73,
+        "medianSecs": 8
       },
       "series": [
-        {
-          "t": "2026-11-24T04:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-24T05:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-24T06:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-24T07:00:00.000Z",
-          "views": 6,
-          "visitors": 3
-        },
-        {
-          "t": "2026-11-24T08:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-24T09:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-24T10:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-24T11:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-24T12:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-24T13:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-24T14:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
-        {
-          "t": "2026-11-24T15:00:00.000Z",
-          "views": 1,
-          "visitors": 1
-        },
-        {
-          "t": "2026-11-24T16:00:00.000Z",
-          "views": 1,
-          "visitors": 1
-        },
-        {
-          "t": "2026-11-24T17:00:00.000Z",
-          "views": 1,
-          "visitors": 1
-        },
-        {
-          "t": "2026-11-24T18:00:00.000Z",
-          "views": 0,
-          "visitors": 0
-        },
         {
           "t": "2026-11-24T19:00:00.000Z",
           "views": 3,
@@ -153,39 +78,98 @@
           "t": "2026-11-25T03:00:00.000Z",
           "views": 0,
           "visitors": 0
+        },
+        {
+          "t": "2026-11-25T04:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-25T05:00:00.000Z",
+          "views": 1,
+          "visitors": 1
+        },
+        {
+          "t": "2026-11-25T06:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-25T07:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-25T08:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-25T09:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-25T10:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-25T11:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-25T12:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-25T13:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-25T14:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-25T15:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-25T16:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-25T17:00:00.000Z",
+          "views": 0,
+          "visitors": 0
+        },
+        {
+          "t": "2026-11-25T18:00:00.000Z",
+          "views": 0,
+          "visitors": 0
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 10,
-          "visitors": 9,
-          "depth": 33,
-          "secs": 10,
-          "measured": 8
+          "n": 5,
+          "visitors": 4,
+          "depth": 54,
+          "secs": 12,
+          "measured": 3
         },
         {
           "key": "/consulting/",
-          "n": 2,
-          "visitors": 2,
-          "depth": 64,
-          "secs": 11,
-          "measured": 2
-        },
-        {
-          "key": "/consulting/writing/",
           "n": 1,
           "visitors": 1,
-          "depth": 100,
-          "secs": 44,
-          "measured": 1
-        },
-        {
-          "key": "/consulting/schools/",
-          "n": 1,
-          "visitors": 1,
-          "depth": 100,
-          "secs": 41,
+          "depth": 92,
+          "secs": 2,
           "measured": 1
         },
         {
@@ -197,16 +181,11 @@
           "measured": 0
         }
       ],
-      "journeys": [
-        {
-          "key": "/ → /consulting/ → /consulting/writing/ → /consulting/schools/",
-          "n": 1
-        }
-      ],
+      "journeys": [],
       "entries": [
         {
           "key": "/",
-          "n": 9
+          "n": 4
         },
         {
           "key": "/consulting/",
@@ -220,11 +199,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 8
-        },
-        {
-          "key": "/consulting/schools/",
-          "n": 1
+          "n": 4
         },
         {
           "key": "/consulting/",
@@ -238,54 +213,21 @@
       "sources": [
         {
           "key": "direct",
-          "n": 8
-        },
-        {
-          "key": "search",
-          "n": 4
-        },
-        {
-          "key": "internal",
-          "n": 3
+          "n": 7
         }
       ],
-      "referrers": [
-        {
-          "key": "google.com",
-          "n": 4
-        },
-        {
-          "key": "peternilsson.us",
-          "n": 3
-        }
-      ],
+      "referrers": [],
       "campaigns": [],
       "countries": [
         {
           "key": "US",
-          "n": 8
-        },
-        {
-          "key": "KG",
-          "n": 4
-        },
-        {
-          "key": "QA",
-          "n": 1
-        },
-        {
-          "key": "BD",
-          "n": 1
-        },
-        {
-          "key": "IL",
-          "n": 1
+          "n": 7
         }
       ],
       "cities": [
         {
-          "key": "Bishkek, Bishkek",
-          "n": 4
+          "key": "New York City, New York",
+          "n": 2
         },
         {
           "key": "Council Bluffs, Iowa",
@@ -296,30 +238,6 @@
           "n": 2
         },
         {
-          "key": "Doha, Baladiyat ad Dawhah",
-          "n": 1
-        },
-        {
-          "key": "Gazipur, Dhaka Division",
-          "n": 1
-        },
-        {
-          "key": "Forest Home, New York",
-          "n": 1
-        },
-        {
-          "key": "Bentonville, Arkansas",
-          "n": 1
-        },
-        {
-          "key": "Jerusalem, Jerusalem",
-          "n": 1
-        },
-        {
-          "key": "New York City, New York",
-          "n": 1
-        },
-        {
           "key": "Los Angeles, California",
           "n": 1
         }
@@ -327,23 +245,7 @@
       "mapCountries": [
         {
           "key": "US",
-          "n": 8
-        },
-        {
-          "key": "KG",
-          "n": 4
-        },
-        {
-          "key": "QA",
-          "n": 1
-        },
-        {
-          "key": "BD",
-          "n": 1
-        },
-        {
-          "key": "IL",
-          "n": 1
+          "n": 7
         }
       ],
       "states": [
@@ -358,16 +260,12 @@
         {
           "key": "Iowa",
           "n": 2
-        },
-        {
-          "key": "Arkansas",
-          "n": 1
         }
       ],
       "devices": [
         {
           "key": "desktop",
-          "n": 12
+          "n": 4
         },
         {
           "key": "mobile",
@@ -377,57 +275,30 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 12
+          "n": 4
         },
         {
           "key": "Safari",
-          "n": 2
-        },
-        {
-          "key": "Firefox",
-          "n": 1
+          "n": 3
         }
       ],
       "systems": [
         {
+          "key": "iOS",
+          "n": 3
+        },
+        {
           "key": "Windows",
-          "n": 9
+          "n": 2
         },
         {
           "key": "Linux",
           "n": 2
-        },
-        {
-          "key": "iOS",
-          "n": 2
-        },
-        {
-          "key": "macOS",
-          "n": 1
-        },
-        {
-          "key": "Android",
-          "n": 1
         }
       ],
-      "contactsBySource": [
-        {
-          "key": "search",
-          "n": 1
-        }
-      ],
-      "contactsByPage": [
-        {
-          "key": "/consulting/schools/",
-          "n": 1
-        }
-      ],
-      "contactsByEntry": [
-        {
-          "key": "/",
-          "n": 1
-        }
-      ],
+      "contactsBySource": [],
+      "contactsByPage": [],
+      "contactsByEntry": [],
       "links": [
         {
           "key": "https://educatorsnotebook.com/subscribe/",
@@ -442,20 +313,7 @@
           "n": 1
         }
       ],
-      "internalLinks": [
-        {
-          "key": "https://peternilsson.us/consulting/",
-          "n": 1
-        },
-        {
-          "key": "https://peternilsson.us/consulting/writing/",
-          "n": 1
-        },
-        {
-          "key": "https://peternilsson.us/consulting/schools/",
-          "n": 1
-        }
-      ],
+      "internalLinks": [],
       "dataCenter": {
         "views": 0,
         "visits": 0,
@@ -466,27 +324,27 @@
       "key": "week",
       "label": "Last week",
       "short": "Week",
-      "from": "2026-11-18T03:31:06.946Z",
-      "to": "2026-11-25T03:31:06.946Z",
+      "from": "2026-11-18T18:36:56.070Z",
+      "to": "2026-11-25T18:36:56.070Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 68,
-        "clicks": 30,
+        "views": 63,
+        "clicks": 26,
         "links": 7,
-        "visitors": 45,
-        "contacts": 4,
-        "contactVisitors": 3,
-        "days": 7,
+        "visitors": 44,
+        "contacts": 3,
+        "contactVisitors": 2,
+        "days": 8,
         "medianPagesPerVisit": 1,
-        "medianDepth": 43,
+        "medianDepth": 44,
         "medianSecs": 13
       },
       "series": [
         {
           "d": "2026-11-18",
-          "views": 11,
-          "visitors": 6
+          "views": 5,
+          "visitors": 4
         },
         {
           "d": "2026-11-19",
@@ -517,16 +375,21 @@
           "d": "2026-11-24",
           "views": 15,
           "visitors": 11
+        },
+        {
+          "d": "2026-11-25",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 38,
-          "visitors": 35,
+          "n": 37,
+          "visitors": 34,
           "depth": 36,
-          "secs": 11,
-          "measured": 32
+          "secs": 8,
+          "measured": 31
         },
         {
           "key": "/consulting/",
@@ -537,14 +400,6 @@
           "measured": 13
         },
         {
-          "key": "/consulting/about/",
-          "n": 6,
-          "visitors": 5,
-          "depth": 100,
-          "secs": 30,
-          "measured": 5
-        },
-        {
           "key": "/consulting/writing/",
           "n": 5,
           "visitors": 5,
@@ -553,20 +408,28 @@
           "measured": 5
         },
         {
-          "key": "/consulting/schools/",
-          "n": 2,
-          "visitors": 2,
+          "key": "/consulting/about/",
+          "n": 4,
+          "visitors": 4,
           "depth": 100,
-          "secs": 30,
-          "measured": 2
+          "secs": 49,
+          "measured": 3
         },
         {
           "key": "/consulting/speaking/",
-          "n": 2,
-          "visitors": 2,
-          "depth": 62,
-          "secs": 11,
-          "measured": 2
+          "n": 1,
+          "visitors": 1,
+          "depth": 89,
+          "secs": 17,
+          "measured": 1
+        },
+        {
+          "key": "/consulting/schools/",
+          "n": 1,
+          "visitors": 1,
+          "depth": 100,
+          "secs": 41,
+          "measured": 1
         }
       ],
       "journeys": [
@@ -577,10 +440,6 @@
         {
           "key": "/consulting/writing/ → /",
           "n": 2
-        },
-        {
-          "key": "/consulting/about/ → /consulting/schools/ → /consulting/speaking/ → /",
-          "n": 1
         },
         {
           "key": "/ → /consulting/",
@@ -610,13 +469,13 @@
         },
         {
           "key": "/consulting/about/",
-          "n": 2
+          "n": 1
         }
       ],
       "exits": [
         {
           "key": "/",
-          "n": 30
+          "n": 29
         },
         {
           "key": "/consulting/",
@@ -642,28 +501,28 @@
         },
         {
           "key": "search",
-          "n": 23
+          "n": 21
         },
         {
           "key": "internal",
-          "n": 19
+          "n": 16
         }
       ],
       "referrers": [
         {
           "key": "google.com",
-          "n": 23
+          "n": 21
         },
         {
           "key": "peternilsson.us",
-          "n": 19
+          "n": 16
         }
       ],
       "campaigns": [],
       "countries": [
         {
           "key": "US",
-          "n": 55
+          "n": 50
         },
         {
           "key": "PK",
@@ -693,11 +552,11 @@
       "cities": [
         {
           "key": "Boston, Massachusetts",
-          "n": 16
+          "n": 11
         },
         {
           "key": "New York City, New York",
-          "n": 6
+          "n": 7
         },
         {
           "key": "Faisalabad, Punjab",
@@ -736,10 +595,6 @@
           "n": 2
         },
         {
-          "key": "Boardman, Oregon",
-          "n": 1
-        },
-        {
           "key": "Indianapolis, Indiana",
           "n": 1
         },
@@ -770,12 +625,16 @@
         {
           "key": "Ashburn, Virginia",
           "n": 1
+        },
+        {
+          "key": "Hialeah, Florida",
+          "n": 1
         }
       ],
       "mapCountries": [
         {
           "key": "US",
-          "n": 55
+          "n": 50
         },
         {
           "key": "PK",
@@ -805,11 +664,11 @@
       "states": [
         {
           "key": "Massachusetts",
-          "n": 19
+          "n": 14
         },
         {
           "key": "New York",
-          "n": 9
+          "n": 10
         },
         {
           "key": "Indiana",
@@ -840,10 +699,6 @@
           "n": 2
         },
         {
-          "key": "Oregon",
-          "n": 1
-        },
-        {
           "key": "Missouri",
           "n": 1
         },
@@ -867,11 +722,11 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 56
+          "n": 50
         },
         {
           "key": "mobile",
-          "n": 11
+          "n": 12
         },
         {
           "key": "tablet",
@@ -881,11 +736,11 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 39
+          "n": 38
         },
         {
           "key": "Safari",
-          "n": 23
+          "n": 19
         },
         {
           "key": "Edge",
@@ -907,15 +762,15 @@
         },
         {
           "key": "macOS",
-          "n": 20
+          "n": 15
         },
         {
           "key": "iOS",
-          "n": 11
+          "n": 12
         },
         {
           "key": "Linux",
-          "n": 4
+          "n": 3
         },
         {
           "key": "Android",
@@ -925,13 +780,13 @@
       "contactsBySource": [
         {
           "key": "search",
-          "n": 4
+          "n": 3
         }
       ],
       "contactsByPage": [
         {
           "key": "/",
-          "n": 3
+          "n": 2
         },
         {
           "key": "/consulting/schools/",
@@ -942,10 +797,6 @@
         {
           "key": "/consulting/writing/",
           "n": 2
-        },
-        {
-          "key": "/consulting/about/",
-          "n": 1
         },
         {
           "key": "/",
@@ -981,15 +832,7 @@
         },
         {
           "key": "https://peternilsson.us/consulting/about/",
-          "n": 4
-        },
-        {
-          "key": "https://peternilsson.us/consulting/schools/",
-          "n": 2
-        },
-        {
-          "key": "https://peternilsson.us/consulting/speaking/",
-          "n": 2
+          "n": 3
         },
         {
           "key": "https://peternilsson.us/",
@@ -998,6 +841,14 @@
         {
           "key": "https://peternilsson.us/consulting/writing/",
           "n": 2
+        },
+        {
+          "key": "https://peternilsson.us/consulting/speaking/",
+          "n": 1
+        },
+        {
+          "key": "https://peternilsson.us/consulting/schools/",
+          "n": 1
         }
       ],
       "dataCenter": {
@@ -1010,18 +861,18 @@
       "key": "month",
       "label": "Last month",
       "short": "Month",
-      "from": "2026-10-26T03:31:06.946Z",
-      "to": "2026-11-25T03:31:06.946Z",
+      "from": "2026-10-26T18:36:56.070Z",
+      "to": "2026-11-25T18:36:56.070Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 344,
-        "clicks": 180,
-        "links": 57,
-        "visitors": 224,
-        "contacts": 22,
-        "contactVisitors": 17,
-        "days": 30,
+        "views": 338,
+        "clicks": 176,
+        "links": 54,
+        "visitors": 218,
+        "contacts": 21,
+        "contactVisitors": 16,
+        "days": 31,
         "medianPagesPerVisit": 1,
         "medianDepth": 61,
         "medianSecs": 11
@@ -1029,8 +880,8 @@
       "series": [
         {
           "d": "2026-10-26",
-          "views": 10,
-          "visitors": 10
+          "views": 3,
+          "visitors": 3
         },
         {
           "d": "2026-10-27",
@@ -1176,16 +1027,21 @@
           "d": "2026-11-24",
           "views": 15,
           "visitors": 11
+        },
+        {
+          "d": "2026-11-25",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 183,
-          "visitors": 167,
-          "depth": 48,
+          "n": 177,
+          "visitors": 161,
+          "depth": 47,
           "secs": 9,
-          "measured": 161
+          "measured": 155
         },
         {
           "key": "/consulting/",
@@ -1293,7 +1149,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 164
+          "n": 158
         },
         {
           "key": "/consulting/about/",
@@ -1319,7 +1175,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 141
+          "n": 135
         },
         {
           "key": "/consulting/about/",
@@ -1344,16 +1200,16 @@
       ],
       "sources": [
         {
-          "key": "search",
-          "n": 115
-        },
-        {
           "key": "internal",
           "n": 115
         },
         {
+          "key": "search",
+          "n": 114
+        },
+        {
           "key": "direct",
-          "n": 110
+          "n": 105
         },
         {
           "key": "social",
@@ -1371,7 +1227,7 @@
         },
         {
           "key": "google.com",
-          "n": 110
+          "n": 109
         },
         {
           "key": "duckduckgo.com",
@@ -1394,7 +1250,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 313
+          "n": 309
         },
         {
           "key": "PK",
@@ -1413,10 +1269,6 @@
           "n": 4
         },
         {
-          "key": "AR",
-          "n": 3
-        },
-        {
           "key": "VI",
           "n": 2
         },
@@ -1426,6 +1278,10 @@
         },
         {
           "key": "TH",
+          "n": 1
+        },
+        {
+          "key": "AR",
           "n": 1
         },
         {
@@ -1448,11 +1304,11 @@
       "cities": [
         {
           "key": "New York City, New York",
-          "n": 61
+          "n": 62
         },
         {
           "key": "Boston, Massachusetts",
-          "n": 20
+          "n": 19
         },
         {
           "key": "Fort Wayne, Indiana",
@@ -1507,10 +1363,6 @@
           "n": 5
         },
         {
-          "key": "Katonah, New York",
-          "n": 4
-        },
-        {
           "key": "McKinney, Texas",
           "n": 4
         },
@@ -1525,12 +1377,16 @@
         {
           "key": "Andrews, Indiana",
           "n": 4
+        },
+        {
+          "key": "Pawling, New York",
+          "n": 4
         }
       ],
       "mapCountries": [
         {
           "key": "US",
-          "n": 313
+          "n": 309
         },
         {
           "key": "PK",
@@ -1549,10 +1405,6 @@
           "n": 4
         },
         {
-          "key": "AR",
-          "n": 3
-        },
-        {
           "key": "VI",
           "n": 2
         },
@@ -1562,6 +1414,10 @@
         },
         {
           "key": "TH",
+          "n": 1
+        },
+        {
+          "key": "AR",
           "n": 1
         },
         {
@@ -1588,7 +1444,7 @@
         },
         {
           "key": "Massachusetts",
-          "n": 49
+          "n": 48
         },
         {
           "key": "Indiana",
@@ -1603,11 +1459,11 @@
           "n": 14
         },
         {
-          "key": "California",
-          "n": 13
+          "key": "Virginia",
+          "n": 12
         },
         {
-          "key": "Virginia",
+          "key": "California",
           "n": 12
         },
         {
@@ -1628,7 +1484,7 @@
         },
         {
           "key": "Maryland",
-          "n": 9
+          "n": 8
         },
         {
           "key": "Texas",
@@ -1641,10 +1497,6 @@
         {
           "key": "Michigan",
           "n": 5
-        },
-        {
-          "key": "Florida",
-          "n": 4
         },
         {
           "key": "Iowa",
@@ -1660,6 +1512,10 @@
         },
         {
           "key": "Tennessee",
+          "n": 3
+        },
+        {
+          "key": "Florida",
           "n": 3
         },
         {
@@ -1710,11 +1566,11 @@
       "devices": [
         {
           "key": "desktop",
-          "n": 250
+          "n": 248
         },
         {
           "key": "mobile",
-          "n": 88
+          "n": 84
         },
         {
           "key": "tablet",
@@ -1724,11 +1580,11 @@
       "browsers": [
         {
           "key": "Chrome",
-          "n": 224
+          "n": 220
         },
         {
           "key": "Safari",
-          "n": 106
+          "n": 104
         },
         {
           "key": "Firefox",
@@ -1746,11 +1602,11 @@
       "systems": [
         {
           "key": "macOS",
-          "n": 176
+          "n": 174
         },
         {
           "key": "iOS",
-          "n": 87
+          "n": 83
         },
         {
           "key": "Windows",
@@ -1776,7 +1632,7 @@
         },
         {
           "key": "direct",
-          "n": 5
+          "n": 4
         },
         {
           "key": "internal",
@@ -1790,7 +1646,7 @@
       "contactsByPage": [
         {
           "key": "/",
-          "n": 8
+          "n": 7
         },
         {
           "key": "/consulting/about/",
@@ -1812,7 +1668,7 @@
       "contactsByEntry": [
         {
           "key": "/",
-          "n": 9
+          "n": 8
         },
         {
           "key": "/consulting/about/",
@@ -1834,11 +1690,11 @@
       "links": [
         {
           "key": "https://schooledthemusical.com/",
-          "n": 22
+          "n": 21
         },
         {
           "key": "https://educatorsnotebook.com/subscribe/",
-          "n": 11
+          "n": 10
         },
         {
           "key": "https://www.solutiontree.com/irreplaceable.html",
@@ -1849,16 +1705,16 @@
           "n": 4
         },
         {
-          "key": "https://exercisesfortherecoveryofchildhood.com/",
-          "n": 3
-        },
-        {
           "key": "https://peternilsson.us/consulting/about/Peter-Nilsson-Bio.pdf",
           "n": 3
         },
         {
           "key": "https://distantreading.org/",
           "n": 3
+        },
+        {
+          "key": "https://exercisesfortherecoveryofchildhood.com/",
+          "n": 2
         },
         {
           "key": "https://athenaprospectus.org/",
@@ -1921,18 +1777,18 @@
       "key": "year",
       "label": "Last year",
       "short": "Year",
-      "from": "2025-11-25T03:31:06.946Z",
-      "to": "2026-11-25T03:31:06.946Z",
+      "from": "2025-11-25T18:36:56.070Z",
+      "to": "2026-11-25T18:36:56.070Z",
       "available": false,
       "granularity": "day",
       "totals": {
-        "views": 638,
+        "views": 639,
         "clicks": 330,
         "links": 113,
-        "visitors": 413,
+        "visitors": 414,
         "contacts": 23,
         "contactVisitors": 18,
-        "days": 52,
+        "days": 53,
         "medianPagesPerVisit": 1,
         "medianDepth": 63,
         "medianSecs": 11
@@ -2197,16 +2053,21 @@
           "d": "2026-11-24",
           "views": 15,
           "visitors": 11
+        },
+        {
+          "d": "2026-11-25",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 373,
-          "visitors": 340,
+          "n": 374,
+          "visitors": 341,
           "depth": 49,
           "secs": 10,
-          "measured": 317
+          "measured": 318
         },
         {
           "key": "/consulting/",
@@ -2314,7 +2175,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 336
+          "n": 337
         },
         {
           "key": "/consulting/",
@@ -2340,7 +2201,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 278
+          "n": 279
         },
         {
           "key": "/consulting/about/",
@@ -2374,7 +2235,7 @@
         },
         {
           "key": "direct",
-          "n": 183
+          "n": 184
         },
         {
           "key": "social",
@@ -2419,7 +2280,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 585
+          "n": 586
         },
         {
           "key": "PK",
@@ -2497,7 +2358,7 @@
       "cities": [
         {
           "key": "New York City, New York",
-          "n": 75
+          "n": 76
         },
         {
           "key": "Honolulu, Hawaii",
@@ -2579,7 +2440,7 @@
       "mapCountries": [
         {
           "key": "US",
-          "n": 585
+          "n": 586
         },
         {
           "key": "PK",
@@ -2657,7 +2518,7 @@
       "states": [
         {
           "key": "New York",
-          "n": 92
+          "n": 93
         },
         {
           "key": "Hawaii",
@@ -2811,7 +2672,7 @@
         },
         {
           "key": "mobile",
-          "n": 192
+          "n": 193
         },
         {
           "key": "tablet",
@@ -2825,7 +2686,7 @@
         },
         {
           "key": "Safari",
-          "n": 207
+          "n": 208
         },
         {
           "key": "Firefox",
@@ -2851,7 +2712,7 @@
         },
         {
           "key": "iOS",
-          "n": 175
+          "n": 176
         },
         {
           "key": "Windows",
@@ -3023,17 +2884,17 @@
       "label": "All time",
       "short": "All",
       "from": "2026-10-04T07:39:33.300Z",
-      "to": "2026-11-25T03:31:06.946Z",
+      "to": "2026-11-25T18:36:56.070Z",
       "available": true,
       "granularity": "day",
       "totals": {
-        "views": 638,
+        "views": 639,
         "clicks": 330,
         "links": 113,
-        "visitors": 413,
+        "visitors": 414,
         "contacts": 23,
         "contactVisitors": 18,
-        "days": 52,
+        "days": 53,
         "medianPagesPerVisit": 1,
         "medianDepth": 63,
         "medianSecs": 11
@@ -3298,16 +3159,21 @@
           "d": "2026-11-24",
           "views": 15,
           "visitors": 11
+        },
+        {
+          "d": "2026-11-25",
+          "views": 1,
+          "visitors": 1
         }
       ],
       "pages": [
         {
           "key": "/",
-          "n": 373,
-          "visitors": 340,
+          "n": 374,
+          "visitors": 341,
           "depth": 49,
           "secs": 10,
-          "measured": 317
+          "measured": 318
         },
         {
           "key": "/consulting/",
@@ -3415,7 +3281,7 @@
       "entries": [
         {
           "key": "/",
-          "n": 336
+          "n": 337
         },
         {
           "key": "/consulting/",
@@ -3441,7 +3307,7 @@
       "exits": [
         {
           "key": "/",
-          "n": 278
+          "n": 279
         },
         {
           "key": "/consulting/about/",
@@ -3475,7 +3341,7 @@
         },
         {
           "key": "direct",
-          "n": 183
+          "n": 184
         },
         {
           "key": "social",
@@ -3520,7 +3386,7 @@
       "countries": [
         {
           "key": "US",
-          "n": 585
+          "n": 586
         },
         {
           "key": "PK",
@@ -3598,7 +3464,7 @@
       "cities": [
         {
           "key": "New York City, New York",
-          "n": 75
+          "n": 76
         },
         {
           "key": "Honolulu, Hawaii",
@@ -3680,7 +3546,7 @@
       "mapCountries": [
         {
           "key": "US",
-          "n": 585
+          "n": 586
         },
         {
           "key": "PK",
@@ -3758,7 +3624,7 @@
       "states": [
         {
           "key": "New York",
-          "n": 92
+          "n": 93
         },
         {
           "key": "Hawaii",
@@ -3912,7 +3778,7 @@
         },
         {
           "key": "mobile",
-          "n": 192
+          "n": 193
         },
         {
           "key": "tablet",
@@ -3926,7 +3792,7 @@
         },
         {
           "key": "Safari",
-          "n": 207
+          "n": 208
         },
         {
           "key": "Firefox",
@@ -3952,7 +3818,7 @@
         },
         {
           "key": "iOS",
-          "n": 175
+          "n": 176
         },
         {
           "key": "Windows",
